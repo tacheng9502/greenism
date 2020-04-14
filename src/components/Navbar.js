@@ -22,14 +22,14 @@ function Navbar() {
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-item" href="#">Journey</a>
+                    <a class="navbar-item" href="#">User Journeys</a>
                     <div class="navbar-dropdown is-boxed">
                         <a class="navbar-item" href="#">House Owners</a>
                         <a class="navbar-item" href="#">Potential Buyers</a>
                         <a class="navbar-item" href="#">Building Owners</a>
                     </div>
                 </div>
-                <a class="navbar-item" href="#">About</a>
+                <a class="navbar-item" href="#">About Us</a>
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">
