@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/greenism/static/css/main.65e2c8f3.chunk.css",
-    "main.js": "/greenism/static/js/main.a6150820.chunk.js",
-    "main.js.map": "/greenism/static/js/main.a6150820.chunk.js.map",
+    "main.css": "/greenism/static/css/main.4513d5e0.chunk.css",
+    "main.js": "/greenism/static/js/main.03a7deaa.chunk.js",
+    "main.js.map": "/greenism/static/js/main.03a7deaa.chunk.js.map",
     "runtime-main.js": "/greenism/static/js/runtime-main.d775acbc.js",
     "runtime-main.js.map": "/greenism/static/js/runtime-main.d775acbc.js.map",
-    "static/js/2.ed8eb43c.chunk.js": "/greenism/static/js/2.ed8eb43c.chunk.js",
-    "static/js/2.ed8eb43c.chunk.js.map": "/greenism/static/js/2.ed8eb43c.chunk.js.map",
+    "static/js/2.2a269e53.chunk.js": "/greenism/static/js/2.2a269e53.chunk.js",
+    "static/js/2.2a269e53.chunk.js.map": "/greenism/static/js/2.2a269e53.chunk.js.map",
     "index.html": "/greenism/index.html",
-    "precache-manifest.6dd97672adcefdde5339bc2f5a19fb7e.js": "/greenism/precache-manifest.6dd97672adcefdde5339bc2f5a19fb7e.js",
+    "precache-manifest.e69474a5c81c71e8c006c5a9cb2668fe.js": "/greenism/precache-manifest.e69474a5c81c71e8c006c5a9cb2668fe.js",
     "service-worker.js": "/greenism/service-worker.js",
-    "static/css/main.65e2c8f3.chunk.css.map": "/greenism/static/css/main.65e2c8f3.chunk.css.map",
-    "static/js/2.ed8eb43c.chunk.js.LICENSE.txt": "/greenism/static/js/2.ed8eb43c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/greenism/static/media/logo.5d3d2fb3.svg"
+    "static/css/main.4513d5e0.chunk.css.map": "/greenism/static/css/main.4513d5e0.chunk.css.map",
+    "static/js/2.2a269e53.chunk.js.LICENSE.txt": "/greenism/static/js/2.2a269e53.chunk.js.LICENSE.txt",
+    "static/media/air.svg": "/greenism/static/media/air.7eea49e9.svg",
+    "static/media/bird.svg": "/greenism/static/media/bird.81fdd28d.svg",
+    "static/media/city.svg": "/greenism/static/media/city.2a8b0e1e.svg",
+    "static/media/green_facade.png": "/greenism/static/media/green_facade.631da333.png",
+    "static/media/green_roof.png": "/greenism/static/media/green_roof.36a1ec93.png",
+    "static/media/green_roof_illustration.webp": "/greenism/static/media/green_roof_illustration.9dfae7a3.webp",
+    "static/media/green_wall.png": "/greenism/static/media/green_wall.a65b8e80.png",
+    "static/media/greenism.svg": "/greenism/static/media/greenism.5cab3e01.svg",
+    "static/media/logo.svg": "/greenism/static/media/logo.5d3d2fb3.svg",
+    "static/media/park.svg": "/greenism/static/media/park.c2be9f8f.svg",
+    "static/media/raining.svg": "/greenism/static/media/raining.d3685c9c.svg",
+    "static/media/reflection.svg": "/greenism/static/media/reflection.496b6ddf.svg",
+    "static/media/value.svg": "/greenism/static/media/value.6441939d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d775acbc.js",
-    "static/js/2.ed8eb43c.chunk.js",
-    "static/css/main.65e2c8f3.chunk.css",
-    "static/js/main.a6150820.chunk.js"
+    "static/js/2.2a269e53.chunk.js",
+    "static/css/main.4513d5e0.chunk.css",
+    "static/js/main.03a7deaa.chunk.js"
   ]
 }

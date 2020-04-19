@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/greenism/precache-manifest.6dd97672adcefdde5339bc2f5a19fb7e.js"
+  "/greenism/precache-manifest.e69474a5c81c71e8c006c5a9cb2668fe.js"
 );
 
 self.addEventListener('message', (event) => {
