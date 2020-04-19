@@ -26,10 +26,10 @@ ReactDOM.render(
         <Navbar />
         <Router>
             <Switch>
-                <Route exact path="/estimate" component={EstimatePage} />
-                <Route exact path="/what" component={WhatPage} />
-                <Route exact path="/why" component={WhyPage} />
-                <Route exact path="/how" component={HowPage} />
+                <Route exact path="/greenism/estimate" component={EstimatePage} />
+                <Route exact path="/greenism/what" component={WhatPage} />
+                <Route exact path="/greenism/why" component={WhyPage} />
+                <Route exact path="/greenism/how" component={HowPage} />
                 <Route path='/' component={HomePage} />
             </Switch>
         </Router>

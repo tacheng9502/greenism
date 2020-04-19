@@ -34,7 +34,7 @@ function Navbar() {
         <nav class="navbar is-light"></nav>
         <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="/">
+                <a class="navbar-item" href="/greenism">
                     <img src={Logo} alt="Logo of Greenism" width="130" height="30" />
                 </a>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
@@ -44,15 +44,15 @@ function Navbar() {
                 </a>
             </div>
             <div id="navbar-menu" class="navbar-menu ">
-                <a class="navbar-item" href="/">Home</a>
+                <a class="navbar-item" href="/greenism">Home</a>
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-item" href="#">Green Roofs & Walls</a>
                     <div class="navbar-dropdown is-boxed">
-                        <a class="navbar-item" href="/what">What are green roofs & walls</a>
-                        <a class="navbar-item" href="/why">Why is this important to me</a>
-                        <a class="navbar-item" href="/how">How should I start it</a>
+                        <a class="navbar-item" href="/greenism/what">What are green roofs & walls</a>
+                        <a class="navbar-item" href="/greenism/why">Why is this important to me</a>
+                        <a class="navbar-item" href="/greenism/how">How should I start it</a>
                         <hr class="navbar-divider"></hr>
-                        <a class="navbar-item" href="/estimate">Estimate Tool</a>
+                        <a class="navbar-item" href="/greenism/estimate">Estimate Tool</a>
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">

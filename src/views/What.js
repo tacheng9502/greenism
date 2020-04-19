@@ -109,6 +109,7 @@ function What() {
     ];
     const ht_title = "Next Chapter"
     const ht_subtitle = "Why is this important to me?"
+    const ht_url = "/greenism/why"
 
     return (
         <>
@@ -118,7 +119,7 @@ function What() {
                 c2_title={card_title[1]} c2_content={card_content[1]} c2_img={img_greenWall}
                 c3_title={card_title[2]} c3_content={card_content[2]} c3_img={img_greenFacade} />
             <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows} />
-            <HeroText title={ht_title} subtitle={ht_subtitle}/>
+            <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url}/>
         </>
     );
 }
