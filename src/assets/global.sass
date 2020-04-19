@@ -10,12 +10,36 @@ $dark-green: #1E3932;
 $warm-white: #F2F0EB;
 $warm-grey: #d0d1cd;
 
-// Update Bulma's global variables
-$family-sans-serif: 'Nunito', sans-serif;
+// COLORS
 $primary: $green;
+$info: #209CEE;
+$success: #D4E9E2;
+$warning: #FFDD57;
+$danger: #FF3860;
+$light: #f9f9f9;
+$dark: #363636;
+
+// TEXT
+$text: #4A4A4A;
+$link: #209CEE;
+$family-sans-serif: 'Nunito', sans-serif;
+$fullhd-enabled: true;
+$title-family: false;
+$button-family: false;
+
+// BREAKPOINTS
+$gap: 32px;
+$tablet: 769px;
+$desktop: 960px + (2*$gap);
+$widescreen: 1152px + (2*$gap);
+$fullhd: 1344px + (2*$gap);
+$widescreen-enabled: true;
 $fullhd-enabled: false;
 
-// Update some of Bulma's component variables
+// LAYOUT
+$section-padding: 2rem 1.5rem;
+$section-padding-medium: 6rem 1.5rem;
+$section-padding-large: 9rem 1.5rem;
 $column-gap: 2rem;
 
 // Import only what you need from Bulma
@@ -28,5 +52,8 @@ $column-gap: 2rem;
 @import 'bulma/sass/elements/container.sass';
 @import 'bulma/sass/elements/form.sass';
 @import 'bulma/sass/elements/title.sass';
+@import 'bulma/sass/elements/image.sass';
 @import 'bulma/sass/components/navbar.sass';
 @import 'bulma/sass/components/card.sass';
+@import 'bulma/sass/components/breadcrumb.sass';
+@import 'bulma/sass/components/menu.sass';

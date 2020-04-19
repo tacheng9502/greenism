@@ -1,17 +1,39 @@
+// Modules
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './views/Home';
-import './assets/all.sass'
-import * as serviceWorker from './serviceWorker';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
+
+// Components
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer";
+
+// Views
+import HomePage from './views/Home';
+import EstimatePage from './views/Estimate';
+import WhatPage from './views/What' ;
+import WhyPage from './views/Why' ;
+import HowPage from './views/How' ;
+
+// Assets
+import './assets/global.sass'
 
 ReactDOM.render(
     <React.StrictMode>
-        <Home />
+        <Navbar />
+        <Router>
+            <Switch>
+                <Route exact path="/estimate" component={EstimatePage} />
+                <Route exact path="/what" component={WhatPage} />
+                <Route exact path="/why" component={WhyPage} />
+                <Route exact path="/how" component={HowPage} />
+                <Route path='/' component={HomePage} />
+            </Switch>
+        </Router>
+        <Footer />
     </React.StrictMode>,
     document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

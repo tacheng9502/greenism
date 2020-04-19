@@ -32,7 +32,7 @@ function JourneyCard() {
                         <div class="card has-background-white-ter">
                             <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder" />
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -51,7 +51,7 @@ function JourneyCard() {
                         <div class="card has-background-white-ter">
                             <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder" />
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -70,7 +70,7 @@ function JourneyCard() {
                         <div class="card has-background-white-ter">
                             <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder" />
                                 </figure>
                             </div>
                             <div class="card-content">
