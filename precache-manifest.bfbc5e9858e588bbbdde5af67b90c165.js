@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e54e352853d2be13b0ed0c16637e060",
+    "revision": "94cb6ea521947ee58f0b78e929f08817",
     "url": "/greenism/index.html"
   },
   {
-    "revision": "c008eef897ded41026a8",
+    "revision": "64015f309e7946fb0aeb",
     "url": "/greenism/static/css/main.4513d5e0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/greenism/static/js/2.dbdaca41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c008eef897ded41026a8",
-    "url": "/greenism/static/js/main.4e720a02.chunk.js"
+    "revision": "64015f309e7946fb0aeb",
+    "url": "/greenism/static/js/main.4a5d96f5.chunk.js"
   },
   {
     "revision": "70a08f8dff8ae2e60939",
