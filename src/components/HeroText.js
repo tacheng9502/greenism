@@ -1,17 +1,22 @@
 import React from "react";
 
-function HeroText({ title, subtitle, url }) {
+class HeroText extends React.Component {
+    render() {
 
-    return (
-        <section class="has-background-success is-block is-relative">
-            <div class="hero-body">
-                <div class="container has-text-right">
-                    <h1 class="title is-4 has-text-weight-bold is-spaced">{title}</h1>
-                    <a href={url} class="subtitle is-6 has-text-link">{subtitle}</a>
+        const title = this.props.title;
+        const subtitle = this.props.subtitle;
+
+        return (
+            <section class="hero section is-primary is-vcentered">
+                <div class="hero-body has-text-centered">
+                    <div class="container">
+                        <h1 class="title is-3 has-text-weight-bold has-text-white is-spaced">{title}</h1>
+                        <p class="subtitle">{subtitle}</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-    );
+            </section>
+        );
+    }
 }
 
 export default HeroText;

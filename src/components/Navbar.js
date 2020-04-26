@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/img/logo.svg";
 
 function Navbar() {
-    
+
     document.addEventListener('DOMContentLoaded', () => {
 
         // Get all "navbar-burger" elements
@@ -28,53 +28,48 @@ function Navbar() {
         }
 
     });
-    
+
     return (
         <>
-        <nav class="navbar is-light"></nav>
-        <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="/greenism">
-                    <img src={Logo} alt="Logo of Greenism" width="130" height="30" />
-                </a>
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div id="navbar-menu" class="navbar-menu ">
-                <a class="navbar-item" href="/greenism">Home</a>
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-item" href="#">Green Roofs & Walls</a>
-                    <div class="navbar-dropdown is-boxed">
-                        <a class="navbar-item" href="/greenism/what">What are green roofs & walls</a>
-                        <a class="navbar-item" href="/greenism/why">Why is this important to me</a>
-                        <a class="navbar-item" href="/greenism/how">How should I start it</a>
-                        <hr class="navbar-divider"></hr>
-                        <a class="navbar-item" href="/greenism/estimate">Estimate Tool</a>
-                    </div>
+            <nav class="navbar"></nav>
+            <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                        <img src={Logo} alt="Logo of Greenism" width="130" height="30" />
+                    </a>
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
                 </div>
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-item" href="#">User Journeys</a>
-                    <div class="navbar-dropdown is-boxed">
-                        <a class="navbar-item" href="#">House Owners</a>
-                        <a class="navbar-item" href="#">Potential Buyers</a>
-                        <a class="navbar-item" href="#">Building Owners</a>
-                    </div>
-                </div>
-                <a class="navbar-item" href="#">About Us</a>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a class="button is-primary">
-                                <strong>Share</strong>
-                            </a>
+                <div id="navbar-menu" class="navbar-menu ">
+                    <a class="navbar-item" href="/">Home</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-item is-active">Green Roofs & Walls</a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="/what">What are green roofs & walls</a>
+                            <a class="navbar-item" href="/why">Why is this important to me</a>
                         </div>
                     </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-item is-active">Interactive Tools</a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="/estimate">Estimate Tool</a>
+                            <a class="navbar-item" href="#">Plant Selector</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-item is-active">Guidlines</a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="#">House Owners</a>
+                            <a class="navbar-item" href="#">Potential Buyers</a>
+                            <a class="navbar-item" href="#">Building Owners</a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="#">About Us</a>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </>
     );
 }

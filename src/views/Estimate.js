@@ -13,9 +13,10 @@ function Estimate() {
                 </div>
             </section>
             <df-messenger
+                chat-icon="https://storage.googleapis.com/cloudprod-apiai/d3d60e6a-5479-4836-b40d-0847b446aacb_x.png"
                 intent="WELCOME"
-                chat-title="covid19"
-                agent-id="321fe95b-e402-48db-b033-941e8dd44e62"
+                chat-title="Greenism Estimate Tool"
+                agent-id="d38c4a95-f1bd-454d-9b81-ae233a262a76"
                 language-code="en"
             ></df-messenger>
         </>

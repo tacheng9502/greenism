@@ -1,16 +1,27 @@
 import React from "react";
 
 
-function Card({ c1_title, c2_title, c3_title, c1_content, c2_content, c3_content, c1_img, c2_img, c3_img }) {
+function Card({ isTitle, title, subtitle, imgSize,
+                c1_title, c2_title, c3_title,
+                c1_content, c2_content, c3_content,
+                c1_img, c2_img, c3_img }) {
     return (
         <section class="hero section has-background-white-ter is-block is-relative">
+            {isTitle === "True" &&
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-4 has-text-weight-bold has-text-centered is-spaced">{title}</h1>
+                        <p class="subtitle is-6 has-text-centered">{subtitle}</p>
+                    </div>
+                </div>
+            }
             <div clas="hero-body">
                 <div class="container ">
                     <div class="columns">
                         <div class="column">
                             <div class="card">
                                 <div class="card-image">
-                                    <figure class="image is-2by3">
+                                    <figure class={imgSize}>
                                         <img src={c1_img} alt="Green Roof" />
                                     </figure>
                                 </div>
@@ -25,7 +36,7 @@ function Card({ c1_title, c2_title, c3_title, c1_content, c2_content, c3_content
                         <div class="column">
                             <div class="card">
                                 <div class="card-image">
-                                    <figure class="image is-2by3">
+                                    <figure class={imgSize}>
                                         <img src={c2_img} alt="Green Wall" />
                                     </figure>
                                 </div>
@@ -40,7 +51,7 @@ function Card({ c1_title, c2_title, c3_title, c1_content, c2_content, c3_content
                         <div class="column">
                             <div class="card has-background-light">
                                 <div class="card-image">
-                                    <figure class="image is-2by3">
+                                    <figure class={imgSize}>
                                         <img src={c3_img} alt="Green Facade" />
                                     </figure>
                                 </div>

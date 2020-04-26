@@ -45,7 +45,7 @@ function What() {
                    local landmark. Most building owners in Melbourne ignore the potential of large, leasable spaces
                    on rooftops that can be transformed into versatile recreation, amenity or productive facilities, or
                    commercial spaces for bars, restaurants or cafés.`,
-                   "img": <Image img={img_value} imgAlt="Increased property value and other benefits for building owners"/>},
+                   "img": <Image img={img_value} imgAlt="Increased property value and other benefits for building owners"/>, "isImage":"True"},
                    {"title": "Stormwater management",
                    "subtitle": `Green roofs absorb and retain rainwater and can be used to manage stormwater run-off in
                    urban environments. They can also filter particulates and pollutants. Stormwater run-off can be
@@ -53,7 +53,7 @@ function What() {
                    and roots of plants, and also evaporates directly from the substrate. Additional water storage
                    capacity in green roof systems can be provided through incorporation of a water retentive layer
                    or drainage layer at the base of the green roof.`,
-                   "img": <Image img={img_raining} imgAlt="Stormwater management"/>},
+                   "img": <Image img={img_raining} imgAlt="Stormwater management"/>, "isImage":"True"},
                    {"title": "Cooling a city – urban heat island effect",
                    "subtitle": `Hard surfaces in urban environments, such as concrete, brick, glass, asphalt and roofing, have a
                    high thermal mass, collecting the sun’s heat during the day and re-radiating it slowly back into
@@ -68,7 +68,7 @@ function What() {
                    and facade plants are grown on a support system that leaves a gap between the wall and the
                    planting, hot air moves up by convection through the space between the wall and the vegetation,
                    providing passive cooling.`,
-                   "img": <Image img={img_city} imgAlt="Cooling a city – urban heat island effect"/>},
+                   "img": <Image img={img_city} imgAlt="Cooling a city – urban heat island effect"/>, "isImage":"True"},
                    {"title": "Aesthetics, open space and urban food production",
                    "subtitle": `The liveability of cities is increasingly dependent on the availability of and access to green open
                    space. Green roofs, walls and facades can increase amenity and provide opportunities for food
@@ -78,21 +78,21 @@ function What() {
                    by buildings and related infrastructure and the opportunities for new parks and gardens is extremely
                    limited. Green roofs, walls and facades can be used for multi-level greenery designs that connect
                    with ground level green spaces.`,
-                   "img": <Image img={img_park} imgAlt="Aesthetics, open space and urban food production"/>},
+                   "img": <Image img={img_park} imgAlt="Aesthetics, open space and urban food production"/>, "isImage":"True"},
                    {"title": "Creation & preservation of habitat & ecological biodiversity",
                    "subtitle": `Green roofs can contribute to and enhance biodiversity by providing new urban habitats and
                    specific habitats for rare or important species of plants or animals. Green roofs can also provide
                    a link or corridor across urban ‘ecological deserts’ and assist in migration of invertebrates and birds.
                    Designing for biodiversity requires consideration early in concept development with regard to
                    plant species, food sources, habitat values, access points and building heights.`,
-                   "img": <Image img={img_bird} imgAlt="Creation & preservation of habitat & ecological biodiversity"/>},
+                   "img": <Image img={img_bird} imgAlt="Creation & preservation of habitat & ecological biodiversity"/>, "isImage":"True"},
                    {"title": "Improved thermal performance",
                    "subtitle": `A significant benefit of green roofs, walls and facades is the potential for reducing building
                    heating and cooling requirements. Green walls and facades can reduce heat gain in summer
                    by directly shading the building surface. Green roofs reduce heat transfer through the roof and
                    ambient temperatures on the roof surface, improving the performance of heating, ventilation
                    and air conditioning (HVAC) systems.`,
-                   "img": <Image img={img_reflection} imgAlt="Improved thermal performance"/>},
+                   "img": <Image img={img_reflection} imgAlt="Improved thermal performance"/>, "isImage":"True"},
                    {"title": "Cleaning the air",
                    "subtitle": `Green roofs, walls and facades can contribute to the removal of gaseous pollutants from the air,
                    although their effectiveness varies with plant species and area of cover. Plants with a high foliage
@@ -105,11 +105,11 @@ function What() {
                    organic compounds from the air. Carpets and other soft furnishings and office equipment are
                    common sources of these gaseous pollutants; inclusion of vegetation, such as a green wall, can
                    help to improve the air quality of the indoor environment.`,
-                   "img": <Image img={img_air} imgAlt="Cleaning the air"/>}
+                   "img": <Image img={img_air} imgAlt="Cleaning the air"/>, "isImage":"True"}
     ];
     const ht_title = "Next Chapter"
     const ht_subtitle = "Why is this important to me?"
-    const ht_url = "/greenism/why"
+    const ht_url = "/why"
 
     return (
         <>
@@ -118,7 +118,7 @@ function What() {
             <Card c1_title={card_title[0]} c1_content={card_content[0]} c1_img={img_greenRoof}
                 c2_title={card_title[1]} c2_content={card_content[1]} c2_img={img_greenWall}
                 c3_title={card_title[2]} c3_content={card_content[2]} c3_img={img_greenFacade} />
-            <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows} />
+            <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows} imgWidth="225px" />
             <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url}/>
         </>
     );

@@ -2,7 +2,7 @@ import React from "react";
 
 function Breadcrumb({ parent, child }) {
     return (
-        <section class="section hero has-background-success">
+        <section class="section hero is-success">
             <nav class="breadcrumb" aria-label="breadcrumbs">
                 <ul>
                     <li><a href="/greenism">Home</a></li>
