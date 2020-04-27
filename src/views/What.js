@@ -10,7 +10,7 @@ import Card from "../components/Card";
 import Image from "../components/Image";
 
 // Assets
-import hir_image from "../assets/img/green_roof_illustration.webp";
+import hir_image from "../assets/img/green_roof_illustration.svg";
 import img_greenRoof from "../assets/img/green_roof.png";
 import img_greenWall from "../assets/img/green_wall.png";
 import img_greenFacade from "../assets/img/green_facade.png";
@@ -55,29 +55,10 @@ function What() {
                    or drainage layer at the base of the green roof.`,
                    "img": <Image img={img_raining} imgAlt="Stormwater management"/>, "isImage":"True"},
                    {"title": "Cooling a city – urban heat island effect",
-                   "subtitle": `Hard surfaces in urban environments, such as concrete, brick, glass, asphalt and roofing, have a
-                   high thermal mass, collecting the sun’s heat during the day and re-radiating it slowly back into
-                   the atmosphere. This contributes to a rise in ambient temperature in cities, creating large, stable
-                   masses of hot air (urban heat islands), especially during periods of calm, still weather.
-                   Temperatures can be reduced by covering a roof or wall with a layer of vegetation that shades
-                   building materials which would otherwise absorb heat. Evapotranspiration provides cooling effects,
-                   as water is evaporated from the soil and plants and plants transpire by taking water in through
-                   roots and releasing it through leaves. Energy from the sun that would otherwise heat the roof
-                   or wall surface and increase ambient air temperatures is instead used in the evapotranspiration
-                   process, resulting in latent heat loss that lowers surrounding air temperatures. When green wall
-                   and facade plants are grown on a support system that leaves a gap between the wall and the
-                   planting, hot air moves up by convection through the space between the wall and the vegetation,
-                   providing passive cooling.`,
+                   "subtitle": `Hard surfaces in urban environments, such as concrete, brick, glass, asphalt and roofing, have a high thermal mass, collecting the sun’s heat during the day and re-radiating it slowly back into the atmosphere. This contributes to a rise in ambient temperature in cities, creating large, stable masses of hot air (urban heat islands), especially during periods of calm, still weather. When green wall and facade plants are grown on a support system that leaves a gap between the wall and the planting, hot air moves up by convection through the space between the wall and the vegetation, providing passive cooling.`,
                    "img": <Image img={img_city} imgAlt="Cooling a city – urban heat island effect"/>, "isImage":"True"},
                    {"title": "Aesthetics, open space and urban food production",
-                   "subtitle": `The liveability of cities is increasingly dependent on the availability of and access to green open
-                   space. Green roofs, walls and facades can increase amenity and provide opportunities for food
-                   production, recreation, relaxation or commercial ventures.
-                   In dense, rapidly growing urban areas, the contribution of green roofs, walls and facades to overall
-                   green space should not be underestimated. In inner-city areas especially, most space is occupied
-                   by buildings and related infrastructure and the opportunities for new parks and gardens is extremely
-                   limited. Green roofs, walls and facades can be used for multi-level greenery designs that connect
-                   with ground level green spaces.`,
+                   "subtitle": `Green roofs, walls and facades can increase amenity and provide opportunities for food production, recreation, relaxation or commercial ventures. In inner-city areas especially, most space is occupied by buildings and related infrastructure and the opportunities for new parks and gardens is extremely limited. Green roofs, walls and facades can be used for multi-level greenery designs that connect with ground level green spaces.`,
                    "img": <Image img={img_park} imgAlt="Aesthetics, open space and urban food production"/>, "isImage":"True"},
                    {"title": "Creation & preservation of habitat & ecological biodiversity",
                    "subtitle": `Green roofs can contribute to and enhance biodiversity by providing new urban habitats and
@@ -94,17 +75,7 @@ function What() {
                    and air conditioning (HVAC) systems.`,
                    "img": <Image img={img_reflection} imgAlt="Improved thermal performance"/>, "isImage":"True"},
                    {"title": "Cleaning the air",
-                   "subtitle": `Green roofs, walls and facades can contribute to the removal of gaseous pollutants from the air,
-                   although their effectiveness varies with plant species and area of cover. Plants with a high foliage
-                   density or with textured leaf surfaces that trap small particles also assist in removing particulate
-                   pollution, through dry deposition on the foliage or through rain wash. On a larger scale, green
-                   roofs, walls and facades can help to reduce overall environmental heat gain (re-radiation of heat
-                   from building materials with high thermal mass), in turn improving air quality as less photochemical
-                   pollutants are produced at lower air temperatures.
-                   In interior environments, plants have been shown to have a significant capacity to reduce volatile
-                   organic compounds from the air. Carpets and other soft furnishings and office equipment are
-                   common sources of these gaseous pollutants; inclusion of vegetation, such as a green wall, can
-                   help to improve the air quality of the indoor environment.`,
+                   "subtitle": `Green roofs, walls and facades can contribute to the removal of gaseous pollutants from the air, although their effectiveness varies with plant species and area of cover. On a larger scale, green roofs, walls and facades can help to reduce overall environmental heat gain (re-radiation of heat from building materials with high thermal mass), in turn improving air quality as less photochemical pollutants are produced at lower air temperatures. In interior environments, plants have been shown to have a significant capacity to reduce volatile organic compounds from the air.`,
                    "img": <Image img={img_air} imgAlt="Cleaning the air"/>, "isImage":"True"}
     ];
     const ht_title = "Next Chapter"
@@ -114,12 +85,12 @@ function What() {
     return (
         <>
             <Breadcrumb parent={bc_parent} child={bc_child} />
-            <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={hir_image} />
+            <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={hir_image} size="is-medium"/>
             <Card c1_title={card_title[0]} c1_content={card_content[0]} c1_img={img_greenRoof}
                 c2_title={card_title[1]} c2_content={card_content[1]} c2_img={img_greenWall}
                 c3_title={card_title[2]} c3_content={card_content[2]} c3_img={img_greenFacade} />
             <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows} imgWidth="225px" />
-            <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url}/>
+            <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url} isUrl={true}/>
         </>
     );
 }

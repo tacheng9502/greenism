@@ -21,8 +21,8 @@ class HeroImageRight extends React.Component {
                             {isButton === "True" &&
                                 <>
                                     <br /><br />
-                                    <a class="button is-primary is-rounded">
-                                        <strong>Share with someone</strong>
+                                    <a href="/what" class="button is-primary is-rounded">
+                                        <strong>Learn More</strong>
                                     </a>
                                 </>
                             }

@@ -17,7 +17,7 @@ import img_buyers from "../assets/img/buyers.jpg";
 
 function Home() {
     const hir_title = "An initiative by people who care for the environment (like you!)";
-    const hir_subtitle = "Establishing green roofs & walls across communities is a great way to help the environment and reduce building operating costs, while also improving our health and wellbeing."
+    const hir_subtitle = "We at Greenism offer you the opportunity to learn everything there is to know about green infrastructure and how it could be a turning-point in the way your lifestyle impacts you and the environment."
     const hir_size = "is-medium"
     const hir_isButton = "True"
     const ht_title = "We're here to support";
@@ -26,9 +26,9 @@ function Home() {
         <>
             <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={img_greenism} isButton={hir_isButton} size={hir_size}/>
             <Wave position={"bottom"} img={img_wave} />
-            <HeroText title={ht_title} subtitle={ht_subtitle} />
+            <HeroText title={ht_title} subtitle={ht_subtitle} isT={true} />
             <Feature />
-            <JourneyCard title="Interactive Tools" title1={"User Guidlines"} img1={img_owners} img2={img_buyers} img3={img_business}/>
+            <JourneyCard title="Interactive Tools" title1={"User Guidelines"} img1={img_owners} img2={img_buyers} img3={img_business}/>
         </>
     );
 }

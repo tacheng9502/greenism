@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer class="footer">
-            <div class="content has-text-centered">
+        <footer className="footer">
+            <div className="content has-text-centered">
 
-                <strong>Greenism</strong> by <a href="#">Monash IE Project Team E32</a>
+                <strong>Greenism</strong> by <a href="#">Team E32 - Greenism</a>
             </div>
         </footer>
     );

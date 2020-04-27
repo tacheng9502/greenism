@@ -5,7 +5,8 @@ export default class ChartBar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            chartData: this.props.chartData
+            chartData: this.props.chartData,
+            chartTitle: this.props.chartTitle
         }
     }
     render() {
@@ -17,7 +18,7 @@ export default class ChartBar extends React.Component {
                         display: true,
                         fontSize: 14,
                         fontFamily: "Nunito",
-                        text: "Mean temperature for Australia"
+                        text: this.state.chartTitle
                     },
                     legend: {
                         position: "bottom",

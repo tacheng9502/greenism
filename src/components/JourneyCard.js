@@ -18,7 +18,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 </header>
                                 <div class="card-content has-background-white-ter">
                                     <div class="content">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                        Find out more about when an investment in green infrastructure could turn into savings and get our recommendations about what kind of infrastructure you could construct in your building.
                                     <br /><br />
                                         <a class="button is-link is-pulled-right" href="/estimate">
                                             <span class="icon">
@@ -34,19 +34,19 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                             <div class="card">
                                 <header class="card-header has-background-primary">
                                     <p class="card-header-title">
-                                        <strong class="has-text-white">Plant Selector</strong>
+                                        <strong class="has-text-white">Find-the-right-plant Tool</strong>
                                     </p>
                                 </header>
                                 <div class="card-content has-background-white-ter">
                                     <div class="content">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                        Filter out plants based on ecological factors like amount of sunlight, average temperature, amount of rainfall etc and also check if plants you love to be around can be included in your green garden.
                                     <br /><br />
-                                        <button class="button is-link is-pulled-right">
+                                        <a class="button is-link is-pulled-right" href="/search">
                                             <span class="icon">
                                                 <i class="fas fa-search"></i>
                                             </span>
                                             <span>Go search</span>
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -70,11 +70,11 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 <div class="card-content">
                                     <div class="content">
                                         <strong>House Owners</strong><br /><br />
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                        <p>Do you own a home in the city and wonder how you and your family could help climate change? Interested to find out if green infrastructure can be constructed in a space of your choice?</p>
                                         <br />
-                                        <button class="button is-fullwidth is-primary">
+                                        <a class="button is-fullwidth is-primary" href="/guidelines">
                                             Learn More
-                                    </button>
+                                    </a>
                                     </div>
                                 </div>
                             </div>
@@ -88,12 +88,12 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 </div>
                                 <div class="card-content">
                                     <div class="content">
-                                        <strong>Potential Buyers</strong><br /><br />
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                        <strong>Potential House Buyers</strong><br /><br />
+                                        <p>Thinking about building or buying a house in an urban area? Wondering if you could implement or grow a green space in the home you are building? Click here to find out!</p>
                                         <br />
-                                        <button class="button is-fullwidth is-primary">
+                                        <a class="button is-fullwidth is-primary" href="/potential">
                                             Learn More
-                                    </button>
+                                    </a>
                                     </div>
                                 </div>
                             </div>
@@ -107,12 +107,12 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 </div>
                                 <div class="card-content">
                                     <div class="content">
-                                        <strong>Building Owners</strong><br /><br />
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                        <strong>Local Business Owners</strong><br /><br />
+                                        <p>Do you own a local business in an urban area and want to know about how constructing some type of green infrastructure in your building or space could benefit you and your business?</p>
                                         <br />
-                                        <button class="button is-fullwidth is-primary">
+                                        <a class="button is-fullwidth is-primary" href="/business">
                                             Learn More
-                                    </button>
+                                    </a>
                                     </div>
                                 </div>
                             </div>

@@ -16,8 +16,13 @@ import HomePage from './views/Home';
 import EstimatePage from './views/Estimate';
 import WhatPage from './views/What';
 import WhyPage from './views/Why';
-import HowPage from './views/How';
+import GuidlinesPage from './views/Guidelines';
+import EvaluatingPage from "./views/Evaluating";
+import ComparingPage from "./views/Comparing";
+import FindingPage from "./views/Finding";
+import CarePage from "./views/Care";
 import BuildingPage from "./views/Building";
+
 
 // Assets
 import './assets/global.sass'
@@ -31,6 +36,11 @@ ReactDOM.render(
                 <Route exact path="/estimate" component={EstimatePage} />
                 <Route exact path="/what" component={WhatPage} />
                 <Route exact path="/why" component={WhyPage} />
+                <Route exact path="/guidelines" component={GuidlinesPage} />
+                <Route exact path="/evaluating" component={EvaluatingPage} />
+                <Route exact path="/comparing" component={ComparingPage} />
+                <Route exact path="/finding" component={FindingPage} />
+                <Route exact path="/care" component={CarePage} />
                 <Route path='/' component={BuildingPage} />
             </Switch>
         </Router>

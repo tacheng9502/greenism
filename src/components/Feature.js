@@ -13,7 +13,7 @@ class Feature extends React.Component {
                                 </span>
                                 <br/><br/>
                                 <h1 class="title is-4 is-spaced">Information</h1>
-                                <p>We provide a lot of Information We provide a lot of Information We provide a lot of Information We provide a lot of Information We provide a lot of Information a lot of information</p>
+                                <p>We offer a wealth of resources regarding the types of green infrastructure, its benefits, how easy it is to care of the plants you grow, how to maintain them and loads more!</p>
                             </div>
                             <div class="column has-text-centered">
                                 <span class="icon is-large has-text-warning">
@@ -21,15 +21,15 @@ class Feature extends React.Component {
                                 </span>
                                 <br/><br/>
                                 <h1 class="title is-4 is-spaced">Interactive tools</h1>
-                                <p>We have two interactive tools We have two interactive tools We have two interactive tools We have two interactive tools We have two interactive tools We have two interactive tools</p>
+                                <p>Want to know more about the type of plants you can grow in your green garden? Or do you want to know what type of green infrastructure is best suited for your house? We can do both!</p>
                             </div>
                             <div class="column has-text-centered">
                                 <span class="icon is-large has-text-danger">
                                     <i class="fas fa-3x fa-route"></i>
                                 </span>
                                 <br/><br/>
-                                <h1 class="title is-4 is-spaced">Guidlines</h1>
-                                <p>We have three different user journeys We have three different user journeys We have three different user journeys We have three different user journeys We have three different</p>
+                                <h1 class="title is-4 is-spaced">Customised User Journeys</h1>
+                                <p>Do you own a house in the city? Or are you the owner of a local business wanting to do his bit for the planet? We've got content based on what profile suits you best.</p>
                             </div>
                         </div>
                     </div>

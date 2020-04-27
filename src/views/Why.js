@@ -7,8 +7,6 @@ import HeroText from "../components/HeroText";
 import Breadcrumb from "../components/Breadcrumb";
 import Card from "../components/Card";
 import ChartLine from "../components/ChartLine";
-import ChartBar from "../components/ChartBar";
-import ChartPie from "../components/CharPie";
 
 // Assets
 import img_coralBleaching from "../assets/img/bleaching.jpg";
@@ -63,6 +61,34 @@ class Why extends React.Component {
             ]
         }
 
+        const chartData_bar_1 = {
+            labels: ["Day", "Night", "Max daily variation"],
+            datasets: [
+                {
+                    label: "Metal Roof",
+                    data: [25.5, 17.3, 4.7],
+                    backgroundColor: [
+                        'rgba(255, 206, 86, 0.6)',
+                        'rgba(255, 206, 86, 0.6)',
+                        'rgba(255, 206, 86, 0.6)'
+                    ]
+                },
+                {
+                    label: "Tiled Roof",
+                    data: [26.5, 23.3, 2.3],
+                },
+                {
+                    label: "Green Roof",
+                    data: [24.8, 19.8, 1.2],
+                    backgroundColor: [
+                        'rgba(75, 192, 192, 0.6)',
+                        'rgba(75, 192, 192, 0.6)',
+                        'rgba(75, 192, 192, 0.6)'
+                    ]
+                }
+            ]
+        }
+
         const chartData_bar_2 = {
             labels: ["Heating Energy", "Cooling Energy"],
             datasets: [
@@ -87,11 +113,7 @@ class Why extends React.Component {
 
         const cause_rows = [{
             title: "Electricity generation is the biggest greenhouse gas emission source",
-            subtitle: `Building owners and developers are increasingly installing green roofs, walls or facades to add a
-                   point of difference, increase commercial returns, provide visual appeal and turn a building into a
-                   local landmark. Most building owners in Melbourne ignore the potential of large, leasable spaces
-                   on rooftops that can be transformed into versatile recreation, amenity or productive facilities, or
-                   commercial spaces for bars, restaurants or cafés.`,
+            subtitle: `In Victoria, greenhouse gas emission has always been an important cause of climate change. As shown in the graph on the left, 50.9% of the greenhouse gas comes from electricity generation. Because the source of electricity generation in Australia is mainly coal combustion.`,
             isChartPie: "True",
             chartData: chartData_pie_1,
             chartTitle: "Victorian greenhouse gas emissions by sector, 2017",
@@ -99,11 +121,7 @@ class Why extends React.Component {
         },
         {
             title: "Heating Ventilation and Air Conditioning (HVAC) is generally responsible for a significant proportion of total building energy consumption",
-            subtitle: `Building owners and developers are increasingly installing green roofs, walls or facades to add a
-                   point of difference, increase commercial returns, provide visual appeal and turn a building into a
-                   local landmark. Most building owners in Melbourne ignore the potential of large, leasable spaces
-                   on rooftops that can be transformed into versatile recreation, amenity or productive facilities, or
-                   commercial spaces for bars, restaurants or cafés.`,
+            subtitle: `As for energy consumption, as in the pie chart shown on the left, 39% of the electricity usage of a building is used for HACV (Heating Ventilation and Air Conditioning). As the average temperature has increased in recent years and heatwaves’ influence, the percentage of HACV is tending to be higher.`,
             isChartPie: "True",
             chartData: chartData_pie_2,
             chartTitle: "Typical energy consumption breakdown in a building, 2012",
@@ -111,24 +129,18 @@ class Why extends React.Component {
         }]
 
         const rows = [{
-            title: "Increased property value and other benefits for building owners",
-            subtitle: `Building owners and developers are increasingly installing green roofs, walls or facades to add a
-                   point of difference, increase commercial returns, provide visual appeal and turn a building into a
-                   local landmark. Most building owners in Melbourne ignore the potential of large, leasable spaces
-                   on rooftops that can be transformed into versatile recreation, amenity or productive facilities, or
-                   commercial spaces for bars, restaurants or cafés.`,
+            title: "Green roof can make buildings’ internal temperature more stable",
+            subtitle: `After installing green roofs, the internal temperature variation of buildings will be reduced for approximately 3 degrees and 1degree for metal roofs and tiled roofs separately, which means that green roofs can help with maintaining the building’s internal temperature to be more stable.`,
             isChartBar: "True",
-            chartData: chartData_pie_2,
+            chartTitle: "Internal temperature effects of different roof types",
+            chartData: chartData_bar_1,
             imgWidth: "300px"
         },
         {
-            title: "Increased property value and other benefits for building owners",
-            subtitle: `Building owners and developers are increasingly installing green roofs, walls or facades to add a
-                   point of difference, increase commercial returns, provide visual appeal and turn a building into a
-                   local landmark. Most building owners in Melbourne ignore the potential of large, leasable spaces
-                   on rooftops that can be transformed into versatile recreation, amenity or productive facilities, or
-                   commercial spaces for bars, restaurants or cafés.`,
+            title: "Green infrastructures can reduce the cost of cooling and heating",
+            subtitle: `Since the internal temperature is more stable under green roof, compared with buildings without green roof, buildings with green roofs can save about 522mj of heating energy and 471mj of cooling energy. When the energy used for HACV is reduced, the greenhouse gas generated for electricity generation is also reduced.`,
             isChartBar: "True",
+            chartTitle: "Heating and cooling energy demand in different roofs",
             chartData: chartData_bar_2,
             imgWidth: "300px"
         },
@@ -142,13 +154,13 @@ class Why extends React.Component {
                 <Breadcrumb parent={bc_parent} child={bc_child} />
                 <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={ChartLine} isChart="True" size="is-medium" />
                 <Card isTitle="True" title={c_title} imgSize={c_imgSize}
-                    c1_title="Coral Bleaching" c1_content={"Australia’s iconic Great Barrier Reef has been stressed by warmer and more acidic waters, coral expels the colorful algae it depends on to survive. The coral turns white and unless the coral has a chance to recover and the algae can return, it can die, upsetting entire marine ecosystems."} c1_img={img_coralBleaching}
-                    c2_title="Bushfires" c2_content="Bushfires are becoming more extreme, especially in southern and eastern parts of the country. Ken Thompson (former deputy fire chief of the state of New South Wales) reported that fire season now runs for nine months out of the year in Australia." c2_img={img_bushFire}
+                    c1_title="Coral Bleaching" c1_content={"Australia’s Great Barrier Reef is one of the seven natural wonders on our planet. It has been stressed by warmer and more acidic waters, coral expels the colorful algae it depends on to survive. The coral turns white and unless the coral has a chance to recover and the algae can return, it can die, upsetting entire marine ecosystems."} c1_img={img_coralBleaching}
+                    c2_title="Bushfires" c2_content="Bushfires are becoming more extreme, especially in southern and eastern parts of the country. The most destructive fires are usually preceded by extreme high temperatures. Ken Thompson (former deputy fire chief of the state of New South Wales) reported that fire season now runs for nine months out of the year in Australia." c2_img={img_bushFire}
                     c3_title="Heatwaves" c3_content="In January 2018, temperatures in Sydney soared to over 47 degrees Celsiu. It was the hottest day the city had seen in nearly 80 years. Climate change is making heatwaves more common, more severe, and longer lasting. Heatwaves have real impacts on human health and wellbeing – leading to heat exhaustion or even heat stroke." c3_img={img_sun}
                 />
                 <HeroImageLeft title="We have noticed that" rows={cause_rows} imgWidth="400px" />
                 <HeroImageLeft title="How green infrastructures Help" rows={rows} imgWidth="400px" />
-                <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url} />
+                <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url} is2B={true}/>
             </>
         );
     }
