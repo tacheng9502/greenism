@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0a2ff461c9c54ef82b1c658d3442dff",
+    "revision": "06e5848303625bb8884b15f953a33693",
     "url": "/index.html"
   },
   {
-    "revision": "863fceb02492cf5822d2",
+    "revision": "9eb6814a95ed341b03a9",
     "url": "/static/css/main.883159d0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4907761e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "863fceb02492cf5822d2",
-    "url": "/static/js/main.95e12f32.chunk.js"
+    "revision": "9eb6814a95ed341b03a9",
+    "url": "/static/js/main.97c3701f.chunk.js"
   },
   {
     "revision": "a77e3739eaaef45626dd",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/green_roof.36a1ec93.png"
   },
   {
-    "revision": "9dfae7a3225d8e32364ada41d734c273",
-    "url": "/static/media/green_roof_illustration.9dfae7a3.webp"
+    "revision": "7dbbfdcfd0378d2f6ca6260ea37bf218",
+    "url": "/static/media/green_roof_illustration.7dbbfdcf.svg"
   },
   {
     "revision": "a65b8e8030ab792739fa33d082cf6fdc",
