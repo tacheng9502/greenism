@@ -117,7 +117,7 @@ class Why extends React.Component {
             isChartPie: "True",
             chartData: chartData_pie_1,
             chartTitle: "Victorian greenhouse gas emissions by sector, 2017",
-            imgWidth: "300px"
+            imgWidth: "400px"
         },
         {
             title: "Heating Ventilation and Air Conditioning (HVAC) is generally responsible for a significant proportion of total building energy consumption",
@@ -125,7 +125,7 @@ class Why extends React.Component {
             isChartPie: "True",
             chartData: chartData_pie_2,
             chartTitle: "Typical energy consumption breakdown in a building, 2012",
-            imgWidth: "300px"
+            imgWidth: "400px"
         }]
 
         const rows = [{
@@ -134,7 +134,7 @@ class Why extends React.Component {
             isChartBar: "True",
             chartTitle: "Internal temperature effects of different roof types",
             chartData: chartData_bar_1,
-            imgWidth: "300px"
+            imgWidth: "400px"
         },
         {
             title: "Green infrastructures can reduce the cost of cooling and heating",
@@ -142,7 +142,7 @@ class Why extends React.Component {
             isChartBar: "True",
             chartTitle: "Heating and cooling energy demand in different roofs",
             chartData: chartData_bar_2,
-            imgWidth: "300px"
+            imgWidth: "400px"
         },
         ]
         const ht_title = "Try our interactive tools"
@@ -158,8 +158,8 @@ class Why extends React.Component {
                     c2_title="Bushfires" c2_content="Bushfires are becoming more extreme, especially in southern and eastern parts of the country. The most destructive fires are usually preceded by extreme high temperatures. Ken Thompson (former deputy fire chief of the state of New South Wales) reported that fire season now runs for nine months out of the year in Australia." c2_img={img_bushFire}
                     c3_title="Heatwaves" c3_content="In January 2018, temperatures in Sydney soared to over 47 degrees Celsiu. It was the hottest day the city had seen in nearly 80 years. Climate change is making heatwaves more common, more severe, and longer lasting. Heatwaves have real impacts on human health and wellbeing – leading to heat exhaustion or even heat stroke." c3_img={img_sun}
                 />
-                <HeroImageLeft title="We have noticed that" rows={cause_rows} imgWidth="400px" />
-                <HeroImageLeft title="How green infrastructures Help" rows={rows} imgWidth="400px" />
+                <HeroImageLeft title="We have noticed that" rows={cause_rows} />
+                <HeroImageLeft title="How green infrastructures Help" rows={rows} />
                 <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url} is2B={true}/>
             </>
         );

@@ -19,26 +19,21 @@ class HeroText extends React.Component {
                             <p class="subtitle">{subtitle}</p>
                         }
                         {this.props.is2B &&
-                            <>
-                                <a class="button is-link" href="/estimate">
-                                    <span class="icon">
-                                        <i class="fas fa-calculator"></i>
-                                    </span>
+                            <div class="buttons is-centered">
+                                <a href="/estimate" class="button is-info is-inverted is-outlined">
+                                    <span class="icon"><i class="fas fa-calculator"></i></span>
                                     <span>Estimate Tool</span>
                                 </a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <a class="button is-link" href="/search">
-                                    <span class="icon">
-                                        <i class="fas fa-search"></i>
-                                    </span>
+                                <a href="/search" class="button is-info is-inverted is-outlined">
+                                    <span class="icon"><i class="fas fa-search"></i></span>
                                     <span>Plant Selector</span>
                                 </a>
-                            </>
+                            </div>
                         }
 
                     </div>
                 </div>
-            </section>
+            </section >
         );
     }
 }

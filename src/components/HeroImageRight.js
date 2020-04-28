@@ -22,6 +22,7 @@ class HeroImageRight extends React.Component {
                                 <>
                                     <br /><br />
                                     <a href="/what" class="button is-primary is-rounded">
+                                        <i class="fas fa-info-circle"></i> &nbsp;&nbsp;
                                         <strong>Learn More</strong>
                                     </a>
                                 </>

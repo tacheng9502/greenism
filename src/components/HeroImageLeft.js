@@ -25,12 +25,12 @@ class HeroImageLeft extends React.Component {
                                         </figure>
                                     }
                                     {item.isChartPie === "True" &&
-                                        <figure class="image" style={{ width: imgWidth, margin: "30px auto" }}>
+                                        <figure class="image" style={{ width: item.imgWidth, margin: "30px auto" }}>
                                             <ChartPie chartData={item.chartData} chartTitle={item.chartTitle} />
                                         </figure>
                                     }
                                     {item.isChartBar === "True" &&
-                                        <figure class="image" style={{ width: imgWidth, margin: "30px auto" }}>
+                                        <figure class="image" style={{ width: item.imgWidth, margin: "30px auto" }}>
                                             <ChartBar chartData={item.chartData} chartTitle={item.chartTitle} />
                                         </figure>
                                     }
