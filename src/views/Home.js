@@ -26,8 +26,7 @@ function Home() {
     return (
         <>
             <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={img_greenism} isButton={hir_isButton} size={hir_size}/>
-            
-            <HeroText title={ht_title} subtitle={ht_subtitle} isT={true} />
+            <HeroText title={ht_title} subtitle={ht_subtitle} isT={true} isSteps={true}/>
             <Feature />
             <JourneyCard title="Interactive Tools" title1={"User Guidelines"} img1={img_owners} img2={img_buyers} img3={img_business}/>
         </>

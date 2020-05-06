@@ -20,7 +20,7 @@ class Feature extends React.Component {
                                     <i class="fas fa-3x fa-chart-line"></i>
                                 </span>
                                 <br/><br/>
-                                <h1 class="title is-4 is-spaced">Interactive tools</h1>
+                                <h1 class="title is-4 is-spaced">Analysis Tools</h1>
                                 <p>Want to know more about the type of plants you can grow in your green garden? Or do you want to know what type of green infrastructure is best suited for your house? We can do both!</p>
                             </div>
                             <div class="column has-text-centered">
@@ -28,7 +28,7 @@ class Feature extends React.Component {
                                     <i class="fas fa-3x fa-route"></i>
                                 </span>
                                 <br/><br/>
-                                <h1 class="title is-4 is-spaced">Customised User Journeys</h1>
+                                <h1 class="title is-4 is-spaced">Self-Planting Guideline</h1>
                                 <p>Do you own a house in the city? Or are you the owner of a local business wanting to do his bit for the planet? We've got content based on what profile suits you best.</p>
                             </div>
                         </div>

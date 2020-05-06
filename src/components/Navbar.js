@@ -67,7 +67,7 @@ function Navbar() {
                             <a className="navbar-item" href="#">Building Owners</a>
                         </div>
                     </div>
-                    <a className="navbar-item" href="#">About Us</a>
+                    <a className="navbar-item" href="#">About</a>
                 </div>
             </nav>
         </>
