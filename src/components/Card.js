@@ -49,7 +49,7 @@ function Card({ isTitle, title, subtitle, imgSize,
                             </div>
                         </div>
                         <div class="column">
-                            <div class="card has-background-light">
+                            <div class="card">
                                 <div class="card-image">
                                     <figure class={imgSize}>
                                         <img src={c3_img} alt="Green Facade" />
