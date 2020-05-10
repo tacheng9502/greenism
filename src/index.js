@@ -24,6 +24,8 @@ import ComparingPage from "./views/Comparing";
 import FindingPage from "./views/Finding";
 import CarePage from "./views/Care";
 import BuildingPage from "./views/Building";
+import SiteanalysisPage from "./views/Siteanalysis";
+import MaintenancePage from "./views/Maintenance";
 
 
 // Assets
@@ -45,6 +47,8 @@ ReactDOM.render(
                 <Route exact path="/comparing" component={ComparingPage} />
                 <Route exact path="/finding" component={FindingPage} />
                 <Route exact path="/care" component={CarePage} />
+                <Route exact path="/siteanalysis" component={SiteanalysisPage} />
+                <Route exact path="/maintenance" component={MaintenancePage} />
                 <Route path='/' component={BuildingPage} />
             </Switch>
         </Router>

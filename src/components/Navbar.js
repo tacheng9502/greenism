@@ -62,8 +62,10 @@ function Navbar() {
                         <a className="navbar-item is-active">Self-Planting Guidelines</a>
                         <div className="navbar-dropdown is-boxed">
                             <a className="navbar-item" href="/Guidelines">House Owners</a>
-                            <a className="navbar-item" href="/404">Potential Buyers</a>
-                            <a className="navbar-item" href="/404">Building Owners</a>
+                            <a className="navbar-item" href="/Siteanalysis">Site Analysis</a>
+                            <a className="navbar-item" href="#">Design and Planning</a>
+                            <a className="navbar-item" href="#">Building and Installation</a>
+                            <a className="navbar-item" href="/Maintenance">Maintenance</a>
                         </div>
                     </div>
                     <a className="navbar-item" href="/404">About</a>
