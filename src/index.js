@@ -13,9 +13,11 @@ import Footer from "./components/Footer";
 
 // Views
 import HomePage from './views/Home';
-import EstimatePage from './views/Estimate';
 import WhatPage from './views/What';
 import WhyPage from './views/Why';
+import EstimatePage from './views/Estimate';
+import PlantsPage from './views/Plants';
+import PlantDetailPage from "./views/PlantDetail"
 import GuidlinesPage from './views/Guidelines';
 import EvaluatingPage from "./views/Evaluating";
 import ComparingPage from "./views/Comparing";
@@ -33,9 +35,11 @@ ReactDOM.render(
         <Router>
             <Switch>
                 <Route exact path="/" component={HomePage} />
-                <Route exact path="/estimate" component={EstimatePage} />
                 <Route exact path="/what" component={WhatPage} />
                 <Route exact path="/why" component={WhyPage} />
+                <Route exact path="/estimate" component={EstimatePage} />
+                <Route exact path="/plants" component={PlantsPage} />
+                <Route path="/plantDetail/:plantId" component={PlantDetailPage} />
                 <Route exact path="/guidelines" component={GuidlinesPage} />
                 <Route exact path="/evaluating" component={EvaluatingPage} />
                 <Route exact path="/comparing" component={ComparingPage} />

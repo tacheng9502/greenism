@@ -42,12 +42,19 @@ $section-padding-medium: 6rem 1.5rem;
 $section-padding-large: 9rem 1.5rem;
 $column-gap: 2rem;
 
+hoverImage 
+    transition: transform 500ms ease;
+    &:hover
+        transform: scale(1.1);
+
 // Import only what you need from Bulma
 @import 'bulma/sass/utilities/_all.sass';
 @import 'bulma/sass/elements/_all.sass';
 @import 'bulma/sass/base/_all.sass';
 @import 'bulma/sass/layout/_all.sass';
 @import 'bulma/sass/components/_all.sass';
+@import 'bulma/sass/form/_all.sass';
 @import 'bulma/sass/grid/columns.sass';
 @import '~@creativebulma/bulma-collapsible';
 @import 'bulma-o-steps/bulma-steps.sass';
+@import 'bulma-checkradio/dist/css/bulma-checkradio.sass'

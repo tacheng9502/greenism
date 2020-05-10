@@ -22,4 +22,3 @@ This project was bootstrapped with
 * CSS Framework: [Bulma](https://bulma.io/)
 * Typography: [Google Fonts](https://fonts.google.com/)
 * Icons: [Font Awesome](https://fontawesome.com/)
-

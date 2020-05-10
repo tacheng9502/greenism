@@ -20,11 +20,11 @@ class HeroText extends React.Component {
                         }
                         {this.props.is2B &&
                             <div class="buttons is-centered">
-                                <a href="/estimate" class="button is-info is-inverted is-outlined">
+                                <a href="/404" class="button is-info is-inverted is-outlined">
                                     <span class="icon"><i class="fas fa-calculator"></i></span>
                                     <span>Estimate Tool</span>
                                 </a>
-                                <a href="/search" class="button is-info is-inverted is-outlined">
+                                <a href="/plants" class="button is-info is-inverted is-outlined">
                                     <span class="icon"><i class="fas fa-search"></i></span>
                                     <span>Plant Selector</span>
                                 </a>
@@ -42,7 +42,7 @@ class HeroText extends React.Component {
                                                 </span>
                                             </span>
                                             <div class="steps-content">
-                                                <p class="heading">Shopping Cart</p>
+                                                <p class="heading">Information</p>
                                             </div>
                                         </a>
                                     </li>
@@ -50,32 +50,32 @@ class HeroText extends React.Component {
                                         <a href="#" class="has-text-white">
                                             <span class="steps-marker">
                                                 <span class="icon has-text-dark">
-                                                    <i class="fa fa-user"></i>
+                                                    <i class="fa fa-chart-line"></i>
                                                 </span>
                                             </span>
                                             <div class="steps-content">
-                                                <p class="heading">User Information</p>
+                                                <p class="heading">Interactive Tools</p>
                                             </div>
                                         </a>
                                     </li>
                                     <li class="steps-segment is-active has-gaps">
                                         <span class="steps-marker">
                                             <span class="icon has-text-dark">
-                                                <i class="fa fa-check"></i>
+                                                <i class="fa fa-route"></i>
                                             </span>
                                         </span>
                                         <div class="steps-content">
-                                            <p class="heading">Payment</p>
+                                            <p class="heading">Self-Planting Guidlines</p>
                                         </div>
                                     </li>
                                     <li class="steps-segment">
                                         <span class="steps-marker">
-                                            <span class="icon has-text-link">
+                                            <span class="icon has-text-dark">
                                                 <i class="far fa-thumbs-up"></i>
                                             </span>
                                         </span>
                                         <div class="steps-content">
-                                            <p class="heading">Confirmation</p>
+                                            <p class="heading">Achievement</p>
                                         </div>
                                     </li>
                                 </ul>

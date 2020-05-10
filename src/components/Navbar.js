@@ -37,14 +37,13 @@ function Navbar() {
                     <a className="navbar-item" href="/">
                         <img src={Logo} alt="Logo of Greenism" width="130" height="30" />
                     </a>
-                    <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+                    <button className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
-                    </a>
+                    </button>
                 </div>
                 <div id="navbar-menu" className="navbar-menu ">
-                    <a className="navbar-item" href="/">Home</a>
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-item is-active">Green Roofs & Walls</a>
                         <div className="navbar-dropdown is-boxed">
@@ -55,19 +54,19 @@ function Navbar() {
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-item is-active">Interactive Tools</a>
                         <div className="navbar-dropdown is-boxed">
-                            <a className="navbar-item" href="/estimate">Estimate Tool</a>
-                            <a className="navbar-item" href="#">Plant Selector</a>
+                            <a className="navbar-item" href="/404">Estimate Tool</a>
+                            <a className="navbar-item" href="/plants">Plant Selector</a>
                         </div>
                     </div>
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-item is-active">Guidelines</a>
+                        <a className="navbar-item is-active">Self-Planting Guidelines</a>
                         <div className="navbar-dropdown is-boxed">
                             <a className="navbar-item" href="/Guidelines">House Owners</a>
-                            <a className="navbar-item" href="#">Potential Buyers</a>
-                            <a className="navbar-item" href="#">Building Owners</a>
+                            <a className="navbar-item" href="/404">Potential Buyers</a>
+                            <a className="navbar-item" href="/404">Building Owners</a>
                         </div>
                     </div>
-                    <a className="navbar-item" href="#">About</a>
+                    <a className="navbar-item" href="/404">About</a>
                 </div>
             </nav>
         </>

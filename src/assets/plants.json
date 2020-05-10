@@ -1,0 +1,1920 @@
+[
+    {
+        "index": 0,
+        "name": "Gold Dust Wattle",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Moderately good",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Grows well under trees"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/acacia-acinacea1.jpg"
+    },
+    {
+        "index": 1,
+        "name": "Rough Wattle",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/acacia-aspera-rough-wattle1.jpg"
+    },
+    {
+        "index": 2,
+        "name": "Heath Wattle",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/acacia-brownii1.jpg"
+    },
+    {
+        "index": 3,
+        "name": "Hedge Wattle; Kangaroo Thorn",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "2-3 m",
+        "drought": "Moderately good",
+        "waterlogging": "Moderately good",
+        "compaction": "Very good",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/acacia-paradoxa1.jpg"
+    },
+    {
+        "index": 4,
+        "name": "Native Hibiscus; Desert Rose",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "2-3 m",
+        "drought": "Very good",
+        "waterlogging": "Poor",
+        "compaction": "Poor",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/alyogyne-hakeifolia1.jpg"
+    },
+    {
+        "index": 5,
+        "name": "Lilac Hibiscus; Native Hibiscus",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "2-3 m",
+        "drought": "Moderately good",
+        "waterlogging": "Poor",
+        "compaction": "Poor",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering",
+            "Good for screening"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/alyogyne-huegelii1.jpg"
+    },
+    {
+        "index": 6,
+        "name": "Common Wheat-grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Unknown",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/anthosacne-scabra1.jpg"
+    },
+    {
+        "index": 7,
+        "name": "Coast Saltbush; Grey Saltbush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Silver foliage",
+            "Weed suppressing"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/atriplex-cinerea1.jpg"
+    },
+    {
+        "index": 8,
+        "name": "Feather Spear-grass; Elegant Spear-grass; Spider Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/austrostipa-elegantissima1.jpg"
+    },
+    {
+        "index": 9,
+        "name": "Rough Spear-grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/austrostipa-scabra1.jpg"
+    },
+    {
+        "index": 10,
+        "name": "Coast Spear Grass; Prickly Spear Grass",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Grass",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/austrostipa-stipoides1.jpg"
+    },
+    {
+        "index": 11,
+        "name": "Red Leg Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Unknown",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/bothriocloa-macra1.jpg"
+    },
+    {
+        "index": 12,
+        "name": "Variable Daisy",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/brachyscome-ciliaris1.jpg"
+    },
+    {
+        "index": 13,
+        "name": "Cut-leaf Daisy",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Average",
+        "waterlogging": "Average",
+        "compaction": "Average",
+        "form": [
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/brachyscome-multifida1.jpg"
+    },
+    {
+        "index": 14,
+        "name": "Dwarf Bottlebrush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "2-3 m",
+        "drought": "Moderately good",
+        "waterlogging": "Very good",
+        "compaction": "Moderately good",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/callistemon-subulatus1.jpg"
+    },
+    {
+        "index": 15,
+        "name": "Milky Beauty-heads",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Very good",
+        "compaction": "Moderately good",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/calocephalus-lacteus1.jpg"
+    },
+    {
+        "index": 16,
+        "name": "Windmill Grass; Umbrella Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/chloris-truncata1.jpg"
+    },
+    {
+        "index": 17,
+        "name": "Common Everlasting; Yellow Buttons",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Moderately good",
+        "form": [
+            "Groundcover",
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/chrysocephalum-apiculatum1.jpg"
+    },
+    {
+        "index": 18,
+        "name": "Bindweed",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Climber",
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/convolvulus-angustissimus1.jpg"
+    },
+    {
+        "index": 19,
+        "name": "White Correa; Coastal Correa",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/correa-alba1.jpg"
+    },
+    {
+        "index": 20,
+        "name": "Rock Correa; Smooth Correa",
+        "light": [
+            "Full sun",
+            "Partial sun",
+            "Full shade"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Average",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/correa-glabra1.jpg"
+    },
+    {
+        "index": 21,
+        "name": "Native Fuchsia; Common Correa",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Average",
+        "waterlogging": "Average",
+        "compaction": "Average",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Grows well under trees",
+            "Winter flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/correa-reflexa1.jpg"
+    },
+    {
+        "index": 22,
+        "name": "Small Crowea",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0.5-1 m",
+        "drought": "Average",
+        "waterlogging": "Poor",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/crowea-exalata1.jpg"
+    },
+    {
+        "index": 23,
+        "name": "Black-anther; Spreading Flax-lily",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Moderately good",
+        "compaction": "Moderately good",
+        "form": [
+            "Grass-like perennial herb"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/dianella-admixta1.jpg"
+    },
+    {
+        "index": 24,
+        "name": "Matted Flax Lily",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Very good",
+        "compaction": "Unknown",
+        "form": [
+            "Grass-like perennial herb"
+        ],
+        "feature": [
+            "Perfumed flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/dianella-amoena1.jpg"
+    },
+    {
+        "index": 25,
+        "name": "Long-hair Plume Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/dichelachne-crinita1.jpg"
+    },
+    {
+        "index": 26,
+        "name": "Sage",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Edible",
+            "Scented foliage"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/salvia-officinalis1.jpg"
+    },
+    {
+        "index": 27,
+        "name": "Blue Marguerite; Kingfisher Daisy",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/felicia-amelloides1.jpg"
+    },
+    {
+        "index": 28,
+        "name": "Rosemary",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering",
+            "Edible",
+            "Scented foliage"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rosmarinus-officinalis1.jpg"
+    },
+    {
+        "index": 29,
+        "name": "English Lavender",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Silver foliage",
+            "Edible",
+            "Vertical form\/foliage",
+            "Scented foliage"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/lavandula-angustifolia1.jpg"
+    },
+    {
+        "index": 30,
+        "name": "Sticky Everlasting",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/xerochrysum-viscosum1.jpg"
+    },
+    {
+        "index": 31,
+        "name": "Golden Everlasting; Straw Flower",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Wildflower",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/xerochrysum-bracteatum1.jpg"
+    },
+    {
+        "index": 32,
+        "name": "Coast Rosemary",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "2-3 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Good for screening",
+            "Winter flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/westringia-fruticosa1.jpg"
+    },
+    {
+        "index": 33,
+        "name": "Tall Bluebell",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Average",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/wahlenbergia-stricta1.jpg"
+    },
+    {
+        "index": 34,
+        "name": "Tufted Bluebell",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Unknown",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/wahlenbergia-communis1.jpg"
+    },
+    {
+        "index": 35,
+        "name": "Narrow-leaf New Holland Daisy",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Unknown",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/vittadinia-muelleri1.jpg"
+    },
+    {
+        "index": 36,
+        "name": "Common New Holland Daisy; Fuzzy New Holland Daisy",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Unknown",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/vittadinia-cuneata1.jpg"
+    },
+    {
+        "index": 37,
+        "name": "Slender Speedwell",
+        "light": [
+            "Full sun",
+            "Partial sun",
+            "Full shade"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Moderately good",
+        "compaction": "Average",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/veronica-gracilis1.jpg"
+    },
+    {
+        "index": 38,
+        "name": "Digger's Speedwell",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Moderately good",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/veronica-perfoliata1.jpg"
+    },
+    {
+        "index": 39,
+        "name": "Round-leaf Pigface; Rounded Noon Flower",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Average",
+        "form": [
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/disphyma-crassifolium1.jpg"
+    },
+    {
+        "index": 40,
+        "name": "Wedge-leaf Hop-bush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "2-3 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Moderately good",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Good for screening"
+        ],
+        "benefit": [
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/dodonaea-viscosa1.jpg"
+    },
+    {
+        "index": 41,
+        "name": "Nodding Saltbush; Climbing Saltbush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Moderately good",
+        "compaction": "Moderately good",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/einadia-nutans1.jpg"
+    },
+    {
+        "index": 42,
+        "name": "Small-leaved Eutaxia",
+        "light": [
+            "Full sun",
+            "Partial sun",
+            "Full shade"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0-0.5 m",
+        "drought": "Very good",
+        "waterlogging": "Moderately good",
+        "compaction": "Unknown",
+        "form": [
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/eutaxia-microphylla1.jpg"
+    },
+    {
+        "index": 43,
+        "name": "Knobby Club-rush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Very good",
+        "compaction": "Very good",
+        "form": [
+            "Sedge"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Lizard habitat",
+            "Frog habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/ficinia-nodosa1.jpg"
+    },
+    {
+        "index": 44,
+        "name": "Austral Crane's Bill",
+        "light": [
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Moderately good",
+        "compaction": "Unknown",
+        "form": [
+            "Groundcover",
+            "Wildflower"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/geranium-solanderi1.jpg"
+    },
+    {
+        "index": 45,
+        "name": "Golden Pennants",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Poor",
+        "compaction": "Unknown",
+        "form": [
+            "Wildflower"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Accent plant"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/glischrocaryon-behrii1.jpg"
+    },
+    {
+        "index": 46,
+        "name": "Hop Goodenia",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub but also available in a prostrate form",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Very good",
+        "compaction": "Very good",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/goodenia-ovata1.jpg"
+    },
+    {
+        "index": 47,
+        "name": "Western Golden-tip; Clover-leaved Poison",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Very good",
+        "waterlogging": "Unknown",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Perfumed flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/goodie-medicaginea1.jpg"
+    },
+    {
+        "index": 48,
+        "name": "False Sarsaparilla; Purple Coral Pea",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Climber",
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/hardenbergia-violacea1.jpg"
+    },
+    {
+        "index": 49,
+        "name": "Snake Vine",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Average",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Climber",
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/hibbertia-scandens1.jpg"
+    },
+    {
+        "index": 50,
+        "name": "Finger Rush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Poor",
+        "waterlogging": "Very good",
+        "compaction": "Unknown",
+        "form": [
+            "Rush"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat",
+            "Frog habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/juncus-subsecundus1.jpg"
+    },
+    {
+        "index": 51,
+        "name": "Wattle Mat-rush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Very good",
+        "compaction": "Average",
+        "form": [
+            "Grass-like perennial herb"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/lomandra-filiformis1.jpg"
+    },
+    {
+        "index": 52,
+        "name": "Spiny-headed Mat-rush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Very good",
+        "compaction": "Very good",
+        "form": [
+            "Grass-like perennial herb"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/lomandra-longifolia1.jpg"
+    },
+    {
+        "index": 53,
+        "name": "Tree Violet",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "2-3 m",
+        "drought": "Very good",
+        "waterlogging": "Moderately good",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Perfumed flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/melicytus-dentatus1.jpg"
+    },
+    {
+        "index": 54,
+        "name": "Creeping Boobialla",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Moderately good",
+        "form": [
+            "Groundcover"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/myoporum-parvifolium1.jpg"
+    },
+    {
+        "index": 55,
+        "name": "Dusty Daisy-bush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Average",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/olearia-phlogopappa1.jpg"
+    },
+    {
+        "index": 56,
+        "name": "Twiggy Daisy-bush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/olearia-ramulosa1.jpg"
+    },
+    {
+        "index": 57,
+        "name": "Magenta Stork's-bill",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Groundcover",
+            "Wildflower"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/pelargonium-rodneyanum1.jpg"
+    },
+    {
+        "index": 58,
+        "name": "Smooth Rice-flower",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/pimelea-glauca1.jpg"
+    },
+    {
+        "index": 59,
+        "name": "Common Rice-flower",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0-0.5 m",
+        "drought": "Unknown",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Perfumed flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/pimelea-humilis1.jpg"
+    },
+    {
+        "index": 60,
+        "name": "Common Tussock-grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Average",
+        "waterlogging": "Very good",
+        "compaction": "Very good",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/poa-labillardierei1.jpg"
+    },
+    {
+        "index": 61,
+        "name": "Grey Tussock-grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Poor",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Accent plant"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/poa-sieberiana1.jpg"
+    },
+    {
+        "index": 62,
+        "name": "Golden Billy Buttons",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Moderately good",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/pycnosorus-chrysanthes1.jpg"
+    },
+    {
+        "index": 63,
+        "name": "Drumsticks",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Wildflower",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Moderately good",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Silver foliage"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/pycnosorus-globosus1.jpg"
+    },
+    {
+        "index": 64,
+        "name": "Seaberry Saltbush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Edible"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rhagodia-candolleana1.jpg"
+    },
+    {
+        "index": 65,
+        "name": "Fragrant Saltbush; Mealy Saltbush",
+        "light": [
+            "Full sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Poor",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rhagodia-parabolica1.jpg"
+    },
+    {
+        "index": 66,
+        "name": "Hedge Saltbush; Spiny Saltbush",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Very good",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Silver foliage"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Birds (habitat structure)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rhagodia-spinescens1.jpg"
+    },
+    {
+        "index": 67,
+        "name": "Chamomile Sunray",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Average",
+        "waterlogging": "Poor",
+        "compaction": "Unknown",
+        "form": [
+            "Groundcover",
+            "Wildflower"
+        ],
+        "feature": [
+            "Perfumed flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rhodanthe-anthemoides1.jpg"
+    },
+    {
+        "index": 68,
+        "name": "Ringed Wallaby Grass; Common Wallaby Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rytidosperma-caespitosa1.jpg"
+    },
+    {
+        "index": 69,
+        "name": "Wallaby Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0-0.5 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Very good",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Long flowering"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rytidosperma-racemosum1.jpg"
+    },
+    {
+        "index": 70,
+        "name": "Bristly Wallaby Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0-0.5 m",
+        "drought": "Very good",
+        "waterlogging": "Moderately good",
+        "compaction": "Unknown",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/rytidosperma-setaceum1.jpg"
+    },
+    {
+        "index": 71,
+        "name": "Coastal Fan-flower; Dune Fan-flower",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0-0.5 m",
+        "drought": "Moderately good",
+        "waterlogging": "Poor",
+        "compaction": "Unknown",
+        "form": [
+            "Groundcover"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/scaevola-calendulacea1.jpg"
+    },
+    {
+        "index": 72,
+        "name": "Cottony Fireweed",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Unknown",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/senecio-quadridentatus1.jpg"
+    },
+    {
+        "index": 73,
+        "name": "Nodding Blue Lily",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Average",
+        "waterlogging": "Average",
+        "compaction": "Unknown",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Vertical form\/foliage"
+        ],
+        "benefit": [
+            "Nectar and pollen"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/stypandra-glauca1.jpg"
+    },
+    {
+        "index": 74,
+        "name": "Kangaroo Grass",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Grass\/sedge",
+        "height": "0.5-1 m",
+        "drought": "Moderately good",
+        "waterlogging": "Average",
+        "compaction": "Moderately good",
+        "form": [
+            "Grass"
+        ],
+        "feature": [
+            "Unknown"
+        ],
+        "benefit": [
+            "Butterfly (caterpillar) host",
+            "Birds (food source)",
+            "Lizard habitat"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/themeda-triandra1.jpg"
+    },
+    {
+        "index": 75,
+        "name": "Rock Thryptomene",
+        "light": [
+            "Full sun",
+            "Partial sun"
+        ],
+        "type": "Small-medium shrub",
+        "height": "1-2 m",
+        "drought": "Very good",
+        "waterlogging": "Poor",
+        "compaction": "Average",
+        "form": [
+            "Shrub"
+        ],
+        "feature": [
+            "Colourful flowers",
+            "Long flowering",
+            "Winter flowering"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/thryptomene-saxicola1.jpg"
+    },
+    {
+        "index": 76,
+        "name": "Clustered Everlasting; Yellow Buttons",
+        "light": [
+            "Full sun",
+            "Partial sun",
+            "Full shade"
+        ],
+        "type": "Groundcover\/wildflower",
+        "height": "0.5-1 m",
+        "drought": "Very good",
+        "waterlogging": "Average",
+        "compaction": "Average",
+        "form": [
+            "Perennial herb"
+        ],
+        "feature": [
+            "Colourful flowers"
+        ],
+        "benefit": [
+            "Nectar and pollen",
+            "Butterfly (caterpillar) host",
+            "Birds (food source)"
+        ],
+        "img": "https:\/\/www.melbourne.vic.gov.au\/community\/greening-the-city\/urban-nature\/PlantingGuideImages\/chrysocephalum-semipapposum1.jpg"
+    }
+]

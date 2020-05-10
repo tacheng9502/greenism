@@ -16,7 +16,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                         <strong class="has-text-white">Estimate Tool</strong>
                                     </p>
                                 </header>
-                                <div class="card-content has-background-white-ter">
+                                <div class="card-content">
                                     <div class="content">
                                         Find out more about when an investment in green infrastructure could turn into savings and get our recommendations about what kind of infrastructure you could construct in your building.
                                     <br /><br />
@@ -37,11 +37,11 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                         <strong class="has-text-white">Find-the-right-plant Tool</strong>
                                     </p>
                                 </header>
-                                <div class="card-content has-background-white-ter">
+                                <div class="card-content">
                                     <div class="content">
                                         Filter out plants based on ecological factors like amount of sunlight, average temperature, amount of rainfall etc and also check if plants you love to be around can be included in your green garden.
                                     <br /><br />
-                                        <a class="button is-link is-pulled-right" href="/search">
+                                        <a class="button is-link is-pulled-right" href="/plants">
                                             <span class="icon">
                                                 <i class="fas fa-search"></i>
                                             </span>
@@ -61,7 +61,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                     <br />
                     <div class="columns">
                         <div class="column">
-                            <div class="card has-background-white-ter">
+                            <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-4by3">
                                         <img src={img1} alt="Placeholder" />
@@ -80,7 +80,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                             </div>
                         </div>
                         <div class="column">
-                            <div class="card has-background-white-ter">
+                            <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-4by3">
                                         <img src={img2} alt="Placeholder" />
@@ -99,7 +99,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                             </div>
                         </div>
                         <div class="column">
-                            <div class="card has-background-white-ter">
+                            <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-4by3">
                                         <img src={img3} alt="Placeholder" />
@@ -112,7 +112,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                         <br />
                                         <a class="button is-fullwidth is-primary" href="/business">
                                             Learn More
-                                    </a>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
