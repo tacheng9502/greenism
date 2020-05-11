@@ -2,7 +2,7 @@
 import React from "react";
 
 // Assets
-import plants_json from "../assets/plants.json";
+import plants_json from "../assets/data/plants.json";
 
 export default class HeroText extends React.Component {
     constructor(props) {
