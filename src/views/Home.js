@@ -13,6 +13,15 @@ import img_owners from "../assets/img/owners.jpg";
 import img_business from "../assets/img/business.jpg";
 import img_buyers from "../assets/img/buyers.jpg";
 
+(function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:1805525,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
 function Home() {
     const hir_title = "An initiative by people who care for the environment (like you!)";
     const hir_subtitle = "We at Greenism offer you the opportunity to learn everything there is to know about green infrastructure and how it could be a turning-point in the way your lifestyle impacts you and the environment."
