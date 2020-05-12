@@ -18,18 +18,20 @@ import WhyPage from './views/Why';
 import EstimatePage from './views/Estimate';
 import PlantsPage from './views/Plants';
 import PlantDetailPage from "./views/PlantDetail"
-import GuidlinesPage from './views/Guidelines';
-import EvaluatingPage from "./views/Evaluating";
-import ComparingPage from "./views/Comparing";
-import FindingPage from "./views/Finding";
-import CarePage from "./views/Care";
-import BuildingPage from "./views/Building";
-import SiteanalysisPage from "./views/Siteanalysis";
+import SiteAnalysisPage from "./views/SiteAnalysis";
 import MaintenancePage from "./views/Maintenance";
-
+import BuildingPage from "./views/Building";
 
 // Assets
 import './assets/global.sass'
+
+/*
+    <Route exact path="/guidelines" component={GuidlinesPage} />
+    <Route exact path="/evaluating" component={EvaluatingPage} />
+    <Route exact path="/comparing" component={ComparingPage} />
+    <Route exact path="/finding" component={FindingPage} />
+    <Route exact path="/care" component={CarePage} /> 
+*/
 
 ReactDOM.render(
     <>
@@ -42,12 +44,7 @@ ReactDOM.render(
                 <Route exact path="/estimate" component={EstimatePage} />
                 <Route exact path="/plants" component={PlantsPage} />
                 <Route path="/plantDetail/:plantId" component={PlantDetailPage} />
-                <Route exact path="/guidelines" component={GuidlinesPage} />
-                <Route exact path="/evaluating" component={EvaluatingPage} />
-                <Route exact path="/comparing" component={ComparingPage} />
-                <Route exact path="/finding" component={FindingPage} />
-                <Route exact path="/care" component={CarePage} />
-                <Route exact path="/siteanalysis" component={SiteanalysisPage} />
+                <Route exact path="/siteAnalysis" component={SiteAnalysisPage} />
                 <Route exact path="/maintenance" component={MaintenancePage} />
                 <Route path='/' component={BuildingPage} />
             </Switch>
