@@ -62,8 +62,8 @@ function Navbar() {
                         <a href="#guidelines" className="navbar-item is-active" style={{ cursor: "default" }}>Self-Planting Guidelines</a>
                         <div className="navbar-dropdown is-boxed">
                             <a className="navbar-item" href="/siteAnalysis">Site Analysis</a>
-                            <a className="navbar-item" href="/designPlanning">Design and Planning</a>
-                            <a className="navbar-item" href="/buildingInstallation">Building and Installation</a>
+                            <a className="navbar-item" href="/design">Design and Planning</a>
+                            <a className="navbar-item" href="/installation">Building and Installation</a>
                             <a className="navbar-item" href="/maintenance">Maintenance</a>
                         </div>
                     </div>

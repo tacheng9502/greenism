@@ -19,8 +19,10 @@ import WhyPage from './views/Why';
 import EstimatePage from './views/Estimate';
 import PlantsPage from './views/Plants';
 import PlantDetailPage from "./views/PlantDetail"
-import SiteAnalysisPage from "./views/SiteAnalysis";
+import SiteAnalysisPage from "./views/Siteanalysis";
 import MaintenancePage from "./views/Maintenance";
+import DesignPage from "./views/Design";
+import InstallationPage from "./views/Installation";
 import BuildingPage from "./views/Building";
 
 // Assets
@@ -47,6 +49,8 @@ ReactDOM.render(
                 <Route path="/plantDetail/:plantId" component={PlantDetailPage} />
                 <Route exact path="/siteAnalysis" component={SiteAnalysisPage} />
                 <Route exact path="/maintenance" component={MaintenancePage} />
+                <Route exact path="/design" component={DesignPage} />
+                <Route exact path="/installation" component={InstallationPage} />
                 <Route path='/' component={BuildingPage} />
             </Switch>
         </Router>
