@@ -1,6 +1,7 @@
 // Modules
 import React from "react";
 
+
 // Components
 import Breadcrumb from "../components/Breadcrumb";
 import HeroImageRight from "../components/HeroImageRight";
@@ -8,6 +9,9 @@ import HeroImageLeft from "../components/HeroImageLeft";
 import HeroText from "../components/HeroText";
 import Image from "../components/Image";
 import bulmaCollapsible from '@creativebulma/bulma-collapsible';
+import Designtable from "../components/Designtable";
+import Facadeselect from "../components/Facadeselect";
+
 
 // Assets
 import hir_image from "../assets/img/design.png";
@@ -15,7 +19,6 @@ import img_greenfacadeselect from "../assets/img/greenfacadeselect.png";
 import img_money from "../assets/img/money.png";
 import img_law from "../assets/img/law.png";
 import img_establishment from "../assets/img/establishment.png";
-
 
 export default class Design extends React.Component {
     componentDidMount() {
@@ -150,37 +153,30 @@ export default class Design extends React.Component {
                         </div>
                     </div>
                 </div>
+                <br></br>
+                <Facadeselect />
+
+                <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows_3} imgWidth={hil_imgWidth} />
+
                 <div className="hero-body">
                     <div className="container">
                         <div class="columns is-variable">
                             <div class="column is-12">
-                                <Image img={img_greenfacadeselect} imgAlt="Green facade plant selection" />
+                                <h3 className="title has-text-centered has-text-weight-bold is-5">Plant establishment considerations</h3>
+                                <p className="has-text-centered">Good plant establishment is critical for the long-term health and performance of plantings in green facades. In the design stage this includes consideration of multiple factors, including:</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows_3} imgWidth={hil_imgWidth} />
-                <section className="hero section is-block is-relative">
-                <div className="hero-body">
-                    <div className="container">
-                        <div class="columns is-variable">
-                            <div class="column is-4">
-                                <h3 className="title has-text-weight-bold is-5">Plant establishment considerations</h3>
-                                <p>Good plant establishment is critical for the long-term health and 
-                                   performance of plantings in green facades. In the design stage 
-                                   this includes consideration of multiple factors, including:</p>
-                            </div>
-                            <div class="column is-8">
-                                <Image img={img_establishment} imgAlt="Plant establishment considerations" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </section>
+                <Designtable />
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <HeroText title={ht_title_2} subtitle={ht_subtitle_2} url={ht_url} isUrl={true} />
             </>
         )
     }
 }
+
 //export default Design;
