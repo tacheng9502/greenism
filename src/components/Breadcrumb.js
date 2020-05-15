@@ -2,12 +2,12 @@ import React from "react";
 
 function Breadcrumb({ parent, child }) {
     return (
-        <section className="section hero is-success">
+        <section className="section hero is-primary">
             <nav className="breadcrumb" aria-label="breadcrumbs">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li className="is-active"><a>{parent}</a></li>
-                    <li className="is-active"><a>{child}</a></li>
+                    <li><a className="has-text-white" href="/">Home</a></li>
+                    <li><a className="has-text-white" href="#">{parent}</a></li>
+                    <li><a className="has-text-white" href="#">{child}</a></li>
                 </ul>
             </nav>
         </section>

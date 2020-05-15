@@ -1,14 +1,23 @@
 // Modules
 import React from "react";
+import styled from 'styled-components';
 
 // Assets
 import plants_json from "../assets/data/plants.json";
 
-export default class HeroText extends React.Component {
+const Image = styled.img`
+    transition: all 125ms ease-in-out;
+    border-radius: 15px 15px 0px 0px;
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+
+export default class HeroCard extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            num: 77,
+            num: plants_json.length,
             light_fullSun: true,
             light_partialSun: true,
             light_fullShade: true,
@@ -216,11 +225,11 @@ export default class HeroText extends React.Component {
                         <div className="columns is-multiline is-variable is-3">
                             {this.state.plants.map((plant, i) => (
                                 <div className="column is-3" key={plant.index}>
-                                    <div className="card" style={{ borderRadius: "15px" }}>
+                                    <div className="card" style={{borderRadius: "15px", overflow: "hidden"}}>
                                         <a href={"/plantDetail/" + plant.index} title={plant.name.split(";")[0]} >
-                                            <div className="card-image">
+                                            <div className="card-image" style={{overflow: "hidden", borderRadius: "15px, 15px 0px 0px"}}>
                                                 <figure className="image is-256x256" >
-                                                    <img className="hoverImage" src={plant.img} alt="Placeholder" style={{ borderRadius: "15px 15px 0px 0px" }} />
+                                                    <Image src={plant.img} alt={plant.name.split(";")[0]} />
                                                 </figure>
                                             </div>
                                             <div className="card-cotent has-text-centered">

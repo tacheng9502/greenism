@@ -4,6 +4,7 @@ import React from "react";
 // Components
 import HeroImageRight from "../components/HeroImageRight";
 
+// Assets
 import img_building from "../assets/img/build.svg"
 
 function Building() {

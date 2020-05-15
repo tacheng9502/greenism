@@ -67,7 +67,7 @@ class HeroText extends React.Component {
                                     <li className="steps-segment">
                                         <span className="steps-marker">
                                             <span className="icon has-text-dark">
-                                                <i className="far fa-thumbs-up"></i>
+                                                <i class="fas fa-trophy"></i>
                                             </span>
                                         </span>
                                         <div className="steps-content">

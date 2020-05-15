@@ -4,8 +4,7 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="content has-text-centered">
-
-                <strong>Greenism</strong> by <a href="#">Team E32 - Greenism</a>
+                <p><strong>Greenism</strong> by Team E32 - Greenism</p>
             </div>
         </footer>
     );

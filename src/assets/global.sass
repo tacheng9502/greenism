@@ -9,14 +9,14 @@ $light-green: #50C878;
 $dark-green: #1E3932;
 $warm-white: #F2F0EB;
 $warm-grey: #d0d1cd;
-
 // COLORS
+//#D4E9E2
 $primary: $green;
 $info: #209CEE;
-$success: #D4E9E2;
+$success: #74d4c0;
 $warning: #FFDD57;
 $danger: #FF3860;
-$light: #f9f9f9;
+$light: $warm-white;
 $dark: #363636;
 
 // TEXT
@@ -42,11 +42,6 @@ $section-padding-medium: 6rem 1.5rem;
 $section-padding-large: 9rem 1.5rem;
 $column-gap: 2rem;
 
-hoverImage 
-    transition: transform 500ms ease;
-    &:hover
-        transform: scale(1.1);
-
 // Import only what you need from Bulma
 @import 'bulma/sass/utilities/_all.sass';
 @import 'bulma/sass/elements/_all.sass';
@@ -57,4 +52,4 @@ hoverImage
 @import 'bulma/sass/grid/columns.sass';
 @import '~@creativebulma/bulma-collapsible';
 @import 'bulma-o-steps/bulma-steps.sass';
-@import 'bulma-checkradio/dist/css/bulma-checkradio.sass'
+@import 'bulma-checkradio/dist/css/bulma-checkradio.sass';

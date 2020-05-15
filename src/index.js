@@ -7,6 +7,7 @@ import {
     Route
 } from "react-router-dom";
 
+
 // Components
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";

@@ -74,7 +74,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                         <br />
                                         <a class="button is-fullwidth is-primary" href="/guidelines">
                                             Learn More
-                                    </a>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
