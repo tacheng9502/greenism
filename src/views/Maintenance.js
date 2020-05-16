@@ -7,6 +7,7 @@ import HeroImageRight from "../components/HeroImageRight";
 import HeroImageLeft from "../components/HeroImageLeft";
 import HeroText from "../components/HeroText";
 import Image from "../components/Image";
+import Maintenancetable from "../components/Maintenancetable";
 
 // Assets
 import hir_image from "../assets/img/maintenance.svg";
@@ -50,17 +51,19 @@ function Maintenance() {
                 <div className="hero-body">
                     <div className="container">
                         <div class="columns is-variable">
-                            <div class="column is-4">
-                                <h3 className="title has-text-weight-bold is-5">Maintenance tasks</h3>
-                                <p>Some typical maintenance activities for green facades are outlined in the table below. These are intended as a general guide only: each site will have its own specific requirements and some listed will be more relevant and/or specific to a roof or a facade.</p>
-                            </div>
-                            <div class="column is-8">
-                                <Image img={img_task} imgAlt="Tasks" />
+                            <div class="column is-12">
+                                <h3 className="title has-text-centered has-text-weight-bold is-5">Maintenance tasks</h3>
+                                <p className="has-text-centered">Some typical maintenance activities for green facades are outlined in the table below. These are intended as a general guide only: each site will have its own specific requirements and some listed will be more relevant and/or specific to a roof or a facade.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <Maintenancetable />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </>
     );
 }
