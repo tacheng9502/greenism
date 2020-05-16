@@ -24,6 +24,7 @@ import MaintenancePage from "./views/Maintenance";
 import DesignPage from "./views/Design";
 import InstallationPage from "./views/Installation";
 import BuildingPage from "./views/Building";
+import DiyPage from "./views/Diy";
 
 // Assets
 import './assets/global.sass'
@@ -51,6 +52,7 @@ ReactDOM.render(
                 <Route exact path="/maintenance" component={MaintenancePage} />
                 <Route exact path="/design" component={DesignPage} />
                 <Route exact path="/installation" component={InstallationPage} />
+                <Route exact path="/diy" component={DiyPage} />
                 <Route path='/' component={BuildingPage} />
             </Switch>
         </Router>

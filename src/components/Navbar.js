@@ -65,6 +65,7 @@ function Navbar() {
                             <a className="navbar-item" href="/design">Design and Planning</a>
                             <a className="navbar-item" href="/installation">Building and Installation</a>
                             <a className="navbar-item" href="/maintenance">Maintenance</a>
+                            <a className="navbar-item" href="/diy">DIY</a>
                         </div>
                     </div>
                     <a className="navbar-item" href="/about">About</a>
