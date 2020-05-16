@@ -23,7 +23,6 @@ $dark: #363636;
 $text: #4A4A4A;
 $link: #209CEE;
 $family-sans-serif: 'Nunito', sans-serif;
-$fullhd-enabled: true;
 $title-family: false;
 $button-family: false;
 
@@ -42,14 +41,20 @@ $section-padding-medium: 6rem 1.5rem;
 $section-padding-large: 9rem 1.5rem;
 $column-gap: 2rem;
 
+// Bulma Badge
+$badge-font-size: .8rem;
+$badge-height: 18px;
+$badge-padding: .1rem .3rem;
+
 // Import only what you need from Bulma
 @import 'bulma/sass/utilities/_all.sass';
-@import 'bulma/sass/elements/_all.sass';
 @import 'bulma/sass/base/_all.sass';
+@import '~@creativebulma/bulma-collapsible';
+@import '~@creativebulma/bulma-badge'
+@import 'bulma-o-steps/bulma-steps.sass';
+@import 'bulma-checkradio/dist/css/bulma-checkradio.sass';
+@import 'bulma/sass/elements/_all.sass';
 @import 'bulma/sass/layout/_all.sass';
 @import 'bulma/sass/components/_all.sass';
 @import 'bulma/sass/form/_all.sass';
 @import 'bulma/sass/grid/columns.sass';
-@import '~@creativebulma/bulma-collapsible';
-@import 'bulma-o-steps/bulma-steps.sass';
-@import 'bulma-checkradio/dist/css/bulma-checkradio.sass';

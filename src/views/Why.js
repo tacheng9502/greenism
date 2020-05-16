@@ -149,10 +149,32 @@ class Why extends React.Component {
         const ht_subtitle = "Why is this important to me?"
         const ht_url = "/why"
 
+        const chartData = {
+            labels: ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999",
+                "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009",
+                "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
+            datasets: [
+                {
+                    label: "Annual Mean Temperature (°C)",
+                    data: [
+                        0.47, 0.59, 0.12, 0.3, 0.18, 0.16, 0.59, 0.3, 0.96, 0.31,
+                        -0.04, 0.04, 0.71, 0.69, 0.53, 1.15, 0.5, 0.75, 0.45, 0.92, 0.33,
+                        0, 0.24, 1.33, 1.03, 0.95, 1, 1.09, 1.14, 1.52
+                    ],
+                    pointBackgroundColor: 'rgba(255, 99, 132, 0.6)',
+                    borderColor: 'rgba(255, 99, 132, 0.6)',
+                    pointHoverBackgroundColor: 'rgba(26, 147, 111, 0.6)',
+                    fill: false
+                }
+            ]
+        }
+
+        const chartTitle = "Mean temperature for Australia (1990-2019)"
+
         return (
             <>
                 <Breadcrumb parent={bc_parent} child={bc_child} />
-                <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={ChartLine} isChart="True" size="is-medium" />
+                <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={ChartLine} isChart="True" size="is-medium" chartData={chartData} chartTitle={chartTitle}/>
                 <Card isTitle="True" title={c_title} imgSize={c_imgSize}
                     c1_title="Coral Bleaching" c1_content={"Australia’s Great Barrier Reef is one of the seven natural wonders on our planet. It has been stressed by warmer and more acidic waters, coral expels the colorful algae it depends on to survive. The coral turns white and unless the coral has a chance to recover and the algae can return, it can die, upsetting entire marine ecosystems."} c1_img={img_coralBleaching}
                     c2_title="Bushfires" c2_content="Bushfires are becoming more extreme, especially in southern and eastern parts of the country. The most destructive fires are usually preceded by extreme high temperatures. Ken Thompson (former deputy fire chief of the state of New South Wales) reported that fire season now runs for nine months out of the year in Australia." c2_img={img_bushFire}

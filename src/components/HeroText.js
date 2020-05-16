@@ -20,7 +20,7 @@ class HeroText extends React.Component {
                         }
                         {this.props.is2B &&
                             <div className="buttons is-centered">
-                                <a href="/404" className="button is-info is-inverted is-outlined">
+                                <a href="/estimate" className="button is-info is-inverted is-outlined">
                                     <span className="icon"><i className="fas fa-calculator"></i></span>
                                     <span>Estimate Tool</span>
                                 </a>

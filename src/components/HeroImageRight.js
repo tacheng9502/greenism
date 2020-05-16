@@ -9,6 +9,8 @@ class HeroImageRight extends React.Component {
         const imgAlt = this.props.imgAlt;
         const isButton = this.props.isButton;
         const isChart = this.props.isChart;
+        const chartData = this.props.chartData;
+        const chartTitle = this.props.chartTitle;
 
         return (
             <section className="hero section is-medium">
@@ -22,14 +24,14 @@ class HeroImageRight extends React.Component {
                                     <br /><br />
                                     <a href="/what" className="button is-primary is-rounded">
                                         <i className="fas fa-info-circle"></i> &nbsp;&nbsp;
-                                        <strong>Learn More</strong>
+                                        <p>Learn More</p>
                                     </a>
                                 </>
                             }
                         </div>
                         <div className="column">
                             {isChart === "True" &&
-                                <ChartLine />
+                                <ChartLine chartData={chartData} chartTitle={chartTitle}/>
                             }
                             <figure className="image">
                                 <img src={img} alt={imgAlt} style={{maxWidth:"500px"}}></img>

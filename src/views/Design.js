@@ -27,10 +27,10 @@ export default class Design extends React.Component {
     render() {
         const hir_title_1 = `How to design and plan your green infrastructures?`
         const hir_subtitle_1 = `The most important decisions about a green facade are made at the design stage. The benefits of the installation, how easy it will be to build and maintain and how it will operate day-to-day, all depend on the initial design. This chapter provides information to help develop a well-considered, achievable design that will work in the long term.`
-        
+
         const ht_title_1 = "How to design and plan your green infrastructures?";
         const ht_subtitle_1 = "Some tips for designing and planning green facade"
-        
+
         const rows_2 = [{
             key: "collapsible-card-1", url: "#collapsible-card-1",
             title: "Low cost and easy to install",
@@ -90,7 +90,7 @@ export default class Design extends React.Component {
             "img": <Image img={img_law} imgAlt="Local law considerations" />, "isImage": "True"
         },
         ];
-        
+
         const hil_imgWidth = "225px"
         const ht_title_2 = "Next Chapter"
         const ht_subtitle_2 = "How to build and install green infrastructures?"
@@ -100,7 +100,7 @@ export default class Design extends React.Component {
             <>
                 <Breadcrumb parent="Self-Planting Guidelines" child="Design and Planning" />
                 <HeroImageRight title={hir_title_1} subtitle={hir_subtitle_1} img={hir_image} />
-                <HeroText title={ht_title_1} subtitle={ht_subtitle_1} isT={true}/>
+                <HeroText title={ht_title_1} subtitle={ht_subtitle_1} isT={true} />
                 <br></br>
                 <br></br>
                 <div className="container is-block is-relative">
@@ -109,27 +109,27 @@ export default class Design extends React.Component {
                     <div ref="collapsibles" id="accordion">
                         {rows_2.map((item) =>
                             <>
-                            <div className="card">
-                                <header class="card-header has-background-primary">
-                                    <p class="card-header-title has-text-white">
-                                        {item.title}
-                                    </p>
-                                    <a href={item.url} data-action="collapse" class="card-header-icon is-hidden-fullscreen" aria-label="more options">
-                                        <span class="icon has-text-white">
-                                            <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                        </span>
-                                    </a>
-                                </header>
-                                <div id={item.key} class="is-collapsible">
-                                    <div class="card-content">
-                                        <p>
-                                            {item.content}
+                                <div className="card">
+                                    <header class="card-header has-background-primary">
+                                        <p class="card-header-title has-text-white">
+                                            {item.title}
                                         </p>
+                                        <a href={item.url} data-action="collapse" class="card-header-icon is-hidden-fullscreen" aria-label="more options">
+                                            <span class="icon has-text-white">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                            </span>
+                                        </a>
+                                    </header>
+                                    <div id={item.key} class="is-collapsible">
+                                        <div class="card-content">
+                                            <p>
+                                                {item.content}
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        <br />
-                        </>
+                                <br />
+                            </>
                         )}
                     </div>
                 </div>
@@ -139,12 +139,12 @@ export default class Design extends React.Component {
                         <div class="columns is-variable">
                             <div class="column is-12">
                                 <h1 className="title has-text-weight-bold has-text-centered">Green facade plant selection</h1>
-                                <p className="has-text-centered">The following table indicates some common climbing plants used 
-                                    in Victoria, how they attach, their ability to cover an area of facade – how 
-                                    well they screen (high to low cover) and how fast they grow (this indicates 
-                                    how much maintenance they require) – and their light tolerance. Average 
-                                    in the table indicates that they are not known to be particularly needy 
-                                    of high light nor particularly tolerant of low light. Note that the mature 
+                                <p className="has-text-centered">The following table indicates some common climbing plants used
+                                in Victoria, how they attach, their ability to cover an area of facade – how
+                                well they screen (high to low cover) and how fast they grow (this indicates
+                                how much maintenance they require) – and their light tolerance. Average
+                                in the table indicates that they are not known to be particularly needy
+                                of high light nor particularly tolerant of low light. Note that the mature
                                     size will be affected by the soil volume available.</p>
                             </div>
                         </div>
@@ -162,21 +162,21 @@ export default class Design extends React.Component {
 
                 <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows_3} imgWidth={hil_imgWidth} />
                 <section className="hero section is-block is-relative">
-                <div className="hero-body">
-                    <div className="container">
-                        <div class="columns is-variable">
-                            <div class="column is-4">
-                                <h3 className="title has-text-weight-bold is-5">Plant establishment considerations</h3>
-                                <p>Good plant establishment is critical for the long-term health and 
-                                   performance of plantings in green facades. In the design stage 
+                    <div className="hero-body">
+                        <div className="container">
+                            <div class="columns is-variable">
+                                <div class="column is-4">
+                                    <h3 className="title has-text-weight-bold is-5">Plant establishment considerations</h3>
+                                    <p>Good plant establishment is critical for the long-term health and
+                                    performance of plantings in green facades. In the design stage
                                    this includes consideration of multiple factors, including:</p>
-                            </div>
-                            <div class="column is-8">
-                                <Image img={img_establishment} imgAlt="Plant establishment considerations" />
+                                </div>
+                                <div class="column is-8">
+                                    <Image img={img_establishment} imgAlt="Plant establishment considerations" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 </section>
                 <HeroText title={ht_title_2} subtitle={ht_subtitle_2} url={ht_url} isUrl={true} />
             </>
