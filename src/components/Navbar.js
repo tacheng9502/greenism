@@ -45,30 +45,30 @@ function Navbar() {
                 </div>
                 <div id="navbar-menu" className="navbar-menu ">
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a href="#intro" className="navbar-item is-active" style={{ cursor: "default" }}>Green Roofs & Walls</a>
+                        <a href="#intro" className="navbar-item is-active" style={{ cursor: "default" }}>Introduction</a>
                         <div className="navbar-dropdown is-boxed">
                             <a className="navbar-item" href="/what">What are green roofs & walls</a>
                             <a className="navbar-item" href="/why">Why is this important to me</a>
                         </div>
                     </div>
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a href="#tools" className="navbar-item is-active" style={{ cursor: "default" }}>Interactive Tools</a>
+                        <a href="#tools" className="navbar-item is-active" style={{ cursor: "default" }}>What would suit you best</a>
                         <div className="navbar-dropdown is-boxed">
                             <a className="navbar-item" href="/estimate">Estimate Tool</a>
                             <a className="navbar-item" href="/plants">Plant Selector</a>
                         </div>
                     </div>
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a href="#guidelines" className="navbar-item is-active" style={{ cursor: "default" }}>Self-Planting Guidelines</a>
+                        <a href="#guidelines" className="navbar-item is-active" style={{ cursor: "default" }}>Try it Yourself</a>
                         <div className="navbar-dropdown is-boxed">
-                            <a className="navbar-item" href="/siteAnalysis">Site Analysis</a>
+                            <a className="navbar-item" href="/siteAnalysis">Know Your Space</a>
                             <a className="navbar-item" href="/design">Design and Planning</a>
                             <a className="navbar-item" href="/installation">Building and Installation</a>
                             <a className="navbar-item" href="/maintenance">Maintenance</a>
-                            <a className="navbar-item" href="/diy">DIY</a>
+                            <a className="navbar-item" href="/diy">DIY your small project</a>
                         </div>
                     </div>
-                    <a className="navbar-item" href="/about">About</a>
+                    <a className="navbar-item" href="/about">About us</a>
                 </div>
             </nav>
         </>
