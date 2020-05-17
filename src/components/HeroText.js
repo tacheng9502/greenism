@@ -36,7 +36,7 @@ class HeroText extends React.Component {
                                 <ul className="steps is-centered has-content-centered is-horizontal">
                                     <li className="steps-segment">
                                         <span className="steps-marker">
-                                            <span className="icon has-text-dark">
+                                            <span className="icon has-text-primary">
                                                 <i className="fa fa-info"></i>
                                             </span>
                                         </span>
@@ -46,27 +46,27 @@ class HeroText extends React.Component {
                                     </li>
                                     <li className="steps-segment">
                                         <span className="steps-marker">
-                                            <span className="icon has-text-dark">
-                                                <i className="fa fa-chart-line"></i>
+                                            <span className="icon has-text-primary">
+                                                <i class="fas fa-chart-bar"></i>
                                             </span>
                                         </span>
                                         <div className="steps-content">
                                             <p className="heading has-text-white">Interactive Tools</p>
                                         </div>
                                     </li>
-                                    <li className="steps-segment is-active has-gaps">
+                                    <li className="steps-segment">
                                         <span className="steps-marker">
-                                            <span className="icon has-text-dark">
-                                                <i className="fa fa-route"></i>
+                                            <span className="icon has-text-primary">
+                                                <i class="fas fa-book"></i>
                                             </span>
                                         </span>
                                         <div className="steps-content">
-                                            <p className="heading has-text-white">Self-Planting Guidlines</p>
+                                            <p className="heading has-text-white">DIY Planting Guideline</p>
                                         </div>
                                     </li>
                                     <li className="steps-segment">
                                         <span className="steps-marker">
-                                            <span className="icon has-text-dark">
+                                            <span className="icon has-text-primary">
                                                 <i class="fas fa-trophy"></i>
                                             </span>
                                         </span>

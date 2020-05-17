@@ -13,23 +13,23 @@ class Feature extends React.Component {
                                 </span>
                                 <br/><br/>
                                 <h1 class="title is-4 is-spaced">Information</h1>
-                                <p>We offer a wealth of resources regarding the types of green infrastructure, its benefits, how easy it is to care of the plants you grow, how to maintain them and loads more!</p>
+                                <p>Find out more about how climate change and our current lifestyle affects the planet, and what you could do to reduce your impact.</p>
                             </div>
                             <div class="column has-text-centered">
                                 <span class="icon is-large has-text-warning">
-                                    <i class="fas fa-3x fa-chart-line"></i>
+                                    <i class="fas fa-3x fa-chart-bar"></i>
                                 </span>
                                 <br/><br/>
                                 <h1 class="title is-4 is-spaced">Interactive Tools</h1>
-                                <p>Want to know more about the type of plants you can grow in your green garden? Or do you want to know what type of green infrastructure is best suited for your house? We can do both!</p>
+                                <p>Use our estimate tool to find how you could green your space based on your budget, and use plant-selector tool to find the bset plants.</p>
                             </div>
                             <div class="column has-text-centered">
                                 <span class="icon is-large has-text-danger">
-                                    <i class="fas fa-3x fa-route"></i>
+                                    <i class="fas fa-3x fa-book"></i>
                                 </span>
                                 <br/><br/>
-                                <h1 class="title is-4 is-spaced">Self-Planting Guideline</h1>
-                                <p>Do you own a house in the city? Or are you the owner of a local business wanting to do his bit for the planet? We've got content based on what profile suits you best.</p>
+                                <h1 class="title is-4 is-spaced">DIY Planting Guideline</h1>
+                                <p>Take the first step with us! - Learn how to construct a green facade by yourself or something as small as a veggie garden in your home.</p>
                             </div>
                         </div>
                     </div>

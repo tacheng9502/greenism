@@ -18,7 +18,7 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 </header>
                                 <div class="card-content">
                                     <div class="content">
-                                        Find out more about when an investment in green infrastructure could turn into savings and get our recommendations about what kind of infrastructure you could construct in your building.
+                                        Find out what kind of green space suits your home best, a cost-benefit analysis if you want to invest in a green roof or green facade and experts we recommend to help construct beautiful green spaces.
                                     <br /><br />
                                         <a class="button is-link is-pulled-right" href="/estimate">
                                             <span class="icon">
@@ -34,12 +34,12 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                             <div class="card">
                                 <header class="card-header has-background-primary">
                                     <p class="card-header-title">
-                                        <strong class="has-text-white">Find-the-right-plant Tool</strong>
+                                        <strong class="has-text-white">Plant Selector Tool</strong>
                                     </p>
                                 </header>
                                 <div class="card-content">
                                     <div class="content">
-                                        Filter out plants based on ecological factors like amount of sunlight, average temperature, amount of rainfall etc and also check if plants you love to be around can be included in your green garden.
+                                    Find out plants you can plant in your garden based on your preferences and other ecological factors, such as amount of sunlight and rainfall.
                                     <br /><br />
                                         <a class="button is-link is-pulled-right" href="/plants">
                                             <span class="icon">
@@ -69,11 +69,11 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 </div>
                                 <div class="card-content">
                                     <div class="content">
-                                        <strong>House Owners</strong><br /><br />
-                                        <p>Do you own a home in the city and wonder how you and your family could help climate change? Interested to find out if green infrastructure can be constructed in a space of your choice?</p>
+                                        <strong>Local Experts</strong><br /><br />
+                                        <p>Contact local experts to find out more if you are interested to construct green roofs or facades in your home.</p>
                                         <br />
                                         <a class="button is-fullwidth is-primary" href="/guidelines">
-                                            Learn More
+                                            Contact Now
                                         </a>
                                     </div>
                                 </div>
@@ -88,8 +88,8 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 </div>
                                 <div class="card-content">
                                     <div class="content">
-                                        <strong>Potential House Buyers</strong><br /><br />
-                                        <p>Thinking about building or buying a house in an urban area? Wondering if you could implement or grow a green space in the home you are building? Click here to find out!</p>
+                                        <strong>DIY - Green Facade</strong><br /><br />
+                                        <p>Build a green facade by yourself in your home using our reliable and simple steps.</p>
                                         <br />
                                         <a class="button is-fullwidth is-primary" href="/potential">
                                             Learn More
@@ -107,8 +107,8 @@ function JourneyCard({ title, title1, img1, img2, img3 }) {
                                 </div>
                                 <div class="card-content">
                                     <div class="content">
-                                        <strong>Local Business Owners</strong><br /><br />
-                                        <p>Do you own a local business in an urban area and want to know about how constructing some type of green infrastructure in your building or space could benefit you and your business?</p>
+                                        <strong>DIY - Home Garden</strong><br /><br />
+                                        <p>Grow a veggie garden or Indoor plants to take that first (big) step to cool and green your home.</p>
                                         <br />
                                         <a class="button is-fullwidth is-primary" href="/business">
                                             Learn More

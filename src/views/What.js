@@ -37,8 +37,8 @@ function What() {
         `A green facade is created by growing climbing plants up and across
     the facade of a building, either from plants grown in garden beds
     at its base, or by container planting installed at different levels.`]
-    const hif_title = "Benefits of green roofs, walls & facades";
-    const hif_subtitle = "There is a range of benefits, outlined below, that can potentially be provided by green roofs, walls and facades."
+    const hif_title = "Benefits of Green Spaces";
+    const hif_subtitle = "There is a range of benefits, outlined below, that can potentially be provided by Green Spaces."
     const rows = [{
         "title": "Increased property value and other benefits for building owners",
         "subtitle": `Building owners and developers are increasingly installing green roofs, walls or facades to add a

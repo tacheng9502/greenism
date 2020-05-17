@@ -3,6 +3,7 @@ import React from "react";
 
 // Assets
 import { Line } from "react-chartjs-2";
+import img_estiamte from "../assets/img/estimate.png"
 
 const questions = ["Q1 How many square meters is your roof?",
     "Q2 How many square meters is your wall?",
@@ -30,7 +31,7 @@ export default class Estimate extends React.Component {
             stepTwo: "steps-segment",
             stepThree: "steps-segment",
             stepFour: "steps-segment",
-            survey: { display: "flex" },
+            survey: { display: "flex", backgroundImage: `url(${img_estiamte})`, backgroundPosition: "center" },
             result: { display: "none" },
             option: "3",
             recommend: "3",
@@ -48,45 +49,50 @@ export default class Estimate extends React.Component {
         this.getValue = this.getValue.bind(this);
     }
 
-    nextStep() {
+    nextStep(e) {
         const newStep = this.state.step + 1;
-        const style_stepOne = "steps-segment"
-        let style_stepTwo = "steps-segment"
-        let style_stepThree = "steps-segment"
-        let style_stepFour = "steps-segment"
-        let newQuestion = ""
-        const styleLeft = { float: "right", marginRight: "0.75em", display: "flex" }
-        let styleRight = { float: "right", marginLeft: "0.75em", display: "flex" }
-        let styleLast = { float: "right", marginLeft: "0.75em", display: "none" }
+        if (newStep > 4) {
+            this.showResult()
+        } else {
+            const style_stepOne = "steps-segment"
+            let style_stepTwo = "steps-segment"
+            let style_stepThree = "steps-segment"
+            let style_stepFour = "steps-segment"
+            let newQuestion = ""
+            const styleLeft = { float: "right", marginRight: "0.75em", display: "flex" }
+            let styleRight = { float: "right", marginLeft: "0.75em", display: "flex" }
+            let styleLast = { float: "right", marginLeft: "0.75em", display: "none" }
 
-        if (newStep === 2) {
-            style_stepTwo = "steps-segment is-active"
-            newQuestion = questions[1]
+            if (newStep === 2) {
+                style_stepTwo = "steps-segment is-active"
+                newQuestion = questions[1]
+            }
+
+            if (newStep === 3) {
+                style_stepThree = "steps-segment is-active"
+                newQuestion = questions[2]
+            }
+
+            if (newStep === 4) {
+                style_stepFour = "steps-segment is-active"
+                newQuestion = questions[3]
+                styleRight = { float: "right", marginLeft: "0.75em", display: "none" }
+                styleLast = { float: "right", marginLeft: "0.75em", display: "flex" }
+            }
+
+            this.setState({
+                step: newStep,
+                stepOne: style_stepOne,
+                stepTwo: style_stepTwo,
+                stepThree: style_stepThree,
+                stepFour: style_stepFour,
+                question: newQuestion,
+                buttonLeft: styleLeft,
+                buttonRight: styleRight,
+                buttonLast: styleLast
+            });
         }
-
-        if (newStep === 3) {
-            style_stepThree = "steps-segment is-active"
-            newQuestion = questions[2]
-        }
-
-        if (newStep === 4) {
-            style_stepFour = "steps-segment is-active"
-            newQuestion = questions[3]
-            styleRight = { float: "right", marginLeft: "0.75em", display: "none" }
-            styleLast = { float: "right", marginLeft: "0.75em", display: "flex" }
-        }
-
-        this.setState({
-            step: newStep,
-            stepOne: style_stepOne,
-            stepTwo: style_stepTwo,
-            stepThree: style_stepThree,
-            stepFour: style_stepFour,
-            question: newQuestion,
-            buttonLeft: styleLeft,
-            buttonRight: styleRight,
-            buttonLast: styleLast
-        });
+        e.preventDefault();
     }
 
     previousStep() {
@@ -291,21 +297,41 @@ export default class Estimate extends React.Component {
     render() {
         return (
             <>
-                <section className="hero is-medium is-light" style={this.state.survey}>
+                <section className="hero is-large" style={this.state.survey}>
                     <div className="hero-body">
                         <div className="container">
                             <ul className="steps is-centered has-content-centered is-horizontal">
                                 <li className={this.state.stepOne}>
-                                    <span className="steps-marker">1</span>
+                                    <span className="steps-marker">
+                                        {this.state.step <= 1
+                                            ? 1
+                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                        }
+                                    </span>
                                 </li>
                                 <li className={this.state.stepTwo}>
-                                    <span className="steps-marker">2</span>
+                                    <span className="steps-marker">
+                                        {this.state.step <= 2
+                                            ? 2
+                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                        }
+                                    </span>
                                 </li>
                                 <li className={this.state.stepThree}>
-                                    <span className="steps-marker">3</span>
+                                    <span className="steps-marker">
+                                        {this.state.step <= 3
+                                            ? 3
+                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                        }
+                                    </span>
                                 </li>
                                 <li className={this.state.stepFour}>
-                                    <span className="steps-marker">4</span>
+                                    <span className="steps-marker">
+                                        {this.state.step <= 4
+                                            ? 4
+                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                        }
+                                    </span>
                                 </li>
                             </ul>
                             <br /><br />
@@ -320,40 +346,44 @@ export default class Estimate extends React.Component {
                                 </header>
                                 <div className="card-content">
                                     <div className="content">
-                                        <div className="control field">
-                                            {this.state.step === 1 &&
-                                                <input className="input" type="number" name="roof" min="1" placeholder="Square metres" onChange={this.getValue} required />
-                                            }
-                                            {this.state.step === 2 &&
-                                                <input className="input" type="number" name="wall" min="1" placeholder="Square metres" onChange={this.getValue} required />
-                                            }
-                                            {this.state.step === 3 &&
-                                                <input className="input" type="number" name="budget" min="1" placeholder="AUD" onChange={this.getValue} required />
-                                            }
-                                            {this.state.step === 4 &&
-                                                <input className="input" type="number" name="bill" min="1" placeholder="AUD" onChange={this.getValue} required />
-                                            }
-                                        </div>
-                                        <br /><br />
-                                        &nbsp;
-                                        <button className="button is-link" onClick={this.nextStep} style={this.state.buttonRight}>
-                                            <span>Next</span>
-                                            <span className="icon">
-                                                <i className="fas fa-arrow-circle-right"></i>
-                                            </span>
-                                        </button>
-                                        <button className="button is-warning" onClick={this.showResult} style={this.state.buttonLast}>
-                                            <span className="icon">
-                                                <i className="fas fa-calculator"></i>
-                                            </span>
-                                            <span>Result</span>
-                                        </button>
-                                        <button className="button is-danger" onClick={this.previousStep} style={this.state.buttonLeft}>
-                                            <span className="icon">
-                                                <i className="fas fa-arrow-circle-left"></i>
-                                            </span>
-                                            <span>Previous</span>
-                                        </button>
+                                        <form onSubmit={this.nextStep}>
+                                            <div className="control field">
+                                                {this.state.step === 1 &&
+                                                    <input className="input" type="number" name="roof" min="1" placeholder="Square metres" onChange={this.getValue} autoFocus required />
+                                                }
+                                                {this.state.step === 2 &&
+                                                    <input className="input" type="number" name="wall" min="1" placeholder="Square metres" onChange={this.getValue} autoFocus required />
+                                                }
+                                                {this.state.step === 3 &&
+                                                    <input className="input" type="number" name="budget" min="1" placeholder="AUD" onChange={this.getValue} autoFocus required />
+                                                }
+                                                {this.state.step === 4 &&
+                                                    <input className="input" type="number" name="bill" min="1" placeholder="Kilowatt" onChange={this.getValue} autoFocus required />
+                                                }
+
+                                            </div>
+                                            <br /><br />
+                                            &nbsp;
+                                            <button type="submit" className="button is-link" style={this.state.buttonRight}>
+                                                <span>Next</span>
+                                                <span className="icon">
+                                                    <i className="fas fa-arrow-circle-right"></i>
+                                                </span>
+                                            </button>
+
+                                            <button type="submit" id="resultButton" onClick={this.showResult} className="button is-warning" style={this.state.buttonLast}>
+                                                <span className="icon">
+                                                    <i className="fas fa-calculator"></i>
+                                                </span>
+                                                <span>Result</span>
+                                            </button>
+                                            <button className="button is-danger" onClick={this.previousStep} style={this.state.buttonLeft}>
+                                                <span className="icon">
+                                                    <i className="fas fa-arrow-circle-left"></i>
+                                                </span>
+                                                <span>Previous</span>
+                                            </button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -380,7 +410,7 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Title</strong>
+                                            <strong>Green Roof</strong>
                                             <p>Card</p>
                                             <br /><br /><br />
                                             {this.state.option !== "1" &&
@@ -404,7 +434,7 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Title</strong>
+                                            <strong>Green Facades</strong>
                                             <p>Card</p>
                                             <br /><br /><br />
                                             {this.state.option !== "2" &&
@@ -429,7 +459,7 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Title</strong>
+                                            <strong>Green Facades - DIY</strong>
                                             <p>Card</p>
                                             <br /><br /><br />
                                             {this.state.option !== "3" &&
@@ -455,7 +485,7 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Title</strong>
+                                            <strong>Indoor - DIY</strong>
                                             <p>Card</p>
                                             <br /><br /><br />
                                             {this.state.option !== "4" &&
