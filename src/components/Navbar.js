@@ -60,7 +60,7 @@ function Navbar() {
                     <div className="navbar-item has-dropdown is-boxed is-hoverable">
                         <a href="#guidelines" className="navbar-item is-active" style={{ cursor: "default" }}>DIY Guidelines</a>
                         <div className="navbar-dropdown is-boxed">
-                            <a className="navbar-item" href="/siteAnalysis">Site Analysis</a>
+                            <a className="navbar-item" href="/siteAnalysis">Know Your Space</a>
                             <a className="navbar-item" href="/design">Design and Planning</a>
                             <a className="navbar-item" href="/installation">Building and Installation</a>
                             <a className="navbar-item" href="/maintenance">Maintenance</a>
