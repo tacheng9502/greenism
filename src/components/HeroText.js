@@ -8,10 +8,10 @@ class HeroText extends React.Component {
         const url = this.props.url;
 
         return (
-            <section className="hero section is-primary is-vcentered">
+            <section id="feature" className="hero is-primary is-vcentered">
                 <div className="hero-body has-text-centered">
                     <div className="container">
-                        <h1 className="title is-3 has-text-weight-bold has-text-white is-spaced">{title}</h1>
+                        <h1 className="title is-3 has-text-white is-spaced">{title}</h1>
                         {this.props.isUrl &&
                             <a href={url} className="subtitle has-text-white">{subtitle}</a>
                         }
@@ -51,7 +51,7 @@ class HeroText extends React.Component {
                                             </span>
                                         </span>
                                         <div className="steps-content">
-                                            <p className="heading has-text-white">Interactive Tools</p>
+                                            <p className="heading has-text-white">Recommendation Tools</p>
                                         </div>
                                     </li>
                                     <li className="steps-segment">

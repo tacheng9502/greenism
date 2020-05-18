@@ -4,13 +4,10 @@ import React from "react";
 // Components
 import HeroImageRight from "../components/HeroImageRight";
 import HeroText from "../components/HeroText";
-import Feature from "../components/Feature";
-import JourneyCard from "../components/JourneyCard"
+import HomeFeature from "../components/HomeFeature";
+import HomeFeatureCard from "../components/HomeFeatureCard"
 
 // Assets
-import img_owners from "../assets/img/owners.jpg";
-import img_business from "../assets/img/business.jpg";
-import img_buyers from "../assets/img/buyers.jpg";
 import img_home from "../assets/img/home.jpg"
 
 function Home() {
@@ -22,10 +19,10 @@ function Home() {
 
     return (
         <>
-            <HeroImageRight title={hir_title} subtitle={hir_subtitle} backImage={img_home} isButton={hir_isButton} isBg={true}/>
+            <HeroImageRight title={hir_title} subtitle={hir_subtitle} backImage={img_home} isButton={hir_isButton} isBg={true} />
             <HeroText title={ht_title} subtitle={ht_subtitle} isT={true} isSteps={true} />
-            <Feature />
-            <JourneyCard title="Interactive Tools" title1={"DIY Planting Guideline"} img1={img_owners} img2={img_buyers} img3={img_business} />
+            <HomeFeature />
+            <HomeFeatureCard />
         </>
     );
 }

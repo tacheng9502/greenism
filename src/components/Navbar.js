@@ -58,16 +58,18 @@ function Navbar() {
                         </div>
                     </div>
                     <div className="navbar-item has-dropdown is-boxed is-hoverable">
-                        <a href="#guidelines" className="navbar-item is-active" style={{ cursor: "default" }}>DIY Guidelines</a>
+                        <a href="#guidelines" className="navbar-item is-active" style={{ cursor: "default" }}>DIY Planting Guidelines</a>
                         <div className="navbar-dropdown is-boxed">
-                            <a className="navbar-item" href="/siteAnalysis">Know Your Space</a>
-                            <a className="navbar-item" href="/design">Design and Planning</a>
-                            <a className="navbar-item" href="/installation">Building and Installation</a>
-                            <a className="navbar-item" href="/maintenance">Maintenance</a>
+                            <strong className="navbar-item">DIY Green Facades</strong>
+                            <a className="navbar-item" href="/siteAnalysis">&nbsp;&nbsp;&nbsp; 1. Know Your Space</a>
+                            <a className="navbar-item" href="/design">&nbsp;&nbsp;&nbsp; 2. Design and Planning</a>
+                            <a className="navbar-item" href="/installation">&nbsp;&nbsp;&nbsp; 3. Building and Installation</a>
+                            <a className="navbar-item" href="/maintenance">&nbsp;&nbsp;&nbsp; 4. Maintenance</a>
                             <hr class="navbar-divider"></hr>
-                            <a className="navbar-item" href="/diy">DIY</a>
+                            <a className="navbar-item" href="/diy"><strong>DIY Home Garden</strong></a>
                         </div>
                     </div>
+                    <a className="navbar-item" href="/finding">Local Experts</a>
                     <a className="navbar-item" href="/about">About us</a>
                 </div>
             </nav>

@@ -25,12 +25,11 @@ function Finding() {
         email: "info@calmlivinghomes.com.au",
         address: "Bayside - Dandenong Ranges"
     }]
-    const content =
-        <Map title={title} subtitle={subtitle} rows={rows} />
+        
     return (
         <>
             <Breadcrumb parent="Guidelines" child="Finding Local Experienced Engineers" />
-            <SideMenu content={content} finding="is-active" />
+            <Map title={title} subtitle={subtitle} rows={rows} />
         </>
     );
 }

@@ -297,7 +297,7 @@ export default class Estimate extends React.Component {
     render() {
         return (
             <>
-                <section className="hero is-large" style={this.state.survey}>
+                <section className="hero section is-medium" style={this.state.survey}>
                     <div className="hero-body">
                         <div className="container">
                             <ul className="steps is-centered has-content-centered is-horizontal">

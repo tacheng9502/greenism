@@ -25,6 +25,7 @@ import DesignPage from "./views/Design";
 import InstallationPage from "./views/Installation";
 import BuildingPage from "./views/Building";
 import DiyPage from "./views/Diy";
+import FindingPage from "./views/Finding";
 import AboutPage from "./views/About";
 
 // Assets
@@ -54,6 +55,7 @@ ReactDOM.render(
                 <Route exact path="/design" component={DesignPage} />
                 <Route exact path="/installation" component={InstallationPage} />
                 <Route exact path="/diy" component={DiyPage} />
+                <Route exact path="/finding" component={FindingPage} />
                 <Route exact path="/about" component={AboutPage} />
                 <Route path='/' component={BuildingPage} />
             </Switch>
