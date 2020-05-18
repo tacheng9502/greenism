@@ -2,7 +2,6 @@
 import React from "react";
 
 // Components
-import Breadcrumb from "../components/Breadcrumb";
 import HeroImageRight from "../components/HeroImageRight";
 import HeroImageLeft from "../components/HeroImageLeft";
 import Image from "../components/Image";
@@ -14,14 +13,12 @@ import img_vision from "../assets/img/vision.png";
 import img_thank from "../assets/img/thank.png";
 
 function About() {
-    const bc_parent = "About"
-    //const bc_child = "About"
     const hir_title = `About the Greenism`
     const hir_subtitle = `Greenism is our team name and also our 
     project name. It means that we are a group of people who are 
     concerned about the environment and believe that make our world 
     green is the best solution for climate change.`
-    
+
     const rows = [{
         "title": "Backgroud",
         "subtitle": `As of 2013, more than 40% of the average electricity used in buildings 
@@ -58,7 +55,6 @@ function About() {
 
     return (
         <>
-            <Breadcrumb parent={bc_parent} child={null}/>
             <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={hir_image} />
             <HeroImageLeft title={null} subtitle={null} rows={rows} imgWidth="225px" />
         </>

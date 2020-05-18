@@ -12,7 +12,7 @@ export default class HomeFeature extends React.Component {
                                     <i className="fas fa-3x fa-info is-link"></i>
                                 </span>
                                 <br /><br />
-                                <h1 className="title is-4 is-spaced">Information</h1>
+                                <h1 className="title is-4 is-spaced">Introduction</h1>
                                 <p>Find out more about how climate change and our current lifestyle affects the planet, and what you could do to reduce your impact. <a href="/what">Learn more.</a></p>
                             </div>
                             <div className="column has-text-centered">
@@ -20,8 +20,8 @@ export default class HomeFeature extends React.Component {
                                     <i className="fas fa-3x fa-chart-bar"></i>
                                 </span>
                                 <br /><br />
-                                <h1 className="title is-4 is-spaced">Interactive Tools</h1>
-                                <p>Use our estimate tool to find how you could green your space based on your budget, and use plant-selector tool to find the bset plants.</p>
+                                <h1 className="title is-4 is-spaced">Recommendation Tools</h1>
+                                <p>Use our Estimate Tool to find how you could green your space based on your budget, and use Plant Selector to find the bset plants.</p>
                             </div>
                             <div className="column has-text-centered">
                                 <span className="icon is-large has-text-danger">

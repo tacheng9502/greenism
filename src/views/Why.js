@@ -17,7 +17,7 @@ import HeroImageLeft from "../components/HeroImageLeft";
 
 class Why extends React.Component {
     render() {
-        const bc_parent = "Green Roofs & Walls";
+        const bc_parent = "Introduction";
         const bc_child = "Why is this important to me?";
         const hir_title = "Since 1910, Australia's climate has warmed by more than 1°C"
         const hir_subtitle = "In fact, without action, Australia is expected to warm as much as 5 degrees Celsius by 2090. Simply put, Australia is already a hot and dry country and it’s expected to get hotter and drier without action on climate change."
@@ -145,7 +145,7 @@ class Why extends React.Component {
             imgWidth: "400px"
         },
         ]
-        const ht_title = "Try our interactive tools"
+        const ht_title = "Try our recommendation tools"
         const ht_subtitle = "Why is this important to me?"
         const ht_url = "/why"
 
@@ -180,8 +180,8 @@ class Why extends React.Component {
                     c2_title="Bushfires" c2_content="Bushfires are becoming more extreme, especially in southern and eastern parts of the country. The most destructive fires are usually preceded by extreme high temperatures. Ken Thompson (former deputy fire chief of the state of New South Wales) reported that fire season now runs for nine months out of the year in Australia." c2_img={img_bushFire}
                     c3_title="Heatwaves" c3_content="In January 2018, temperatures in Sydney soared to over 47 degrees Celsiu. It was the hottest day the city had seen in nearly 80 years. Climate change is making heatwaves more common, more severe, and longer lasting. Heatwaves have real impacts on human health and wellbeing – leading to heat exhaustion or even heat stroke." c3_img={img_sun}
                 />
-                <HeroImageLeft title="We have noticed that" rows={cause_rows} />
-                <HeroImageLeft title="How green infrastructures Help" rows={rows} />
+                <HeroImageLeft title="What are the main reasons for that and we can make a difference?" rows={cause_rows} />
+                <HeroImageLeft title="How do green infrastructures help?" rows={rows} />
                 <HeroText title={ht_title} subtitle={ht_subtitle} url={ht_url} is2B={true}/>
             </>
         );

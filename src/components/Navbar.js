@@ -51,7 +51,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a href="#tools" className="navbar-item is-active" style={{ cursor: "default" }}>What would suit you best?</a>
+                        <a href="#tools" className="navbar-item is-active" style={{ cursor: "default" }}>Recommendation Tools</a>
                         <div className="navbar-dropdown is-boxed">
                             <a className="navbar-item" href="/estimate">Estimate Tool</a>
                             <a className="navbar-item" href="/plants">Plant Selector</a>

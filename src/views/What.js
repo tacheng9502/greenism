@@ -23,7 +23,7 @@ import img_park from "../assets/img/park.svg";
 import img_air from "../assets/img/air.svg";
 
 function What() {
-    const bc_parent = "Green Roofs & Walls"
+    const bc_parent = "Introduction"
     const bc_child = "What are Green Roofs & Walls"
     const hir_title = `Thinking about greening your property?`
     const hir_subtitle = `Green roofs, walls and facades enhance our region, creating sustainable and lush social and leisure environments. They help cool hot cities, reduce storm water drainage and insulate buildings all year round.`

@@ -30,7 +30,7 @@ class Map extends React.Component {
                                                 <h3 class="title has-text-weight-bold is-5">{item.title}</h3>
                                                 <p>{item.subtitle}</p>
                                                 <br />
-                                                <p><strong>Website:  &nbsp;</strong><a href={item.web} target="_blank">{item.web}</a></p>
+                                                <p><strong>Website:  &nbsp;</strong><a href={item.web} target="_blank" rel="noopener noreferrer">{item.web}</a></p>
                                                 <p><strong>Phone: &nbsp;</strong>{item.phone}</p>
                                                 <p><strong>Email:  &nbsp;</strong>{item.email}</p>
                                                 <p><strong>Address:  &nbsp;</strong>{item.address}</p>

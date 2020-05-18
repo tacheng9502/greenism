@@ -1,14 +1,30 @@
 // Modules
 import React from "react";
+import { Line } from "react-chartjs-2";
+import styled from 'styled-components';
+
+// Components
+import Breadcrumb from "../components/Breadcrumb";
 
 // Assets
-import { Line } from "react-chartjs-2";
 import img_estiamte from "../assets/img/estimate.png"
+import img_greenFacades from "../assets/img/greenFacades.jpg";
+import img_homeGarden from "../assets/img/homeGarden.jpg";
 
 const questions = ["Q1 How many square meters is your roof?",
     "Q2 How many square meters is your wall?",
     "Q3 What's your budget for initial cost?",
     "Q4 What is the average monthly electricity bill for your house?"]
+
+const bc_parent = "Recommendation Tools";
+const bc_child = "Estimate Tool";
+
+const Image = styled.img`
+        width: 100%;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+    `
 
 export default class Estimate extends React.Component {
     constructor(props) {
@@ -47,6 +63,7 @@ export default class Estimate extends React.Component {
         this.showResult = this.showResult.bind(this);
         this.selectOption = this.selectOption.bind(this);
         this.getValue = this.getValue.bind(this);
+        this.refreshPage = this.refreshPage.bind(this);
     }
 
     nextStep(e) {
@@ -222,6 +239,7 @@ export default class Estimate extends React.Component {
             survey: { display: "none" },
             result: { display: "flex" },
             recommend: recommendOP,
+            option: recommendOP,
             cost_wall: cost_facade,
             benefit_wall: benefit_facade,
             cost_roof: cost_roof,
@@ -294,9 +312,14 @@ export default class Estimate extends React.Component {
         })
     }
 
+    refreshPage() {
+        window.location.reload(false);
+    }
+
     render() {
         return (
             <>
+                <Breadcrumb parent={bc_parent} child={bc_child} />
                 <section className="hero section is-medium" style={this.state.survey}>
                     <div className="hero-body">
                         <div className="container">
@@ -305,7 +328,7 @@ export default class Estimate extends React.Component {
                                     <span className="steps-marker">
                                         {this.state.step <= 1
                                             ? 1
-                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                            : <span className="icon has-text-primary"><i className="fas fa-check"></i></span>
                                         }
                                     </span>
                                 </li>
@@ -313,7 +336,7 @@ export default class Estimate extends React.Component {
                                     <span className="steps-marker">
                                         {this.state.step <= 2
                                             ? 2
-                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                            : <span className="icon has-text-primary"><i className="fas fa-check"></i></span>
                                         }
                                     </span>
                                 </li>
@@ -321,7 +344,7 @@ export default class Estimate extends React.Component {
                                     <span className="steps-marker">
                                         {this.state.step <= 3
                                             ? 3
-                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                            : <span className="icon has-text-primary"><i className="fas fa-check"></i></span>
                                         }
                                     </span>
                                 </li>
@@ -329,7 +352,7 @@ export default class Estimate extends React.Component {
                                     <span className="steps-marker">
                                         {this.state.step <= 4
                                             ? 4
-                                            : <span className="icon has-text-primary"><i class="fas fa-check"></i></span>
+                                            : <span className="icon has-text-primary"><i className="fas fa-check"></i></span>
                                         }
                                     </span>
                                 </li>
@@ -395,7 +418,14 @@ export default class Estimate extends React.Component {
                         <div className="container">
                             <div className="columns is-multiline is-variable is-2 is-vcentered">
                                 <div className="column is-12">
-                                    <h1 className="title">We recommend you</h1>
+                                    <h1 className="is-size-3">We recommend you &nbsp;
+                                        <strong>
+                                            {this.state.recommend === "1" && "Green Roof"}
+                                            {this.state.recommend === "2" && "Green Facade"}
+                                            {this.state.recommend === "3" && "DIY - Green Facade"}
+                                            {this.state.recommend === "4" && "DIY - Home Garden"}
+                                        </strong>
+                                    </h1>
                                 </div>
                                 <div className="column is-3">
                                     <div className="card">
@@ -410,15 +440,15 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Green Roof</strong>
-                                            <p>Card</p>
-                                            <br /><br /><br />
+                                            <p><strong className="is-size-5">Green Roof</strong></p>
+                                            <br /><p>Let a professional expert team help you build green roofs</p><br />
                                             {this.state.option !== "1" &&
                                                 <button name="1" className="button is-primary is-fullwidth" onClick={this.selectOption}>
                                                     Select
                                                 </button>
                                             }
                                         </div>
+                                        <span className="badge is-bottom is-warning" style={this.state.recommend === "1" ? { visibility: "visible" } : { visibility: "hidden" }}>Best Option</span>
                                     </div>
                                 </div>
                                 <div className="column is-3">
@@ -434,9 +464,9 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Green Facades</strong>
-                                            <p>Card</p>
-                                            <br /><br /><br />
+                                            <p><strong className="is-size-5">Green Facade</strong></p>
+                                            <br /><p>Let a professional expert team help you build green facades</p><br />
+
                                             {this.state.option !== "2" &&
                                                 <button name="2" className="button is-primary is-fullwidth" onClick={this.selectOption}>
                                                     Select
@@ -444,6 +474,7 @@ export default class Estimate extends React.Component {
 
                                             }
                                         </div>
+                                        <span className="badge is-bottom is-warning" style={this.state.recommend === "2" ? { visibility: "visible" } : { visibility: "hidden" }}>Best Option</span>
                                     </div>
                                 </div>
                                 <div className="column is-3">
@@ -459,9 +490,8 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Green Facades - DIY</strong>
-                                            <p>Card</p>
-                                            <br /><br /><br />
+                                            <p><strong className="is-size-5">DIY - Green Facades</strong></p>
+                                            <br /><p>Build a green facade by yourself with lower cost.</p><br />
                                             {this.state.option !== "3" &&
                                                 <button name="3" className="button is-primary is-fullwidth" onClick={this.selectOption}>
                                                     Select
@@ -469,7 +499,7 @@ export default class Estimate extends React.Component {
 
                                             }
                                         </div>
-                                        <span className="badge is-bottom is-warning">Best Option</span>
+                                        <span className="badge is-bottom is-warning" style={this.state.recommend === "3" ? { visibility: "visible" } : { visibility: "hidden" }}>Best Option</span>
                                     </div>
                                 </div>
                                 <div className="column is-3">
@@ -485,19 +515,18 @@ export default class Estimate extends React.Component {
                                             </header>
                                         }
                                         <div className="card-content">
-                                            <strong>Indoor - DIY</strong>
-                                            <p>Card</p>
-                                            <br /><br /><br />
+                                            <p><strong className="is-size-5">DIY - Home Garden</strong></p>
+                                            <br /><p>Start eco-friendly DIY project at your home with small budget</p><br />
                                             {this.state.option !== "4" &&
                                                 <button name="4" className="button is-primary is-fullwidth" onClick={this.selectOption}>
                                                     Select
-                                            </button>
-
+                                                </button>
                                             }
                                         </div>
+                                        <span className="badge is-bottom is-warning" style={this.state.recommend === "4" ? { visibility: "visible" } : { visibility: "hidden" }}>Best Option</span>
                                     </div>
                                 </div>
-                                <div className="column is-12">
+                                <div className="column is-12" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
                                     <div className="card">
                                         <div className="card-content">
                                             <Line
@@ -525,52 +554,104 @@ export default class Estimate extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="column is-3">
-                                    <div className="card">
-                                        <div className="card-content">
-                                            <p>Card</p>
+                                <div className="column is-12" style={this.state.option === "3" || this.state.option === "4" ? { display: "block" } : { display: "none" }}>
+                                    <div className="columns">
+                                        <div className="column is-5 is-offset-1 has-text-centered">
+                                            <Image src={img_greenFacades} alt="Green Facades" style={this.state.option === "3" ? { display: "block" } : { display: "none" }} />
+                                            <Image src={img_homeGarden} alt="Home Garden" style={this.state.option === "4" ? { display: "block" } : { display: "none" }} />
+                                        </div>
+                                        <div className="column is-5">
+                                            <div className="card">
+                                                <header className="card-header has-background-primary">
+                                                    <p className="card-header-title">
+                                                        <span class="icon has-text-white">
+                                                            <i class="fas fa-seedling"></i>
+                                                        </span>&nbsp;&nbsp;
+                                                        <strong className="has-text-white">Description</strong>
+                                                    </p>
+                                                </header>
+                                                <div className="card-content">
+                                                    <div className="content">
+                                                        {this.state.option === "3" &&
+                                                            <p>Professionally installed green facades will cost from $400/m2 upwards. DIY facades can be established more cheaply and have the same benefits.</p>
+                                                        }
+                                                        {this.state.option === "4" &&
+                                                            <p>Going green in your home does not have to be a big-budget project. If you’re a homeowner or renter on a budget, making little changes to your lifestyle at home can help you incorporate eco-friendly habits without breaking the bank.</p>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="column is-3">
+                                <div className="column is-3" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
                                     <div className="card">
-                                        <div className="card-content">
-                                            <p>Card</p>
+                                        <div className="card-content has-text-centered">
+                                            <p className="is-size-6"><strong>Initial Cost</strong></p>
+                                            <p className="is-size-1"><strong className="has-text-danger">1420</strong></p>
+                                            <p className="is-size-6">AUD</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="column is-3">
+                                <div className="column is-3" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
                                     <div className="card">
-                                        <div className="card-content">
-                                            <p>Card</p>
+                                        <div className="card-content has-text-centered">
+                                            <p className="is-size-6"><strong>Total Cost</strong></p>
+                                            <p className="is-size-1"><strong className="has-text-danger">25040</strong></p>
+                                            <p className="is-size-6">AUD</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="column is-3">
+                                <div className="column is-3" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
                                     <div className="card">
-                                        <div className="card-content">
-                                            <p>Card</p>
+                                        <div className="card-content has-text-centered">
+                                            <p className="is-size-6"><strong>Total Personal Benefit</strong></p>
+                                            <p className="is-size-1"><strong className="has-text-success">34030</strong></p>
+                                            <p className="is-size-6">AUD</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="column is-3" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
+                                    <div className="card">
+                                        <div className="card-content has-text-centered">
+                                            <p className="is-size-6"><strong>CO<sub>2</sub> Reduction</strong></p>
+                                            <p className="is-size-1"><strong className="has-text-success">120</strong></p>
+                                            <p className="is-size-6">Tons</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
                 <section className="hero section is-primary is-vcentered" style={this.state.result}>
                     <div className="hero-body has-text-centered">
+                        <h1 className="title is-3 has-text-white is-spaced">Next Step</h1>
                         <div className="container">
                             <div className="buttons is-centered">
-                                <button className="button is-danger is-outlined is-inverted" >
-                                    <span className="icon"><i className="fas fa-calculator"></i></span>
+                                <button className="button is-danger is-outlined is-inverted" onClick={this.refreshPage}>
+                                    <span className="icon"><i className="fas fa-redo"></i></span>
                                     <span>Reset</span>
                                 </button>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <a href="/plants" className="button is-info is-outlined is-inverted">
-                                    <span className="icon"><i className="fas fa-search"></i></span>
-                                    <span>Plant Selector</span>
-                                </a>
+                                {(this.state.option === "1" || this.state.option === "2") &&
+                                    <a href="/finding" className="button is-info is-outlined is-inverted">
+                                        <span className="icon"><i className="fas fa-search"></i></span>
+                                        <span>Find Local Experts</span>
+                                    </a>
+                                }
+                                {(this.state.option === "3") &&
+                                    <a href="/siteAnalysis" className="button is-info is-outlined is-inverted">
+                                        <span className="icon"><i className="fas fa-book"></i></span>
+                                        <span>DIY Green Facades Guide</span>
+                                    </a>
+                                }
+                                {(this.state.option === "4") &&
+                                    <a href="/diy" className="button is-info is-outlined is-inverted">
+                                        <span className="icon"><i className="fas fa-book"></i></span>
+                                        <span>DIY Home Garden Guide</span>
+                                    </a>
+                                }
                             </div>
                         </div>
                     </div>

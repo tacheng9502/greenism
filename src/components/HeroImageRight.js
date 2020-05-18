@@ -37,7 +37,7 @@ class HeroImageRight extends React.Component {
                                 <ChartLine chartData={chartData} chartTitle={chartTitle} />
                             }
                             <figure className="image">
-                                <img src={img} alt={imgAlt} style={{ maxWidth: "500px" }}></img>
+                                <img src={img} alt={imgAlt} style={{ maxHeight: "275px", width: "auto", height: "auto", margin:"0 auto 0 auto"}}></img>
                             </figure>
                         </div>
                     </div>

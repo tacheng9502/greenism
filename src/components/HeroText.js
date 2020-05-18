@@ -41,7 +41,7 @@ class HeroText extends React.Component {
                                             </span>
                                         </span>
                                         <div className="steps-content">
-                                            <p className="heading has-text-white">Information</p>
+                                            <p className="heading has-text-white">Introduction</p>
                                         </div>
                                     </li>
                                     <li className="steps-segment">

@@ -11,7 +11,7 @@ function HomeFeatureCard() {
         <section className="section has-background-white-ter">
             <div className="hero-body">
                 <div className="container">
-                    <br /><h1 className="title is-4 has-text-centered is-spaced">Interactive Tools</h1><br />
+                    <br /><h1 className="title is-4 has-text-centered is-spaced">Recommendation Tools</h1><br />
                     <div className="columns">
                         <div className="column">
                             <div className="card">
@@ -39,7 +39,7 @@ function HomeFeatureCard() {
                             <div className="card">
                                 <header className="card-header has-background-primary">
                                     <p className="card-header-title">
-                                        <strong className="has-text-white">Plant Selector Tool</strong>
+                                        <strong className="has-text-white">Plant Selector</strong>
                                     </p>
                                 </header>
                                 <div className="card-content">
@@ -77,7 +77,7 @@ function HomeFeatureCard() {
                                         <strong className="is-size-5">DIY - Green Facade</strong><br /><br />
                                         <p>Build a green facade by yourself in your home following our reliable and simple guidelines.</p>
                                         <br />
-                                        <a className="button is-fullwidth is-primary" href="/potential">
+                                        <a className="button is-fullwidth is-primary" href="/siteAnalysis">
                                             Learn More
                                     </a>
                                     </div>
@@ -96,7 +96,7 @@ function HomeFeatureCard() {
                                         <strong className="is-size-5">DIY - Home Garden</strong><br /><br />
                                         <p>Grow a veggie garden or Indoor plants to take that first (big) step to cool and green your home.</p>
                                         <br />
-                                        <a className="button is-fullwidth is-primary" href="/business">
+                                        <a className="button is-fullwidth is-primary" href="/diy">
                                             Learn More
                                         </a>
                                     </div>
