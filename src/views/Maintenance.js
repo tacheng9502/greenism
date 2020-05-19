@@ -12,13 +12,12 @@ import Maintenancetable from "../components/Maintenancetable";
 // Assets
 import hir_image from "../assets/img/maintenance.svg";
 import img_planning from "../assets/img/planning.png";
-import img_task from "../assets/img/task.png";
 import img_nutrition from "../assets/img/nutrition.png";
 
 function Maintenance() {
-    const bc_parent = "Self-Planting Guidelines"
+    const bc_parent = "DIY Planting Guidelines"
     const bc_child = "Maintenance"
-    const hir_title = `The importance of maintening green infrastructures`
+    const hir_title = `The importance of maintening green facade`
     const hir_subtitle = `This chapter provides information to help with the development of maintenance plans. A detailed maintenance plan will outline performance standards, tasks to be undertaken and the resources required to achieve them. Once created, maintenance plans should be reviewed at least annually to ensure all maintenance needs are being met.`
 
     const rows = [{
@@ -38,7 +37,7 @@ function Maintenance() {
     }
     ];
 
-    const ht_title = "How could you maintain your green infrastructures?";
+    const ht_title = "How could you maintain your green facade?";
     const ht_subtitle = "You may need to consider 3 aspects.";
 
     return (

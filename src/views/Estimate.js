@@ -11,9 +11,9 @@ import img_estiamte from "../assets/img/estimate.png"
 import img_greenFacades from "../assets/img/greenFacades.jpg";
 import img_homeGarden from "../assets/img/homeGarden.jpg";
 
-const questions = ["Q1 How many square meters is your roof?",
-    "Q2 How many square meters is your wall?",
-    "Q3 What's your budget for initial cost?",
+const questions = ["Q1 What is the area (in square metres) of the space on your house where you would like to construct a green roof?",
+    "Q2 What is the area (in square metres) of the wall you are interested to build a green facade on?",
+    "Q3 How much money (per square metre) do you want to initially invest in your green space ?",
     "Q4 What is the average monthly electricity bill for your house?"]
 
 const bc_parent = "Recommendation Tools";
@@ -35,8 +35,10 @@ export default class Estimate extends React.Component {
             roof: 0,
             cost_roof: [],
             benefit_roof: [],
+            co2_roof: 0,
             cost_wall: [],
             benefit_wall: [],
+            co2_wall: 0,
             wall: 0,
             budget: 0,
             bill: 0,
@@ -49,8 +51,8 @@ export default class Estimate extends React.Component {
             stepFour: "steps-segment",
             survey: { display: "flex", backgroundImage: `url(${img_estiamte})`, backgroundPosition: "center" },
             result: { display: "none" },
-            option: "3",
-            recommend: "3",
+            option: "",
+            recommend: "",
             width_opOne: "column",
             width_opTwo: "column",
             width_opThree: "column",
@@ -162,25 +164,33 @@ export default class Estimate extends React.Component {
         let initial_facade = 399.1 * this.state.wall
         let cost_facade = [initial_facade]
         let benefit_facade = [0]
-        let initial_roof = 568.28 * this.state.roof
+        let initial_roof = 468.28 * this.state.roof
         let cost_roof = [initial_roof]
         let benefit_roof = [0]
-        let recommendOP = "2"
+        let recommendOP = ""
         let chartTitle = ""
         let chartData = {}
+        let CO2Roof = 0
+        let CO2Wall = 0
+
+        CO2Roof = ((this.state.roof * 0.39 * 0.2325) / 0.28 * 12 * 50) * 1.62
+        CO2Wall = ((this.state.wall * 0.39 * 0.052) / 0.28 * 12 * 50) * 1.62
 
         for (let i = 1; i <= 50; i++) {
-            if (i < 5) {
-                cost_facade.push(cost_facade[i - 1] + 5.8 * this.state.wall)
-                benefit_facade.push(0)
-                cost_roof.push(cost_roof[i - 1] + 10 * this.state.roof)
-                benefit_roof.push(benefit_roof[i - 1] + 21 * this.state.roof)
-            } else {
-                cost_facade.push(cost_facade[i - 1] + 28.7 * this.state.wall)
-                benefit_facade.push(benefit_facade[i - 1] + 136.9 * this.state.wall)
-                cost_roof.push(cost_roof[i - 1] + 10 * this.state.roof)
-                benefit_roof.push(benefit_roof[i - 1] + 21 * this.state.roof)
-            }
+            cost_facade.push(cost_facade[i - 1] + 28.7 * this.state.wall)
+            benefit_facade.push(benefit_facade[i - 1] + 49.9 * this.state.wall)
+            cost_roof.push(cost_roof[i - 1] + 10 * this.state.roof)
+            benefit_roof.push(benefit_roof[i - 1] + 27 * this.state.roof)
+        }
+
+        if (parseInt(this.state.budget) >= 600) {
+            recommendOP = "1"
+        } else if (parseInt(this.state.budget) < 600 && parseInt(this.state.budget) >= 400) {
+            recommendOP = "2"
+        } else if (parseInt(this.state.budget) < 400 && parseInt(this.state.budget) >= 200) {
+            recommendOP = "3"
+        } else {
+            recommendOP = "4"
         }
 
         //Find recommend
@@ -191,19 +201,19 @@ export default class Estimate extends React.Component {
                 labels: [...Array(51).keys()],
                 datasets: [
                     {
-                        label: "Annual Cost (AUD)",
+                        label: "Annual Cost (AUD) - Green Roofs",
                         data: cost_roof,
                         pointBackgroundColor: 'rgba(255, 99, 132, 0.6)',
                         borderColor: 'rgba(255, 99, 132, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(26, 147, 111, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     },
                     {
-                        label: "Annual Benefit (AUD)",
+                        label: "Annual Benefit (AUD) - Green Roofs",
                         data: benefit_roof,
                         pointBackgroundColor: 'rgba(26, 147, 111, 0.6)',
                         borderColor: 'rgba(26, 147, 111, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(255, 99, 132, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     }
                 ]
@@ -216,19 +226,19 @@ export default class Estimate extends React.Component {
                 labels: [...Array(51).keys()],
                 datasets: [
                     {
-                        label: "Annual Cost (AUD)",
+                        label: "Annual Cost (AUD) - Green Facades",
                         data: cost_facade,
                         pointBackgroundColor: 'rgba(255, 99, 132, 0.6)',
                         borderColor: 'rgba(255, 99, 132, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(26, 147, 111, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     },
                     {
-                        label: "Annual Benefit (AUD)",
+                        label: "Annual Benefit (AUD) - Green Facades",
                         data: benefit_facade,
                         pointBackgroundColor: 'rgba(26, 147, 111, 0.6)',
                         borderColor: 'rgba(26, 147, 111, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(255, 99, 132, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     }
                 ]
@@ -246,6 +256,8 @@ export default class Estimate extends React.Component {
             benefit_roof: benefit_roof,
             title: chartTitle,
             data: chartData,
+            co2_roof: CO2Roof,
+            co2_wall: CO2Wall
         })
     }
 
@@ -264,7 +276,7 @@ export default class Estimate extends React.Component {
                         data: this.state.cost_roof,
                         pointBackgroundColor: 'rgba(255, 99, 132, 0.6)',
                         borderColor: 'rgba(255, 99, 132, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(26, 147, 111, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     },
                     {
@@ -272,7 +284,7 @@ export default class Estimate extends React.Component {
                         data: this.state.benefit_roof,
                         pointBackgroundColor: 'rgba(26, 147, 111, 0.6)',
                         borderColor: 'rgba(26, 147, 111, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(255, 99, 132, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     }
                 ]
@@ -290,7 +302,7 @@ export default class Estimate extends React.Component {
                         data: this.state.cost_wall,
                         pointBackgroundColor: 'rgba(255, 99, 132, 0.6)',
                         borderColor: 'rgba(255, 99, 132, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(26, 147, 111, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     },
                     {
@@ -298,7 +310,7 @@ export default class Estimate extends React.Component {
                         data: this.state.benefit_wall,
                         pointBackgroundColor: 'rgba(26, 147, 111, 0.6)',
                         borderColor: 'rgba(26, 147, 111, 0.6)',
-                        pointHoverBackgroundColor: 'rgba(255, 99, 132, 0.6)',
+                        pointHoverBackgroundColor: 'rgba(63, 63, 68, 0.6)',
                         fill: false
                     }
                 ]
@@ -362,7 +374,7 @@ export default class Estimate extends React.Component {
                                 <header className="card-header has-background-primary">
                                     <p className="card-header-title">
                                         <span className="icon has-text-white">
-                                            <i className="fas fa-question-circle"></i>
+                                            <i class="fas fa-question"></i>
                                         </span>&nbsp;&nbsp;
                                     <strong className="has-text-white">{this.state.question}</strong>
                                     </p>
@@ -378,10 +390,10 @@ export default class Estimate extends React.Component {
                                                     <input className="input" type="number" name="wall" min="1" placeholder="Square metres" onChange={this.getValue} autoFocus required />
                                                 }
                                                 {this.state.step === 3 &&
-                                                    <input className="input" type="number" name="budget" min="1" placeholder="AUD" onChange={this.getValue} autoFocus required />
+                                                    <input className="input" type="number" name="budget" min="1" placeholder="AUD per square metres" onChange={this.getValue} autoFocus required />
                                                 }
                                                 {this.state.step === 4 &&
-                                                    <input className="input" type="number" name="bill" min="1" placeholder="Kilowatt" onChange={this.getValue} autoFocus required />
+                                                    <input className="input" type="number" name="bill" min="1" placeholder="AUD" onChange={this.getValue} autoFocus required />
                                                 }
 
                                             </div>
@@ -588,7 +600,15 @@ export default class Estimate extends React.Component {
                                     <div className="card">
                                         <div className="card-content has-text-centered">
                                             <p className="is-size-6"><strong>Initial Cost</strong></p>
-                                            <p className="is-size-1"><strong className="has-text-danger">1420</strong></p>
+                                            <p className="is-size-1">
+                                                <strong className="has-text-danger">
+                                                    {this.state.option === "1" &&
+                                                        this.state.cost_roof[0].toFixed()
+                                                    }
+                                                    {this.state.option === "2" &&
+                                                        this.state.cost_wall[0].toFixed()
+                                                    }
+                                                </strong></p>
                                             <p className="is-size-6">AUD</p>
                                         </div>
                                     </div>
@@ -597,7 +617,16 @@ export default class Estimate extends React.Component {
                                     <div className="card">
                                         <div className="card-content has-text-centered">
                                             <p className="is-size-6"><strong>Total Cost</strong></p>
-                                            <p className="is-size-1"><strong className="has-text-danger">25040</strong></p>
+                                            <p className="is-size-1">
+                                                <strong className="has-text-danger">
+                                                    {this.state.option === "1" &&
+                                                        this.state.cost_roof[this.state.cost_roof.length - 1].toFixed()
+                                                    }
+                                                    {this.state.option === "2" &&
+                                                        this.state.cost_wall[this.state.cost_wall.length - 1].toFixed()
+                                                    }
+                                                </strong>
+                                            </p>
                                             <p className="is-size-6">AUD</p>
                                         </div>
                                     </div>
@@ -606,7 +635,16 @@ export default class Estimate extends React.Component {
                                     <div className="card">
                                         <div className="card-content has-text-centered">
                                             <p className="is-size-6"><strong>Total Personal Benefit</strong></p>
-                                            <p className="is-size-1"><strong className="has-text-success">34030</strong></p>
+                                            <p className="is-size-1">
+                                                <strong className="has-text-success">
+                                                    {this.state.option === "1" &&
+                                                        this.state.benefit_roof[this.state.benefit_roof.length - 1].toFixed()
+                                                    }
+                                                    {this.state.option === "2" &&
+                                                        this.state.benefit_wall[this.state.benefit_wall.length - 1].toFixed()
+                                                    }
+                                                </strong>
+                                            </p>
                                             <p className="is-size-6">AUD</p>
                                         </div>
                                     </div>
@@ -615,7 +653,16 @@ export default class Estimate extends React.Component {
                                     <div className="card">
                                         <div className="card-content has-text-centered">
                                             <p className="is-size-6"><strong>CO<sub>2</sub> Reduction</strong></p>
-                                            <p className="is-size-1"><strong className="has-text-success">120</strong></p>
+                                            <p className="is-size-1">
+                                                <strong className="has-text-success">
+                                                    {this.state.option === "1" &&
+                                                        this.state.co2_roof.toFixed()
+                                                    }
+                                                    {this.state.option === "2" &&
+                                                        this.state.co2_wall.toFixed()
+                                                    }
+                                                </strong>
+                                            </p>
                                             <p className="is-size-6">Tons</p>
                                         </div>
                                     </div>

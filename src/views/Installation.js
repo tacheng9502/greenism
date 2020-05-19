@@ -17,7 +17,7 @@ import img_drainage from "../assets/img/drainage.png";
 
 
 function Installation() {
-    const bc_parent = "Self-Planting Guidelines";
+    const bc_parent = "DIY Planting Guidelines";
     const bc_child = "Building and Installation";
 
     const hir_title = `Start a green infrastructure!`
@@ -61,7 +61,7 @@ function Installation() {
     ];
     const hil_imgWidth = "225px"
     const ht_title_2 = "Next Chapter"
-    const ht_subtitle_2 = "How could you maintain your green infrastructures?"
+    const ht_subtitle_2 = "How could you maintain your green facade?"
     const ht_url = "/maintenance"
 
     return (

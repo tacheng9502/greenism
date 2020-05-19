@@ -108,7 +108,9 @@ export default class HeroCard extends React.Component {
                                     <div className="container">
                                         <div className="columns is-multiline is-variable is-2">
                                             <div className="column is-2 ">
-                                                <div className="field"><strong>Light</strong></div>
+                                                <div className="field">
+                                                    <span><strong>Light</strong></span>
+                                                </div>
                                                 <div className="field">
                                                     <input className="is-checkradio" id="light_fullSun" type="checkbox" name="light_fullSun" checked={this.state.light_fullSun} onChange={this.handleChange} />
                                                     <label htmlFor="light_fullSun">Full Sun</label>
@@ -146,7 +148,12 @@ export default class HeroCard extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="column is-one-fifth">
-                                                <div className="field"><strong>Drought tolerance</strong></div>
+                                                <div className="field">
+                                                    <span><strong>Drought tolerance</strong></span>&nbsp;&nbsp;
+                                                    <span className="icon is-small" data-tooltip="The ability of plants to maintain survival and growth under arid or drought conditions.">
+                                                        <i class="fas fa-question-circle"></i>
+                                                    </span>
+                                                </div>
                                                 <div className="field">
                                                     <input className="is-checkradio" id="drought_all" value="All" type="radio" name="drought" checked={this.state.drought === "All"} onChange={this.handleChange} />
                                                     <label htmlFor="drought_all">All</label>
@@ -169,7 +176,12 @@ export default class HeroCard extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="column is-one-fifth">
-                                                <div className="field"><strong>Waterlogging tolerance</strong></div>
+                                                <div className="field">
+                                                    <span><strong>Waterlogging tolerance</strong></span>&nbsp;&nbsp;
+                                                    <span className="icon is-small" data-tooltip="The ability of plants to maintain survival and growth in soil saturated with water.">
+                                                        <i class="fas fa-question-circle"></i>
+                                                    </span>
+                                                </div>
                                                 <div className="field">
                                                     <input className="is-checkradio" id="water_all" value="All" type="radio" name="water" checked={this.state.water === "All"} onChange={this.handleChange} />
                                                     <label htmlFor="water_all">All</label>
@@ -192,7 +204,12 @@ export default class HeroCard extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="column is-one-fifth">
-                                                <div className="field"><strong>Soil compaction tolerance</strong></div>
+                                                <div className="field">
+                                                    <span><strong>Soil compaction</strong></span>&nbsp;&nbsp;
+                                                    <span className="icon is-small" data-tooltip="The ability of plants to maintain survival and growth in the soil that is compressed and expelled air.">
+                                                        <i class="fas fa-question-circle"></i>
+                                                    </span>
+                                                </div>
                                                 <div className="field">
                                                     <input className="is-checkradio" id="soil_all" value="All" type="radio" name="soil" checked={this.state.soil === "All"} onChange={this.handleChange} />
                                                     <label htmlFor="soil_all">All</label>
@@ -225,9 +242,9 @@ export default class HeroCard extends React.Component {
                         <div className="columns is-multiline is-variable is-3">
                             {this.state.plants.map((plant, i) => (
                                 <div className="column is-3" key={plant.index}>
-                                    <div className="card" style={{borderRadius: "15px", overflow: "hidden"}}>
+                                    <div className="card" style={{ borderRadius: "15px", overflow: "hidden" }}>
                                         <a href={"/plantDetail/" + plant.index} title={plant.name.split(";")[0]} >
-                                            <div className="card-image" style={{overflow: "hidden", borderRadius: "15px, 15px 0px 0px"}}>
+                                            <div className="card-image" style={{ overflow: "hidden", borderRadius: "15px, 15px 0px 0px" }}>
                                                 <figure className="image is-256x256" >
                                                     <Image src={plant.img} alt={plant.name.split(";")[0]} />
                                                 </figure>

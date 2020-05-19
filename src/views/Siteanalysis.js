@@ -22,7 +22,7 @@ import img_solar from "../assets/img/solar.png";
 
 
 function SiteAnalysis() {
-    const bc_parent = "Self-Planting Guidelines";
+    const bc_parent = "DIY Planting Guidelines";
     const bc_child = "Site Analysis";
 
     const hir_title = `The importance of site analysis`
@@ -75,10 +75,10 @@ function SiteAnalysis() {
     ];
     const hil_imgWidth = "225px"
 
-    const ht_title_1 = "How could you design and plan your green infrastructures?";
+    const ht_title_1 = "How could you design and plan your green facade?";
     const ht_subtitle_1 = "You may need to consider 5 aspects."
     const ht_title_2 = "Next Chapter"
-    const ht_subtitle_2 = "How to design and plan green infrastructures?"
+    const ht_subtitle_2 = "How to design and plan your green facade?"
     const ht_url = "/design"
 
     return (

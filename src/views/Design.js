@@ -1,7 +1,6 @@
 // Modules
 import React from "react";
 
-
 // Components
 import Breadcrumb from "../components/Breadcrumb";
 import HeroImageRight from "../components/HeroImageRight";
@@ -15,10 +14,8 @@ import Facadeselect from "../components/Facadeselect";
 
 // Assets
 import hir_image from "../assets/img/design.png";
-import img_greenfacadeselect from "../assets/img/greenfacadeselect.png";
 import img_money from "../assets/img/money.png";
 import img_law from "../assets/img/law.png";
-import img_establishment from "../assets/img/establishment.png";
 
 export default class Design extends React.Component {
     componentDidMount() {
@@ -28,10 +25,10 @@ export default class Design extends React.Component {
     }
 
     render() {
-        const hir_title_1 = `How to design and plan your green infrastructures?`
+        const hir_title_1 = `How to design and plan your green facade?`
         const hir_subtitle_1 = `The most important decisions about a green facade are made at the design stage. The benefits of the installation, how easy it will be to build and maintain and how it will operate day-to-day, all depend on the initial design. This chapter provides information to help develop a well-considered, achievable design that will work in the long term.`
 
-        const ht_title_1 = "How to design and plan your green infrastructures?";
+        const ht_title_1 = "How to design and plan your green facade?";
         const ht_subtitle_1 = "Some tips for designing and planning green facade"
 
         const rows_2 = [{
@@ -78,7 +75,7 @@ export default class Design extends React.Component {
         const rows_3 = [{
             "title": "Cost considerations",
             "subtitle": `Costs can be reduced in small projects as ‘do it yourself’ (DIY) installations, involving less personnel and smaller spaces.            
-            DIY – Green Facades – DIY facades can be established at less than $400/m2.`,
+            DIY – Green Facades can be established at less than $400/m2.`,
             "img": <Image img={img_money} imgAlt="Cost considerations" />, "isImage": "True"
         },
         {
@@ -96,12 +93,12 @@ export default class Design extends React.Component {
 
         const hil_imgWidth = "225px"
         const ht_title_2 = "Next Chapter"
-        const ht_subtitle_2 = "How to build and install green infrastructures?"
+        const ht_subtitle_2 = "How to build and install green facade?"
         const ht_url = "/installation"
 
         return (
             <>
-                <Breadcrumb parent="Self-Planting Guidelines" child="Design and Planning" />
+                <Breadcrumb parent="DIY Planting Guidelines" child="Design and Planning" />
                 <HeroImageRight title={hir_title_1} subtitle={hir_subtitle_1} img={hir_image} />
                 <HeroText title={ht_title_1} subtitle={ht_subtitle_1} isT={true} />
                 <br></br>
@@ -113,16 +110,15 @@ export default class Design extends React.Component {
                         {rows_2.map((item) =>
                             <>
                                 <div className="card">
-                                    <header class="card-header has-background-primary">
-                                        <p class="card-header-title has-text-white">
+                                    <a href={item.url} data-action="collapse" class=" card-header has-background-primary card-header-icon is-hidden-fullscreen" aria-label="more options">
+                                        <p class="card-header-title has-text-white" style={{ padding: "0px 16px" }}>
                                             {item.title}
                                         </p>
-                                        <a href={item.url} data-action="collapse" class="card-header-icon is-hidden-fullscreen" aria-label="more options">
-                                            <span class="icon has-text-white">
-                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                            </span>
-                                        </a>
-                                    </header>
+
+                                        <span class="icon has-text-white">
+                                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
                                     <div id={item.key} class="is-collapsible">
                                         <div class="card-content">
                                             <p>
@@ -155,7 +151,10 @@ export default class Design extends React.Component {
                 </div>
                 <br></br>
                 <Facadeselect />
-
+                <button className="button is-danger is-outlined is-inverted">
+                    <span className="icon"><i className="fas fa-redo"></i></span>
+                    <span>Reset</span>
+                </button>
                 <HeroImageLeft title={hif_title} subtitle={hif_subtitle} rows={rows_3} imgWidth={hil_imgWidth} />
 
                 <div className="hero-body">
