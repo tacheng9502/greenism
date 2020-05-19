@@ -30,8 +30,8 @@ import img_eat from "../assets/img/eat.png";
 
 
 function Diy() {
-    const bc_parent = "Self-Planting Guidelines";
-    const bc_child = "DIY your small project";
+    const bc_parent = "DIY Planting Guidelines";
+    const bc_child = "DIY Home Garden";
 
     const hir_title = `Start eco-friendly DIY project with small budget`
     const hir_subtitle = `Going green in your home does not have to be a 

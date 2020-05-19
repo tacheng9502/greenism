@@ -144,7 +144,8 @@ export default class Design extends React.Component {
                                 how much maintenance they require) – and their light tolerance. Average
                                 in the table indicates that they are not known to be particularly needy
                                 of high light nor particularly tolerant of low light. Note that the mature
-                                    size will be affected by the soil volume available.</p>
+                                    size will be affected by the soil volume available. You can also use our <a href="/plants"><strong>plant selector tool</strong></a> to filter out plants based on your location’s ecological factors like the amount of sunlight, the soil’s capacity to retain water etc.
+</p>
                             </div>
                         </div>
                     </div>
