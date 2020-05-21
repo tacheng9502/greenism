@@ -1,10 +1,16 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login"
 
 // Components
 import Map from "../components/Map";
 
 function Finding() {
+    firebaseApp.auth().onAuthStateChanged(function (user) {
+        if (!user) {
+            window.location.replace("/")
+        }
+    });
     const title = "Local Experienced Engineers"
     const subtitle = "Interested to get in touch with some experts regarding the technical aspects of constructing green infrastructure?"
     const rows = [{

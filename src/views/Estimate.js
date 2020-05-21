@@ -2,6 +2,7 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 import styled from 'styled-components';
+import { firebaseApp } from "../Login"
 
 // Components
 import Breadcrumb from "../components/Breadcrumb";
@@ -329,6 +330,11 @@ export default class Estimate extends React.Component {
     }
 
     render() {
+        firebaseApp.auth().onAuthStateChanged(function (user) {
+            if (!user) {
+                window.location.replace("/")
+            }
+        });
         return (
             <>
                 <Breadcrumb parent={bc_parent} child={bc_child} />

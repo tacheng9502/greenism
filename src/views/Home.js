@@ -1,5 +1,6 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login"
 
 // Components
 import HeroImageRight from "../components/HeroImageRight";
@@ -16,6 +17,12 @@ function Home() {
     const hir_isButton = "True"
     const ht_title = "We're here to support";
     const ht_subtitle = "Take on a journey to learn, analyse and action with us."
+
+    firebaseApp.auth().onAuthStateChanged(function (user) {
+        if (!user) {
+            window.location.replace("/")
+        }
+    });
 
     return (
         <>

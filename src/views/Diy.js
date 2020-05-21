@@ -1,5 +1,6 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login";
 
 // Components
 import Breadcrumb from "../components/Breadcrumb";
@@ -30,10 +31,16 @@ import img_eat from "../assets/img/eat.png";
 
 
 function Diy() {
+    firebaseApp.auth().onAuthStateChanged(function (user) {
+        if (!user) {
+            window.location.replace("/")
+        }
+    });
+
     const bc_parent = "DIY Planting Guidelines";
     const bc_child = "DIY Home Garden";
 
-    const hir_title = `Start eco-friendly DIY project with small budget`
+    const hir_title = `Pocket-friendly tips to help green your home`
     const hir_subtitle = `Going green in your home does not have to be a 
     big-budget project. If you’re a homeowner or renter on a budget, making 
     little changes to your lifestyle at home can help you incorporate eco-friendly 
@@ -45,16 +52,16 @@ function Diy() {
     const ht_subtitle_1 = "Taking care of houseplants is easier than you might think"
 
     const c_title_1 = "Some indoor plants we recomend"
-    
+
     const card_title_1 = ["Aloe Vera", "Bamboo Palm", "Weeping Fig"]
     const card_content_1 = [`Aloe Vera is a common houseplant in the succulent family that's widely known for its medicinal uses. It comes in many different varieties, all of which have been scientifically proven to help cool interior spaces.`,
-                            `This small palm rarely reaches two metres and its large leaves mean it can act as an excellent air humidifier. Bamboo palm is also very good at filtering out benzene and trichloroethylene from the atmosphere.`,
-                            `Its leafy nature means a high rate of transpiration, which keeps the air around a weeping fig moist and cool. It can also decontaminate the air by absorbing any heavy metal particles and indoor pollutants that are present.`]
+        `This small palm rarely reaches two metres and its large leaves mean it can act as an excellent air humidifier. Bamboo palm is also very good at filtering out benzene and trichloroethylene from the atmosphere.`,
+        `Its leafy nature means a high rate of transpiration, which keeps the air around a weeping fig moist and cool. It can also decontaminate the air by absorbing any heavy metal particles and indoor pollutants that are present.`]
 
     const card_title_2 = ["Peace lily", "Boston fern", "Spider plant"]
     const card_content_2 = [`The more leaf area a plant has, the higher the amount of oxygen and moisture it releases during transpiration. The lush leaves of peace lily are invaluable for helping to cool the air in a room. `,
-                            `Many ferns act as natural air humidifiers and Boston fern is one of the best. It’s also a very good air purifier and the scientists have singled out for their ability to clean the air of formaldehyde and benzene.`,
-                            `Making a comeback after many years in the style wilderness, the spider plant is deservedly popular with newbie plant lovers, as it’s one of the easiest plants to grow. It will help cool the air and absorb toxins present `]
+        `Many ferns act as natural air humidifiers and Boston fern is one of the best. It’s also a very good air purifier and the scientists have singled out for their ability to clean the air of formaldehyde and benzene.`,
+        `Making a comeback after many years in the style wilderness, the spider plant is deservedly popular with newbie plant lovers, as it’s one of the easiest plants to grow. It will help cool the air and absorb toxins present `]
 
     const hil_rows_1_title = "Some tips for planting indoor plants";
 
@@ -167,7 +174,7 @@ function Diy() {
     //    "img": <Image img={img_eat} imgAlt="Re-grow veggies" />, "isImage": "True"
     //},
     //];
-    
+
     const hil_imgWidth = "225px"
     const c_imgSize = "image is-4by3"
 
@@ -175,16 +182,16 @@ function Diy() {
         <>
             <Breadcrumb parent={bc_parent} child={bc_child} />
             <HeroImageRight title={hir_title} subtitle={hir_subtitle} img={hir_image} size={hir_size} />
-            <HeroText title={ht_title_1} subtitle={ht_subtitle_1} isT={true}/>
+            <HeroText title={ht_title_1} subtitle={ht_subtitle_1} isT={true} />
             <Card isTitle="True" title={c_title_1} imgSize={c_imgSize}
                 c1_title={card_title_1[0]} c1_content={card_content_1[0]} c1_img={img_aloevera}
                 c2_title={card_title_1[1]} c2_content={card_content_1[1]} c2_img={img_bamboo}
                 c3_title={card_title_1[2]} c3_content={card_content_1[2]} c3_img={img_fig} />
             <Card c1_title={card_title_2[0]} c1_content={card_content_2[0]} c1_img={img_lily}
                 c2_title={card_title_2[1]} c2_content={card_content_2[1]} c2_img={img_fern}
-                c3_title={card_title_2[2]} c3_content={card_content_2[2]} c3_img={img_spiderplant} />            
+                c3_title={card_title_2[2]} c3_content={card_content_2[2]} c3_img={img_spiderplant} />
             <HeroImageLeft title={hil_rows_1_title} subtitle={null} rows={hil_rows_1} imgWidth={hil_imgWidth} />
-            <HeroText title={ht_title_2} subtitle={ht_subtitle_2} isT={true}/>
+            <HeroText title={ht_title_2} subtitle={ht_subtitle_2} isT={true} />
             <HeroImageLeft title={hil_rows_2_title} subtitle={null} rows={hil_rows_2} imgWidth={hil_imgWidth} />
             <HeroImageLeft title={hil_rows_3_title} subtitle={null} rows={hil_rows_3} imgWidth={hil_imgWidth} />
         </>
