@@ -376,55 +376,56 @@ export default class Estimate extends React.Component {
                                 </li>
                             </ul>
                             <br /><br />
-                            <div className="card">
-                                <header className="card-header has-background-primary">
-                                    <p className="card-header-title">
-                                        <span className="icon has-text-white">
-                                            <i class="fas fa-question"></i>
-                                        </span>&nbsp;&nbsp;
-                                    <strong className="has-text-white">{this.state.question}</strong>
-                                    </p>
-                                </header>
-                                <div className="card-content">
-                                    <div className="content">
-                                        <form onSubmit={this.nextStep}>
-                                            <div className="control field">
-                                                {this.state.step === 1 &&
-                                                    <input className="input" type="number" name="roof" min="1" placeholder="Square metres" onChange={this.getValue} autoFocus required />
-                                                }
-                                                {this.state.step === 2 &&
-                                                    <input className="input" type="number" name="wall" min="1" placeholder="Square metres" onChange={this.getValue} autoFocus required />
-                                                }
-                                                {this.state.step === 3 &&
-                                                    <input className="input" type="number" name="budget" min="1" placeholder="AUD per square metres" onChange={this.getValue} autoFocus required />
-                                                }
-                                                {this.state.step === 4 &&
-                                                    <input className="input" type="number" name="bill" min="1" placeholder="AUD" onChange={this.getValue} autoFocus required />
-                                                }
+                            <div class="columns is-centered">
+                                <div class="column is-10-tablet is-10-desktop is-10-widescreen">
+                                    <div className="card">
+                                        <header className="card-header has-background-primary">
+                                            <p className="card-header-title">
+                                                <strong className="has-text-white">{this.state.question}</strong>
+                                            </p>
+                                        </header>
+                                        <div className="card-content">
+                                            <div className="content">
+                                                <form onSubmit={this.nextStep}>
+                                                    <div className="control field">
+                                                        {this.state.step === 1 &&
+                                                            <input className="input" type="number" name="roof" min="1" max="9999" placeholder="Square metres" onChange={this.getValue} autoFocus required />
+                                                        }
+                                                        {this.state.step === 2 &&
+                                                            <input className="input" type="number" name="wall" min="1" max="9999" placeholder="Square metres" onChange={this.getValue} autoFocus required />
+                                                        }
+                                                        {this.state.step === 3 &&
+                                                            <input className="input" type="number" name="budget" min="1" max="999999" placeholder="AUD per square metres" onChange={this.getValue} autoFocus required />
+                                                        }
+                                                        {this.state.step === 4 &&
+                                                            <input className="input" type="number" name="bill" min="1" max="999999" placeholder="AUD" onChange={this.getValue} autoFocus required />
+                                                        }
 
-                                            </div>
-                                            <br /><br />
+                                                    </div>
+                                                    <br /><br />
                                             &nbsp;
                                             <button type="submit" className="button is-link" style={this.state.buttonRight}>
-                                                <span>Next</span>
-                                                <span className="icon">
-                                                    <i className="fas fa-arrow-circle-right"></i>
-                                                </span>
-                                            </button>
+                                                        <span>Next</span>
+                                                        <span className="icon">
+                                                            <i className="fas fa-arrow-circle-right"></i>
+                                                        </span>
+                                                    </button>
 
-                                            <button type="submit" id="resultButton" onClick={this.showResult} className="button is-warning" style={this.state.buttonLast}>
-                                                <span className="icon">
-                                                    <i className="fas fa-calculator"></i>
-                                                </span>
-                                                <span>Result</span>
-                                            </button>
-                                            <button className="button is-danger" onClick={this.previousStep} style={this.state.buttonLeft}>
-                                                <span className="icon">
-                                                    <i className="fas fa-arrow-circle-left"></i>
-                                                </span>
-                                                <span>Previous</span>
-                                            </button>
-                                        </form>
+                                                    <button type="submit" id="resultButton" onClick={this.showResult} className="button is-warning" style={this.state.buttonLast}>
+                                                        <span className="icon">
+                                                            <i className="fas fa-calculator"></i>
+                                                        </span>
+                                                        <span>Result</span>
+                                                    </button>
+                                                    <button className="button is-danger" onClick={this.previousStep} style={this.state.buttonLeft}>
+                                                        <span className="icon">
+                                                            <i className="fas fa-arrow-circle-left"></i>
+                                                        </span>
+                                                        <span>Previous</span>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
