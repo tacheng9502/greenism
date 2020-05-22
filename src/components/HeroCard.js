@@ -150,7 +150,7 @@ export default class HeroCard extends React.Component {
                                             <div className="column is-one-fifth">
                                                 <div className="field">
                                                     <span><strong>Drought tolerance</strong></span>&nbsp;&nbsp;
-                                                    <span className="icon is-small" data-tooltip="The ability of plants to maintain survival and growth under arid or drought conditions.">
+                                                    <span className="icon is-small has-tooltip-multiline" data-tooltip="The ability of plants to maintain survival and growth under arid or drought conditions. Perennial succulent plants and xerophytes with broad root systems have better tolerance for drought. Perennial non-succulent plants and annual plants are relatively poor.">
                                                         <i class="fas fa-question-circle"></i>
                                                     </span>
                                                 </div>
@@ -178,7 +178,7 @@ export default class HeroCard extends React.Component {
                                             <div className="column is-one-fifth">
                                                 <div className="field">
                                                     <span><strong>Waterlogging tolerance</strong></span>&nbsp;&nbsp;
-                                                    <span className="icon is-small" data-tooltip="The ability of plants to maintain survival and growth in soil saturated with water.">
+                                                    <span className="icon is-small has-tooltip-multiline" data-tooltip="The ability of plants to maintain survival and growth in soil saturated with water. Shrubs and perennial herbs do not seem to be good at waterlogging tolerance. Cacti, succulent flowers, and some woody flowers are relatively resistant to waterlogging.">
                                                         <i class="fas fa-question-circle"></i>
                                                     </span>
                                                 </div>
@@ -206,7 +206,7 @@ export default class HeroCard extends React.Component {
                                             <div className="column is-one-fifth">
                                                 <div className="field">
                                                     <span><strong>Soil compaction</strong></span>&nbsp;&nbsp;
-                                                    <span className="icon is-small" data-tooltip="The ability of plants to maintain survival and growth in the soil that is compressed and expelled air.">
+                                                    <span className="icon is-small has-tooltip-multiline" data-tooltip="The ability of plants to maintain survival and growth in the soil that is compressed and expelled air. Most grasses and some shrubs can survive in compacted soil. Angiosperms are relatively resistant to compacted soil.">
                                                         <i class="fas fa-question-circle"></i>
                                                     </span>
                                                 </div>

@@ -51,8 +51,8 @@ function Diy() {
     const ht_title_1 = "Indoor plants can cool your house down and purify the air";
     const ht_subtitle_1 = "Taking care of houseplants is easier than you might think"
 
-    const c_title_1 = "Some indoor plants we recomend"
-
+    const c_title_1 = "Some indoor plants we recommend"
+    
     const card_title_1 = ["Aloe Vera", "Bamboo Palm", "Weeping Fig"]
     const card_content_1 = [`Aloe Vera is a common houseplant in the succulent family that's widely known for its medicinal uses. It comes in many different varieties, all of which have been scientifically proven to help cool interior spaces.`,
         `This small palm rarely reaches two metres and its large leaves mean it can act as an excellent air humidifier. Bamboo palm is also very good at filtering out benzene and trichloroethylene from the atmosphere.`,

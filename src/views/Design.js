@@ -11,12 +11,31 @@ import Image from "../components/Image";
 import bulmaCollapsible from '@creativebulma/bulma-collapsible';
 import Designtable from "../components/Designtable";
 import Facadeselect from "../components/Facadeselect";
+import Card from "../components/Card";
 
 
 // Assets
 import hir_image from "../assets/img/design.png";
 import img_money from "../assets/img/money.png";
 import img_law from "../assets/img/law.png";
+import img_p1_1 from "../assets/img/p1_1.jpeg";
+import img_p1_2 from "../assets/img/p1_2.jpeg";
+import img_p1_3 from "../assets/img/p1_3.jpeg";
+import img_p2_1 from "../assets/img/p2_1.jpeg";
+import img_p2_2 from "../assets/img/p2_2.jpeg";
+import img_p2_3 from "../assets/img/p2_3.jpg";
+import img_p3_1 from "../assets/img/p3_1.jpg";
+import img_p3_2 from "../assets/img/p3_2.jpg";
+import img_p3_3 from "../assets/img/p3_3.jpg";
+import img_p4_1 from "../assets/img/p4_1.jpg";
+import img_p4_2 from "../assets/img/p4_2.jpg";
+import img_p4_3 from "../assets/img/p4_3.jpg";
+import img_p5_1 from "../assets/img/p5_1.jpeg";
+import img_p5_2 from "../assets/img/p5_2.jpeg";
+import img_p5_3 from "../assets/img/p5_3.jpg";
+import img_p6_1 from "../assets/img/p6_1.jpeg";
+import img_p6_2 from "../assets/img/p6_2.jpeg";
+import img_p6_3 from "../assets/img/p6_3.jpeg";
 
 export default class Design extends React.Component {
     componentDidMount() {
@@ -37,23 +56,33 @@ export default class Design extends React.Component {
         const ht_title_1 = "How to design and plan your green facade?";
         const ht_subtitle_1 = "Some tips for designing and planning green facade"
 
+
         const rows_2 = [{
             key: "collapsible-card-1", url: "#collapsible-card-1",
             title: "Low cost and easy to install",
             content: `Use a direct attaching species of plant, grown from the ground at the base
-            of the wall.`
+            of the wall.`,
+            image: <Card c1_title="Quinquefoli" c1_content={null} c1_img={img_p1_1}
+            c2_title="Climbing fig" c2_content={null} c2_img={img_p1_2}
+            c3_title="Cissus antarctica" c3_content={null} c3_img={img_p1_3} /> 
         }, {
             key: "collapsible-card-2", url: "#collapsible-card-2",
             title: "A multi-storey facade greening",
             content: `Include containers at different heights, include cabling or lattice support
             structures for twining plants, ensure access for maintenance, provide
             irrigation, consider secondary protection of plants against stem damage,
-            e.g. wind protection trellis.`
+            e.g. wind protection trellis.`,
+            image: <Card c1_title="Distichtus buccinatoria" c1_content={null} c1_img={img_p2_1}
+            c2_title="Clematis montana" c2_content={null} c2_img={img_p2_2}
+            c3_title="Pandorea jasminoides" c3_content={null} c3_img={img_p2_3} /> 
         }, {
             key: "collapsible-card-3", url: "#collapsible-card-3",
             title: "Screening of an unsightly view",
             content: `Use evergreen species to ensure year-round screening, create a structure for
-            the plants to grow on.`
+            the plants to grow on.`,
+            image: <Card c1_title="Podranea ricasoliana" c1_content={null} c1_img={img_p3_1}
+            c2_title="Muehlenbeckia complexa" c2_content={null} c2_img={img_p3_2}
+            c3_title="Ficus pumila" c3_content={null} c3_img={img_p3_3} /> 
         }, {
             key: "collapsible-card-4", url: "#collapsible-card-4",
             title: "Maximise thermal benefits",
@@ -61,18 +90,27 @@ export default class Design extends React.Component {
             plants, covering the entire wall for providing best shade in summer, particularly
             on north and west facing walls; provide a structure at least 100 mm off the
             wall of a building for the plants to grow on, leaving an air gap between the
-            building and green plants to maximise cooling effect.`
+            building and green plants to maximise cooling effect.`,
+            image: <Card c1_title="Clematis armandii" c1_content={null} c1_img={img_p4_1}
+            c2_title="Parthenocissus tricuspidata" c2_content={null} c2_img={img_p4_2}
+            c3_title="Ficus pumila" c3_content={null} c3_img={img_p4_3} /> 
         }, {
             key: "collapsible-card-5", url: "#collapsible-card-5",
             title: "Produce food",
             content: `Increase depth and organic content of the substrate, ensure good access to
-            the site, provide irrigation.`
+            the site, provide irrigation.`,
+            image: <Card c1_title="Vitis vinifera" c1_content={null} c1_img={img_p5_1}
+            c2_title="Luffa aegyptiaca " c2_content={null} c2_img={img_p5_2}
+            c3_title="Cherry tomato" c3_content={null} c3_img={img_p5_3} /> 
         }, {
             key: "collapsible-card-6", url: "#collapsible-card-6",
             title: "Provide biodiversity outcomes",
             content: `Include a variety of species, with habitat features such as nectar producing
             flowers, fruits, capacity to support nests, create protected or visually
-            prominent areas.`
+            prominent areas.`,
+            image: <Card c1_title="Many kinds of plants" c1_content={null} c1_img={img_p6_1}
+            c2_title="Many kinds of plants" c2_content={null} c2_img={img_p6_2}
+            c3_title="Many kinds of plants" c3_content={null} c3_img={img_p6_3} /> 
         }
         ]
 
@@ -129,6 +167,9 @@ export default class Design extends React.Component {
                                         <div class="card-content">
                                             <p>
                                                 {item.content}
+                                                <br></br>
+                                                <br></br>
+                                                {item.image}
                                             </p>
                                         </div>
                                     </div>

@@ -377,7 +377,7 @@ export default class Estimate extends React.Component {
                             </ul>
                             <br /><br />
                             <div class="columns is-centered">
-                                <div class="column is-10-tablet is-10-desktop is-10-widescreen">
+                                <div class="column is-6-tablet is-6-desktop is-6-widescreen">
                                     <div className="card">
                                         <header className="card-header has-background-primary">
                                             <p className="card-header-title">
@@ -389,16 +389,16 @@ export default class Estimate extends React.Component {
                                                 <form onSubmit={this.nextStep}>
                                                     <div className="control field">
                                                         {this.state.step === 1 &&
-                                                            <input className="input" type="number" name="roof" min="1" max="9999" placeholder="Square metres" onChange={this.getValue} autoFocus required />
+                                                            <input className="input" type="number" name="roof" min="1" max="9999" placeholder="Square metres (1-9999)" onChange={this.getValue} autoFocus required />
                                                         }
                                                         {this.state.step === 2 &&
-                                                            <input className="input" type="number" name="wall" min="1" max="9999" placeholder="Square metres" onChange={this.getValue} autoFocus required />
+                                                            <input className="input" type="number" name="wall" min="1" max="9999" placeholder="Square metres (1-9999)" onChange={this.getValue} autoFocus required />
                                                         }
                                                         {this.state.step === 3 &&
-                                                            <input className="input" type="number" name="budget" min="1" max="999999" placeholder="AUD per square metres" onChange={this.getValue} autoFocus required />
+                                                            <input className="input" type="number" name="budget" min="1" max="999999" placeholder="AUD per square metres (1-999999)" onChange={this.getValue} autoFocus required />
                                                         }
                                                         {this.state.step === 4 &&
-                                                            <input className="input" type="number" name="bill" min="1" max="999999" placeholder="AUD" onChange={this.getValue} autoFocus required />
+                                                            <input className="input" type="number" name="bill" min="1" max="999999" placeholder="AUD (1-999999)" onChange={this.getValue} autoFocus required />
                                                         }
 
                                                     </div>
