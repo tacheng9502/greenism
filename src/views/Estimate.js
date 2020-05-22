@@ -197,7 +197,7 @@ export default class Estimate extends React.Component {
         //Find recommend
 
         if (recommendOP === "1") {
-            chartTitle = "Green Roof"
+            chartTitle = "Green Roof - Cost-Benefit Analysis (50 years)"
             chartData = {
                 labels: [...Array(51).keys()],
                 datasets: [
@@ -222,7 +222,7 @@ export default class Estimate extends React.Component {
         }
 
         if (recommendOP === "2") {
-            chartTitle = "Green Facades"
+            chartTitle = "Green Facades - Cost-Benefit Analysis (50 years)"
             chartData = {
                 labels: [...Array(51).keys()],
                 datasets: [
@@ -268,7 +268,7 @@ export default class Estimate extends React.Component {
 
         if (event.target.getAttribute('name') === "1") {
             console.log("111")
-            chartTitle = "Green Roof"
+            chartTitle = "Green Roof - Cost-Benefit Analysis (50 years)" 
             chartData = {
                 labels: [...Array(51).keys()],
                 datasets: [
@@ -294,7 +294,7 @@ export default class Estimate extends React.Component {
 
         if (event.target.getAttribute('name') === "2") {
             console.log("222")
-            chartTitle = "Green Facades"
+            chartTitle = "Green Facades - Cost-Benefit Analysis (50 years)"
             chartData = {
                 labels: [...Array(51).keys()],
                 datasets: [

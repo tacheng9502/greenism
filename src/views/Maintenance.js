@@ -28,17 +28,17 @@ function Maintenance() {
 
     const rows = [{
         "title": "Maintenance planning",
-        "subtitle": `A maintenance plan should include a clear description of:
-                   • maintenance objectives – created based on the design intent, or the landscaping or environmental objectives that were the basis for the facade development
-                   • performance targets, such as the time frame for complete coverage of an area by plants and foliage
-                   • resources available
-                   Maintenance planning should also incorporate risk management, with the aim of reducing or eliminating the likelihood of failure that could result in property damage or personal injury.
-                   `,
+        "subtitle": ["A maintenance plan should include a clear description of:",
+                   "• Maintenance objectives, such as the landscaping or environmental objectives",
+                   "• Performance targets, such as the time frame for complete coverage of an area by plants and foliage",
+                   "• Resources available",
+                   "Maintenance planning should also incorporate risk management, with the aim of reducing or eliminating the likelihood of failure that could result in property damage or personal injury."
+                   ],
         "img": <Image img={img_planning} imgAlt="Increased property value and other benefits for building owners" />, "isImage": "True"
     },
     {
         "title": "Plant nutrition",
-        "subtitle": `Hard surfaces in urban environments, such as concrete, brick, glass, asphalt and roofing, have a high thermal mass, collecting the sun’s heat during the day and re-radiating it slowly back into the atmosphere. This contributes to a rise in ambient temperature in cities, creating large, stable masses of hot air (urban heat islands), especially during periods of calm, still weather. When green facade plants are grown on a support system that leaves a gap between the wall and the planting, hot air moves up by convection through the space between the wall and the vegetation, providing passive cooling.`,
+        "subtitle": [`Hard surfaces in urban environments, such as concrete, brick, glass, asphalt and roofing, have a high thermal mass, collecting the sun’s heat during the day and re-radiating it slowly back into the atmosphere. This contributes to a rise in ambient temperature in cities, creating large, stable masses of hot air (urban heat islands), especially during periods of calm, still weather. When green facade plants are grown on a support system that leaves a gap between the wall and the planting, hot air moves up by convection through the space between the wall and the vegetation, providing passive cooling.`],
         "img": <Image img={img_nutrition} imgAlt="Cooling a city – urban heat island effect" />, "isImage": "True"
     }
     ];
@@ -58,7 +58,8 @@ function Maintenance() {
                         <div class="columns is-variable">
                             <div class="column is-12">
                                 <h3 className="title has-text-centered has-text-weight-bold is-5">Maintenance tasks</h3>
-                                <p className="has-text-centered">Some typical maintenance activities for green facades are outlined in the table below. These are intended as a general guide only: each site will have its own specific requirements and some listed will be more relevant and/or specific to a roof or a facade.</p>
+                                <p className="has-text-centered">Some typical maintenance activities for green facades are outlined in the table below. These are intended as a general guide only</p>
+                                <p className="has-text-centered">Each site will have its own specific requirements and some listed will be more relevant and/or specific to a roof or a facade.</p>
                             </div>
                         </div>
                     </div>

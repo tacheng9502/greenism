@@ -3,12 +3,14 @@ import * as firebase from "firebase/app";
 import "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_DOMAIN,
-    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_SENDER_ID
+    apiKey: "AIzaSyDCHkr4Bb-p9eC2eRPlOQtxciR5KPF6zhY",
+    authDomain: "greenism-d9d4b.firebaseapp.com",
+    databaseURL: "https://greenism-d9d4b.firebaseio.com",
+    projectId: "greenism",
+    storageBucket: "greenism.appspot.com",
+    messagingSenderId: "594086999591",
+    appId: "1:594086999591:web:8486f4c10851e044488002",
+    measurementId: "G-DXN8HF8NRW"
 };
 
 export const firebaseApp = firebase.initializeApp(firebaseConfig);

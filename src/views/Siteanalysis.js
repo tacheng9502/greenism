@@ -43,39 +43,39 @@ function SiteAnalysis() {
 
     const hil_rows_1 = [{
         "title": "Climatic factors on-site",
-        "subtitle": `Climatic factors will vary with the geographic location as well as with the site aspect 
+        "subtitle": [`Climatic factors will vary with the geographic location as well as with the site aspect 
                    and height and even from the effects of surrounding buildings. It is important to understand the likely 
                    climate onsite in order to inform decisions about which plant species are suitable for the site. Usually,
                    the best approach is to estimate the worst-case scenario for plant growth that is likely on-site,
-                   and design with that in mind.`,
+                   and design with that in mind.`],
         "img": <Image img={img_climate} imgAlt="Climatic factors on-site" />, "isImage": "True"
     }
     ];
     const hil_rows_2 = [{
         "title": "Weight loading",
-        "subtitle": `The load-bearing capacity of a building must be known before planning a green facade. A structural 
+        "subtitle": [`The load-bearing capacity of a building must be known before planning a green facade. A structural 
                    engineer’s advice is essential to ensure comprehensive design development, based 
                    on the building’s construction, condition and weight loading capacity. It is important to consider not 
                    just the weight of plants when planted but their weight at maturity. The weight of saturated plants and 
                    substrate must also be included in the load assessment. Some example weight loadings of plants are 
-                   provided below..`,
+                   provided below..`],
         "img": <Image img={img_weightload} imgAlt="Weight loading" />, "isImage": "True"
     },
     {
         "title": "Existing structure and size",
-        "subtitle": `Consider the quality of the vertical surface – Is it currently waterproofed? Does the wall have a surface that needs protection from vegetation?
+        "subtitle": [`Consider the quality of the vertical surface – Is it currently waterproofed? Does the wall have a surface that needs protection from vegetation?
                    Assess the area available – bearing in mind that costs increase with size. The useable area can be diminished if there are many windows on a wall.
-                   Water collection and storage opportunities - is there space to store water on-site? Tanks are usually located at ground level or in the basement of a building, and an irrigation tank may be colocated or shared with tanks for toilet flushing. Water storage can also be built into the design of some green systems.`,
+                   Water collection and storage opportunities - is there space to store water on-site? Tanks are usually located at ground level or in the basement of a building, and an irrigation tank may be colocated or shared with tanks for toilet flushing. Water storage can also be built into the design of some green systems.`],
         "img": <Image img={img_structure} imgAlt="Existing structure and size" />, "isImage": "True"
     },
     {
         "title": "Access",
-        "subtitle": `Evaluation of the site should review accessibility. Temporary access will be needed for machinery and delivery and storage of materials during construction. For multi-storey facade greening, this might involve a crane to lift materials onto the site. Access for maintenance to facades can also be considered from below, in which case space for a temporary elevated work platform is likely to be required. Access for passers-by must also be considered, as there are regulations against vegetation that protrudes onto public space, and even in the private realm, it is important to be aware of hazards that can be created for people using the space nearby.`,
+        "subtitle": [`Evaluation of the site should review accessibility. Temporary access will be needed for machinery and delivery and storage of materials during construction. For multi-storey facade greening, this might involve a crane to lift materials onto the site. Access for maintenance to facades can also be considered from below, in which case space for a temporary elevated work platform is likely to be required. Access for passers-by must also be considered, as there are regulations against vegetation that protrudes onto public space, and even in the private realm, it is important to be aware of hazards that can be created for people using the space nearby.`],
         "img": <Image img={img_access} imgAlt="Access" />, "isImage": "True"
     },
     {
         "title": "Nearby vegetation",
-        "subtitle": `The local vegetation adjoining a site can influence design. If the creation of habitat for biodiversity is the desired outcome for your green facade, consideration of the surrounding landscape could be useful. However, nearby vegetation can also be a source of weeds or contribute to a fire risk and should be included in site analysis.`,
+        "subtitle": [`The local vegetation adjoining a site can influence design. If the creation of habitat for biodiversity is the desired outcome for your green facade, consideration of the surrounding landscape could be useful. However, nearby vegetation can also be a source of weeds or contribute to a fire risk and should be included in site analysis.`],
         "img": <Image img={img_nearbyvegetation} imgAlt="Nearby vegetation" />, "isImage": "True"
     },
     ];

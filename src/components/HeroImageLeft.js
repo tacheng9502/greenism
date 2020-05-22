@@ -40,14 +40,21 @@ class HeroImageLeft extends React.Component {
                                     }
                                 </div>
                                 <div className="column is-two-thirds">
-                                    <h3 className="title has-text-weight-bold is-5">{item.title}</h3>
-                                    <p>{item.subtitle}</p>
+                                    <h3 className="title has-text-weight-bold is-5">
+                                        {item.title}
+                                    </h3>
+                                    <p style={{textAlign:"justify"}}>{item.subtitle.length <= 1
+                                        ? item.subtitle
+                                        : item.subtitle.map((line, lineKey) =>
+                                            <p key={lineKey}>{line}</p>
+                                        )
+                                    }</p>
                                 </div>
                             </div>
                         )}
                     </div>
                 </div>
-            </section>
+            </section >
         );
     };
 }

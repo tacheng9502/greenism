@@ -119,7 +119,7 @@ class Why extends React.Component {
 
         const cause_rows = [{
             title: "Electricity generation is the biggest greenhouse gas emission source",
-            subtitle: `In Victoria, greenhouse gas emission has always been an important cause of climate change. As shown in the graph on the left, 50.9% of the greenhouse gas comes from electricity generation. Because the source of electricity generation in Australia is mainly coal combustion.`,
+            subtitle: [`In Victoria, greenhouse gas emission has always been an important cause of climate change. As shown in the graph on the left, 50.9% of the greenhouse gas comes from electricity generation. Because the source of electricity generation in Australia is mainly coal combustion.`],
             isChartPie: "True",
             chartData: chartData_pie_1,
             chartTitle: "Victorian greenhouse gas emissions by sector, 2017",
@@ -127,7 +127,7 @@ class Why extends React.Component {
         },
         {
             title: "Heating Ventilation and Air Conditioning (HVAC) is generally responsible for a significant proportion of total building energy consumption",
-            subtitle: `As for energy consumption, as in the pie chart shown on the left, 39% of the electricity usage of a building is used for HACV (Heating Ventilation and Air Conditioning). As the average temperature has increased in recent years and heatwaves’ influence, the percentage of HACV is tending to be higher.`,
+            subtitle: [`As for energy consumption, as in the pie chart shown on the left, 39% of the electricity usage of a building is used for HACV (Heating Ventilation and Air Conditioning). As the average temperature has increased in recent years and heatwaves’ influence, the percentage of HACV is tending to be higher.`],
             isChartPie: "True",
             chartData: chartData_pie_2,
             chartTitle: "Typical energy consumption breakdown in a building, 2012",
@@ -136,7 +136,7 @@ class Why extends React.Component {
 
         const rows = [{
             title: "Green roof can make buildings’ internal temperature more stable",
-            subtitle: `After installing green roofs, the internal temperature variation of buildings will be reduced for approximately 3 degrees and 1degree for metal roofs and tiled roofs separately, which means that green roofs can help with maintaining the building’s internal temperature to be more stable.`,
+            subtitle: [`After installing green roofs, the internal temperature variation of buildings will be reduced for approximately 3 degrees and 1degree for metal roofs and tiled roofs separately, which means that green roofs can help with maintaining the building’s internal temperature to be more stable.`],
             isChartBar: "True",
             chartTitle: "Internal temperature effects of different roof types",
             chartData: chartData_bar_1,
@@ -144,7 +144,7 @@ class Why extends React.Component {
         },
         {
             title: "Green infrastructures can reduce the cost of cooling and heating",
-            subtitle: `Since the internal temperature is more stable under green roof, compared with buildings without green roof, buildings with green roofs can save about 522mj of heating energy and 471mj of cooling energy. When the energy used for HACV is reduced, the greenhouse gas generated for electricity generation is also reduced.`,
+            subtitle: [`Since the internal temperature is more stable under green roof, compared with buildings without green roof, buildings with green roofs can save about 522mj of heating energy and 471mj of cooling energy. When the energy used for HACV is reduced, the greenhouse gas generated for electricity generation is also reduced.`],
             isChartBar: "True",
             chartTitle: "Heating and cooling energy demand in different roofs",
             chartData: chartData_bar_2,

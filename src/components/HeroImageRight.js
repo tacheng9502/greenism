@@ -20,7 +20,7 @@ class HeroImageRight extends React.Component {
                     <div className="columns is-vcentered is-5-desktop">
                         <div className="column has-text-centered-touch">
                             <h1 className={isBg ? "title is-3 has-text-white is-spaced" : "title is-3 is-spaced"}>{title}</h1>
-                            <p>{subtitle}</p>
+                            <p style={{textAlign:"justify", width:"95%"}}>{subtitle}</p>
                             {isButton === "True" &&
                                 <>
                                     <br /><br />

@@ -67,30 +67,30 @@ function Diy() {
 
     const hil_rows_1 = [{
         "title": "Recycled planters",
-        "subtitle": `Thinking of throwing away those old coffee tins or mason jars? Give 
+        "subtitle": [`Thinking of throwing away those old coffee tins or mason jars? Give 
         them a new life instead as a recycled planter. Clean out these old containers thoroughly 
         and pick up some soil and herbs to start your own in-home herb garden. Growing herbs 
         indoors is perfect for both big kitchens and small spaces. This is a cheap alternative 
-        to a massive garden space in your backyard and has the added benefit of using recycled materials.`,
+        to a massive garden space in your backyard and has the added benefit of using recycled materials.`],
         "img": <Image img={img_cup} imgAlt="Recycled planters" />, "isImage": "True"
     },
     {
         "title": "Planting basics",
-        "subtitle": `For starters, use good soil. Stop by a store with a gardening section like Bunnings 
+        "subtitle": [`For starters, use good soil. Stop by a store with a gardening section like Bunnings 
         and ask which soil works best with the plants you want.
         Many people kill their plants by over-watering, so we recommend new plant parents start 
         with cacti or succulent soil for all indoor plants. This kind of earth provides both good 
         drainage and nutrients.
         Each plant needs to be watered at a different rate, so make a list, note watering days 
-        in your planner, or set an alarm on your phone so you don’t over or under water.`,
+        in your planner, or set an alarm on your phone so you don’t over or under water.`],
         "img": <Image img={img_basics} imgAlt="Planting basics" />, "isImage": "True"
     },
     {
         "title": "Tag of specific instructions",
-        "subtitle": `When you purchase a plant, you will see specific instructions on the tag telling 
+        "subtitle": [`When you purchase a plant, you will see specific instructions on the tag telling 
         you what type of light the plant needs, how often to water the plant, and how often to fertilize 
         the plant. Saving this tag and following the suggestions is the best way to ensure that your plants 
-        will live long and prosper.`,
+        will live long and prosper.`],
         "img": <Image img={img_tag} imgAlt="Tag of specific instructions" />, "isImage": "True"
     },
     ];
@@ -102,15 +102,12 @@ function Diy() {
 
     const hil_rows_2 = [{
         "title": "Materials Required",
-        "subtitle": `Garden bed Potting Mix Plants Mulch Compost Fertilizer Seeds and seedlings Hose and fittings`,
+        "subtitle": ["Garden bed, Potting mix, Plants, Mulch, Compost, Fertilizer, Seeds and seedlings, Hose and fittings"],
         "img": <Image img={img_material} imgAlt="Materials Required" />, "isImage": "True"
     },
     {
         "title": "Tools Required",
-        "subtitle": `Gardening hand tools
-        Rake
-        Watering can
-        Gardening gloves`,
+        "subtitle": ["Gardening hand tools, Rake, Watering can, Gardening gloves"],
         "img": <Image img={img_tool} imgAlt="Tools Required" />, "isImage": "True"
     },
     ];
@@ -118,47 +115,47 @@ function Diy() {
     const hil_rows_3_title = "Now, you can build your veggie garden in 4 simple steps";
 
     const hil_rows_3 = [{
-        "title": "STEP 1: Choose an ideal location",
-        "subtitle": `The first thing to figure out is the best place to locate your garden 
+        "title": "Step 1: Choose an ideal location",
+        "subtitle": [`The first thing to figure out is the best place to locate your garden 
         bed. All vegies need sunshine and morning sun is ideal, so look for an easterly aspect. 
         You’ll also need to protect your new seedlings from harsh weather conditions. Avoid areas 
-        with large trees, as they can steal moisture and nutrients from your growing area.`,
+        with large trees, as they can steal moisture and nutrients from your growing area.`],
         "img": <Image img={img_location} imgAlt="STEP 1: Choose an ideal location" />, "isImage": "True"
     },
     {
-        "title": "STEP 2: Assemble the Garden Bed",
-        "subtitle": `Lay out all the parts of the garden bed and remove the protective film off 
+        "title": "Step 2: Assemble the Garden Bed",
+        "subtitle": [`Lay out all the parts of the garden bed and remove the protective film off 
         the steel panels. Check the instructions for which panel to start with. With your garden 
         gloves on, take the first piece of corrugated steel and carefully slide one PVC post onto 
         the end of the steel panel vertically. Take the next sheet of metal into the other side of 
         the first post making sure each lug in the steel panel slides freely inside the PVC groove. 
         Keep adding posts and panels until all are joined together. Next, press the post gaps on top 
-        of each post.`,
+        of each post.`],
         "img": <Image img={img_bed} imgAlt="STEP 2: Assemble the Garden Bed" />, "isImage": "True"
     },
     {
-        "title": "STEP 3: Plant your seed and seedlings",
-        "subtitle": `You can either use the cardboard packaging that the garden bed came in as a base 
+        "title": "Step 3: Plant your seed and seedlings",
+        "subtitle": [`You can either use the cardboard packaging that the garden bed came in as a base 
         for your garden or can choose to line your veggie pack with weed matting. The garden beds are 
         ready to be filled with planting soil and compost. Most vegetables can be bought as seedlings, 
         or you can start from scratch and plant seeds. If you do plant from seeds, soil preparation is 
-        particularly important.`,
+        particularly important.`],
         "img": <Image img={img_seed} imgAlt="STEP 3: Plant your seed and seedlings" />, "isImage": "True"
     },
     {
-        "title": "STEP 4: Maintain Your Plant",
-        "subtitle": `Water your seedlings in well and always check the soil and keep it moist. Regular 
+        "title": "Step 4: Maintain Your Plant",
+        "subtitle": [`Water your seedlings in well and always check the soil and keep it moist. Regular 
         amounts of organic or artificial fertilizers will encourage growth. Manure, blood and bone and 
         liquid fertilizers will also get the nutrients going too. Insects and diseases are going to love 
-        your garden as much as you do, so make sure you keep them at bay.`,
+        your garden as much as you do, so make sure you keep them at bay.`],
         "img": <Image img={img_waterm} imgAlt="STEP 4: Maintain Your Plant" />, "isImage": "True"
     },
     {
         "title": "Reminder another thing: re-grow veggies",
-        "subtitle": `Starting a garden at home does not even necessarily mean splurging on new plants or 
+        "subtitle": [`Starting a garden at home does not even necessarily mean splurging on new plants or 
         seeds. You can start growing from your food waste as well. Save the tops of carrots and the roots 
         of onions to use as the re-growth for your new home garden. You can grow anything from herbs to 
-        avocado trees with patience and a little know-how.`,
+        avocado trees with patience and a little know-how.`],
         "img": <Image img={img_eat} imgAlt="Re-grow veggies" />, "isImage": "True"
     },
     ];

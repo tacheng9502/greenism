@@ -80,19 +80,19 @@ export default class Design extends React.Component {
         const hif_subtitle = "A successfull green infrastructure should be considered as comprehensive as possible"
         const rows_3 = [{
             "title": "Cost considerations",
-            "subtitle": `Costs can be reduced in small projects as ‘do it yourself’ (DIY) installations, involving less personnel and smaller spaces.            
-            DIY – Green Facades can be established at less than $400/m2.`,
+            "subtitle": [`Costs can be reduced in small projects as ‘do it yourself’ (DIY) installations, involving less personnel and smaller spaces.            
+            DIY – Green Facades can be established at less than $400/m2.`],
             "img": <Image img={img_money} imgAlt="Cost considerations" />, "isImage": "True"
         },
         {
             "title": "Local law considerations",
-            "subtitle": `Compliance with laws of the local council is required during the building and maintenance of green facades. Laws will often address issues related to: 
-            • management and disposal of waste products, such as pruning material generated 
-            • management of vegetation considered to be a weed or fire risk 
-            • management of overhanging vegetation on public land or that which has a negative impact on lighting or traffic signs 
-            • drainage over public land 
-            • use of elevated working platforms or cranes on public land during construction or maintenance 
-            • access by emergency services – do not impede the safe egress of occupants in an emergency`,
+            "subtitle": ["Compliance with laws of the local council is required during the building and maintenance of green facades. Laws will often address issues related to:",
+                "• Management and disposal of waste products, such as pruning material generated",
+                "• Management of vegetation considered to be a weed or fire risk",
+                "• Management of overhanging vegetation which has a negative impact on lighting or traffic signs",
+                "• Drainage over public land",
+                "• Use of elevated working platforms or cranes on public land during construction or maintenance",
+                "• Access by emergency services – do not impede the safe egress of occupants in an emergency"],
             "img": <Image img={img_law} imgAlt="Local law considerations" />, "isImage": "True"
         },
         ];
@@ -144,7 +144,7 @@ export default class Design extends React.Component {
                         <div class="columns is-variable">
                             <div class="column is-12">
                                 <h1 className="title has-text-weight-bold has-text-centered">Green facade plant selection</h1>
-                                <p className="has-text-centered">The following table indicates some common climbing plants used
+                                <p style={{ textAlign: "justify" }}>The following table indicates some common climbing plants used
                                 in Victoria, how they attach, their ability to cover an area of facade – how
                                 well they screen (high to low cover) and how fast they grow (this indicates
                                 how much maintenance they require) – and their light tolerance. Average
@@ -169,7 +169,8 @@ export default class Design extends React.Component {
                         <div class="columns is-variable">
                             <div class="column is-12">
                                 <h3 className="title has-text-centered has-text-weight-bold is-5">Plant establishment considerations</h3>
-                                <p className="has-text-centered">Good plant establishment is critical for the long-term health and performance of plantings in green facades. In the design stage this includes consideration of multiple factors, including:</p>
+                                <p className="has-text-centered">Good plant establishment is critical for the long-term health and performance of plantings in green facades.</p>
+                                <p className="has-text-centered">In the design stage this includes consideration of multiple factors, including:</p>
                             </div>
                         </div>
                     </div>
