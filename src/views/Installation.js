@@ -1,5 +1,6 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login"
 
 // Components
 import Breadcrumb from "../components/Breadcrumb";
@@ -17,6 +18,12 @@ import img_drainage from "../assets/img/drainage.png";
 
 
 function Installation() {
+    firebaseApp.auth().onAuthStateChanged(function (user) {
+        if (!user) {
+            window.location.replace("/")
+        }
+    });
+    
     const bc_parent = "DIY Planting Guidelines";
     const bc_child = "Building and Installation";
 

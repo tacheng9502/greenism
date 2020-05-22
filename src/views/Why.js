@@ -1,5 +1,6 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login"
 
 // Components
 import HeroImageRight from "../components/HeroImageRight";
@@ -17,6 +18,11 @@ import HeroImageLeft from "../components/HeroImageLeft";
 
 class Why extends React.Component {
     render() {
+        firebaseApp.auth().onAuthStateChanged(function (user) {
+            if (!user) {
+                window.location.replace("/")
+            }
+        });
         const bc_parent = "Introduction";
         const bc_child = "Why is this important to me?";
         const hir_title = "Since 1910, Australia's climate has warmed by more than 1°C"

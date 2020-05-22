@@ -1,5 +1,6 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login"
 
 // Components
 import HeroImageRight from "../components/HeroImageRight";
@@ -13,6 +14,11 @@ import img_vision from "../assets/img/vision.png";
 import img_thank from "../assets/img/thank.png";
 
 function About() {
+    firebaseApp.auth().onAuthStateChanged(function (user) {
+        if (!user) {
+            window.location.replace("/")
+        }
+    });
     const hir_title = `About the Greenism`
     const hir_subtitle = `Greenism is our team name and also our 
     project name. It means that we are a group of people who are 

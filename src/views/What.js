@@ -1,5 +1,6 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login"
 
 // Components
 import Breadcrumb from "../components/Breadcrumb";
@@ -23,6 +24,12 @@ import img_park from "../assets/img/park.svg";
 import img_air from "../assets/img/air.svg";
 
 function What() {
+    firebaseApp.auth().onAuthStateChanged(function (user) {
+        if (!user) {
+            window.location.replace("/")
+        }
+    });
+
     const bc_parent = "Introduction"
     const bc_child = "What are Green Roofs & Walls"
     const hir_title = `Thinking about greening your property?`

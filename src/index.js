@@ -27,6 +27,7 @@ import BuildingPage from "./views/Building";
 import DiyPage from "./views/Diy";
 import FindingPage from "./views/Finding";
 import AboutPage from "./views/About";
+import LoginPage from "./Login"
 
 // Assets
 import './assets/global.sass'
@@ -44,7 +45,8 @@ ReactDOM.render(
         <Navbar />
         <Router>
             <Switch>
-                <Route exact path="/" component={HomePage} />
+                <Route exact path="/" component={LoginPage} />
+                <Route exact path="/home" component={HomePage} />
                 <Route exact path="/what" component={WhatPage} />
                 <Route exact path="/why" component={WhyPage} />
                 <Route exact path="/estimate" component={EstimatePage} />

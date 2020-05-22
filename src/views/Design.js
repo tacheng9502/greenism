@@ -1,5 +1,6 @@
 // Modules
 import React from "react";
+import { firebaseApp } from "../Login"
 
 // Components
 import Breadcrumb from "../components/Breadcrumb";
@@ -44,6 +45,11 @@ export default class Design extends React.Component {
     }
 
     render() {
+        firebaseApp.auth().onAuthStateChanged(function (user) {
+            if (!user) {
+                window.location.replace("/")
+            }
+        });
         const hir_title_1 = `How to design and plan your green facade?`
         const hir_subtitle_1 = `The most important decisions about a green facade are made at the design stage. The benefits of the installation, how easy it will be to build and maintain and how it will operate day-to-day, all depend on the initial design. This chapter provides information to help develop a well-considered, achievable design that will work in the long term.`
 
