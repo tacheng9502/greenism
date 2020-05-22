@@ -20,7 +20,7 @@ function Installation() {
     const bc_parent = "DIY Planting Guidelines";
     const bc_child = "Building and Installation";
 
-    const hir_title = `Start a green infrastructure!`
+    const hir_title = `Start a green facade!`
     const hir_subtitle = `This chapter provides general advice about building green
     facades, including occupational health and safety, insurance considerations and
     what to expect at project completion on a large-scale job which has a project
@@ -28,7 +28,7 @@ function Installation() {
     const hir_image = img_start;
     const hir_size = "is_medium";
 
-    const ht_title_1 = "How to build and install green facades?";
+    const ht_title_1 = "What should be considered when building and installing green facades?";
     const ht_subtitle_1 = "Mostly it depends on diffrent aspects."
 
     const rows_2 = [{
