@@ -5,7 +5,6 @@ import { firebaseApp } from "../Login"
 // Components
 import Breadcrumb from "../components/Breadcrumb";
 import HeroImageRight from "../components/HeroImageRight";
-import HeroImageLeft from "../components/HeroImageLeft";
 import HeroText from "../components/HeroText";
 import Card from "../components/Card";
 import Image from "../components/Image";

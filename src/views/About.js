@@ -20,10 +20,7 @@ function About() {
         }
     });
     const hir_title = `About the Greenism`
-    const hir_subtitle = `Greenism is our team name and also our 
-    project name. It means that we are a group of people who are 
-    concerned about the environment and believe that make our world 
-    green is the best solution for climate change.`
+    const hir_subtitle = `Greenism is our team name and also our project name. What we plan to convey through our name is that we are a group of people who are concerned about the environment and we believe that helping to make our planet green starting from our very own homes is the first and best  solution to fight climate change.`
 
     const rows = [{
         "title": "Backgroud",

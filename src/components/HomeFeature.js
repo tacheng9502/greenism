@@ -21,7 +21,7 @@ export default class HomeFeature extends React.Component {
                                 </span>
                                 <br /><br />
                                 <h1 className="title is-4 is-spaced">Recommendation Tools</h1>
-                                <p style={{textAlign:"justify"}}>Use our Estimate Tool to find how you could green your space based on your budget, and use Plant Selector to find the bset plants.</p>
+                                <p style={{textAlign:"justify"}}>Use our Estimate Tool to find how you could green your space based on your budget, and use Plant Selector to find the best plants.</p>
                             </div>
                             <div className="column has-text-centered">
                                 <span className="icon is-large has-text-danger">
