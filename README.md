@@ -1,20 +1,5 @@
 URL: https://greenism.live
 
-Current Progress
-
-* Home - Finished
-* Green Roofs & Walls 
-  * What are green roofs & walls - Finished
-  * Why is this important to me - Finished
-* Interactive Tools
-  * Estimate tool - Building
-  * Plant Selector - Building
-* Guidelines
-  * House Owners - Finished
-  * Potential House Buyers -  Building
-  * Local business Owners -  Building
-* About Us - Building
-
 This project was bootstrapped with
 * Programming Language: JavaScript
 * JavaScript Runtime: Node.js
