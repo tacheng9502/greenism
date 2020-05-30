@@ -546,7 +546,7 @@ export default class Estimate extends React.Component {
                                     </div>
                                 </div>
                                 <div className="column is-12" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
-                                    <div className="card">
+                                <div className="card">
                                         <header className="card-header has-background-primary">
                                             <p className="card-header-title">
                                                 <span class="icon has-text-white">
@@ -572,8 +572,7 @@ export default class Estimate extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="column is-12" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
+                                    <br/>
                                     <div className="card">
                                         <div className="card-content">
                                             <Line
