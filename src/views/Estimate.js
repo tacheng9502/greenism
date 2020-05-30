@@ -268,7 +268,7 @@ export default class Estimate extends React.Component {
 
         if (event.target.getAttribute('name') === "1") {
             console.log("111")
-            chartTitle = "Green Roof - Cost-Benefit Analysis (50 years)" 
+            chartTitle = "Green Roof - Cost-Benefit Analysis (50 years)"
             chartData = {
                 labels: [...Array(51).keys()],
                 datasets: [
@@ -460,7 +460,7 @@ export default class Estimate extends React.Component {
                                         }
                                         <div className="card-content">
                                             <p><strong className="is-size-5">Green Roof</strong></p>
-                                            <br /><p>Let a professional expert team help you build green roofs</p><br />
+                                            <br /><p>Let a professional expert team help you build green roofs.</p><br />
                                             {this.state.option !== "1" &&
                                                 <button name="1" className="button is-primary is-fullwidth" onClick={this.selectOption}>
                                                     Select
@@ -484,7 +484,7 @@ export default class Estimate extends React.Component {
                                         }
                                         <div className="card-content">
                                             <p><strong className="is-size-5">Green Facade</strong></p>
-                                            <br /><p>Let a professional expert team help you build green facades</p><br />
+                                            <br /><p>Let a professional expert team help you build green facades.</p><br />
 
                                             {this.state.option !== "2" &&
                                                 <button name="2" className="button is-primary is-fullwidth" onClick={this.selectOption}>
@@ -543,6 +543,34 @@ export default class Estimate extends React.Component {
                                             }
                                         </div>
                                         <span className="badge is-bottom is-warning" style={this.state.recommend === "4" ? { visibility: "visible" } : { visibility: "hidden" }}>Best Option</span>
+                                    </div>
+                                </div>
+                                <div className="column is-12" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>
+                                    <div className="card">
+                                        <header className="card-header has-background-primary">
+                                            <p className="card-header-title">
+                                                <span class="icon has-text-white">
+                                                    <i class="fas fa-seedling"></i>
+                                                </span>&nbsp;&nbsp;
+                                                        {this.state.option === "1" &&
+                                                    <strong className="has-text-white">Green Roof Description</strong>
+                                                }
+                                                {this.state.option === "2" &&
+                                                    <strong className="has-text-white">Green Facade Description</strong>
+                                                }
+
+                                            </p>
+                                        </header>
+                                        <div className="card-content">
+                                            <div className="content">
+                                                {this.state.option === "1" &&
+                                                    <p>Green roof is a vegetated landscape built up from a series of layers that are installed on a roof surface. <a href="/what">Learn more its benefits.</a></p>
+                                                }
+                                                {this.state.option === "2" &&
+                                                    <p>A green facade is created by growing climbing plants up and across the facade of a building. <a href="/what">Learn more its benefits.</a></p>
+                                                }
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="column is-12" style={this.state.option === "1" || this.state.option === "2" ? { display: "block" } : { display: "none" }}>

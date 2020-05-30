@@ -23,7 +23,7 @@ function About() {
     const hir_subtitle = `Greenism is our team name and also our project name. What we plan to convey through our name is that we are a group of people who are concerned about the environment and we believe that helping to make our planet green starting from our very own homes is the first and best  solution to fight climate change.`
 
     const rows = [{
-        "title": "Backgroud",
+        "title": "Background",
         "subtitle": [`As of 2013, more than 40% of the average electricity used in buildings 
         in Australia is used for cooling purposes and 61% of the electricity generated is by 
         burning coal which will have a drastic impact on the environment due to the emission 

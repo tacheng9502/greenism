@@ -19,6 +19,59 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
+  <style>
+    #myBtn {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Fixed/sticky position */
+      bottom: 20px;
+      /* Place the button 20px from the bottom of the page */
+      right: 20px;
+      /* Place the button 20px from the right */
+      z-index: 99;
+      /* Make sure it does not overlap */
+      border: none;
+      /* Remove borders */
+      outline: none;
+      /* Remove outline */
+      color: #4A4A4A;
+      /* Text color */
+      font-size: 40px;
+      /* Increase font size */
+      cursor: pointer;
+      opacity: 0.3;
+      background: rgba(0, 0, 0, 0);
+    }
+
+    #myBtn:hover {
+      opacity: 1;
+    }
+  </style>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fas fa-arrow-circle-up"></i>
+  </button>
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 50px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
   <div id="root"></div>
 </body>
 

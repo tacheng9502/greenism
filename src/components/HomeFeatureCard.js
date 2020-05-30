@@ -11,7 +11,7 @@ function HomeFeatureCard() {
         <section className="section has-background-white-ter">
             <div className="hero-body">
                 <div className="container">
-                    <br /><h1 className="title is-4 has-text-centered is-spaced">Recommendation Tools</h1><br />
+                    <br /><h1 id="recommendation" className="title is-4 has-text-centered is-spaced">Recommendation Tools</h1><br />
                     <div className="columns">
                         <div className="column">
                             <div className="card">
@@ -22,9 +22,9 @@ function HomeFeatureCard() {
                                 </header>
                                 <div className="card-content">
                                     <div className="content">
-                                        <p style={{textAlign:"justify"}}>Find out what kind of green space suits your home best, a cost-benefit analysis
+                                        <p style={{ textAlign: "justify" }}>Find out what kind of green space suits your home best, a cost-benefit analysis
                                         if you want to invest in a green roof or facade and experts we recommend
-                                        to help construct beautiful green spaces.</p><br />
+                                        to help construct beautiful green spaces.</p><br/>&nbsp;
                                         <a className="button is-link is-pulled-right" href="/estimate">
                                             <span className="icon">
                                                 <i className="fas fa-calculator"></i>
@@ -44,8 +44,8 @@ function HomeFeatureCard() {
                                 </header>
                                 <div className="card-content">
                                     <div className="content">
-                                        <p style={{textAlign:"justify"}}>Find out plants you would like to plant in your garden based on your preferences
-                                            and other ecological factors, such as amount of sunlight and rainfall.</p><br />
+                                        <p style={{ textAlign: "justify" }}>Find out plants you would like to plant in your garden based on your preferences
+                                            and other ecological factors, such as amount of sunlight and rainfall.</p><br/>&nbsp;
                                         <a className="button is-link is-pulled-right" href="/plants">
                                             <span className="icon">
                                                 <i className="fas fa-search"></i>
@@ -62,7 +62,7 @@ function HomeFeatureCard() {
             <div className="hero-body">
                 <div className="container">
                     <br />
-                    <h1 className="title is-4 has-text-centered is-spaced">DIY Planting Guideline & Local Experts</h1>
+                    <h1 id="guideline" className="title is-4 has-text-centered is-spaced">DIY Planting Guideline & Local Experts</h1>
                     <br />
                     <div className="columns">
                         <div className="column">
@@ -75,7 +75,7 @@ function HomeFeatureCard() {
                                 <div className="card-content">
                                     <div className="content">
                                         <strong className="is-size-5">DIY - Green Facade</strong><br /><br />
-                                        <p style={{textAlign:"justify"}}>Build a green facade by yourself in your home following our reliable and simple guidelines.</p>
+                                        <p style={{ textAlign: "justify" }}>Build a green facade by yourself in your home following our reliable and simple guidelines.</p>
                                         <br />
                                         <a className="button is-fullwidth is-primary" href="/siteAnalysis">
                                             Learn More
@@ -94,7 +94,7 @@ function HomeFeatureCard() {
                                 <div className="card-content">
                                     <div className="content">
                                         <strong className="is-size-5">DIY - Home Garden</strong><br /><br />
-                                        <p style={{textAlign:"justify"}}>Grow a veggie garden or Indoor plants to take that first (big) step to cool and green your home.</p>
+                                        <p style={{ textAlign: "justify" }}>Grow a veggie garden or Indoor plants to take that first (big) step to cool and green your home.</p>
                                         <br />
                                         <a className="button is-fullwidth is-primary" href="/diy">
                                             Learn More
@@ -113,7 +113,7 @@ function HomeFeatureCard() {
                                 <div className="card-content">
                                     <div className="content">
                                         <strong className="is-size-5">Local Experts</strong><br /><br />
-                                        <p style={{textAlign:"justify"}}>Contact local experts to find out more if you are interested to construct green roofs or facades in your home.</p>
+                                        <p style={{ textAlign: "justify" }}>Contact local experts to find out more if you are interested to construct green roofs or facades in your home.</p>
                                         <br />
                                         <a className="button is-fullwidth is-primary" href="/finding">
                                             Contact Now
