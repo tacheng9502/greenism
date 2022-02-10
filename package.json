@@ -16,7 +16,7 @@
     "bulma-o-steps": "^1.0.9",
     "chart.js": "^2.9.4",
     "firebase": "^7.14.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.1",
